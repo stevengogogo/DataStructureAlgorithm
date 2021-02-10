@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "MyProject",
+            "includePath": [
+                "${workspaceFolder}/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "gcc-x64"       
+        }
+    ],
+    "version": 4
+}
