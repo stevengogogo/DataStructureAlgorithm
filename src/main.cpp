@@ -1,12 +1,10 @@
 #include "utils.h"
-
+#include "cstdlib"
 using namespace std;
 
 int main(int argc, char const* argv[]) {
-    for(int i=0;i<9;i++){
-        cout << "Hello" << endl;
-    }
-     return 0; 
+    int x;
+    cout<<sizeof(x)<<endl;
+    return EXIT_SUCCESS; 
 }
-
 
