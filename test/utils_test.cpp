@@ -11,3 +11,9 @@ void UtilsTest::testAddFive() {
 void UtilsTest::testAddThree() { 
   CPPUNIT_ASSERT (Utils::addThree(2) == 5) ;
 }
+
+void UtilsTest::testMultiply() {
+  int a, b;
+  a=3; b=2;
+  CPPUNIT_ASSERT (Utils::multiply(a,b)==6);
+}

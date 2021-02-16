@@ -6,6 +6,7 @@ class UtilsTest : public CppUnit::TestFixture {
    CPPUNIT_TEST_SUITE( UtilsTest );
    CPPUNIT_TEST( testAddFive );
    CPPUNIT_TEST( testAddThree );
+   CPPUNIT_TEST( testMultiply);
    CPPUNIT_TEST_SUITE_END();
  public:
     UtilsTest(){}  
@@ -13,4 +14,5 @@ class UtilsTest : public CppUnit::TestFixture {
     void tearDown(){};  
     void testAddFive();
     void testAddThree();
+    void testMultiply();
  };
