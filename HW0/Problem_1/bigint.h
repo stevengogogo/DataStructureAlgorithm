@@ -8,3 +8,4 @@ typedef struct
     int length;
 } bigint; 
 
+bigint* newnumc(char*);
