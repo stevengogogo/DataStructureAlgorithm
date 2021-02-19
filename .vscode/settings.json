@@ -4,4 +4,7 @@
         "MIMode": "gdb"
     },
     "C_Cpp.intelliSenseEngineFallback": "Disabled",
+    "files.associations": {
+        "vector": "cpp"
+    },
 }

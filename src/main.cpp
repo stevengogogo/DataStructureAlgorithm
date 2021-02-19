@@ -1,5 +1,6 @@
 #include "utils.h"
 #include "cstdlib"
+#include <vector>
 
 using namespace std;
 
@@ -12,6 +13,13 @@ int main(int argc, char const* argv[]) {
     cout<<*x[0]<<endl;
     cout<< Utils::addThree(3)<<endl;
     cout<< Utils::multiply(a,b)<<endl;
+
+    vector<int> v {1,2,3}; 
+
+    for(auto& num: v){
+        cout<<num;
+    }
+
     return EXIT_SUCCESS; 
 }
 
