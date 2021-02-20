@@ -1,56 +1,53 @@
+#include <stdio.h>
+#include <string.h>
 #include "acutest.h"
 #include "../bigint.h"
 
 void
-test_tutorial(void)
+test_BigInt_element(void)
 {
-    void* mem;
-    int a=1;
+    char i[] = "12345";
+    int len_i = strlen(i);
+    int num;
+    char str;
 
-    mem = malloc(10);
-    TEST_CHECK(mem != NULL);
-
-    mem = realloc(mem, 20);
-    TEST_CHECK(mem != NULL);
+    bigint* a;
     
+    a = newnumc(i);
 
-    free(mem);
+    // Check all members of numbers
+    for (int j=0;j< len_i; j++){
+        str = i[len_i-j-1];
+        num = str2int(str);
+   
+        TEST_CHECK(a->number[j] == num);
+        TEST_MSG("BigInt->Number = %d ; Input= %c ", a->number[j], num);
+    }
+
+    // Check Length
+    TEST_CHECK(a->length == strlen(i) );
+    TEST_MSG("Size of BigInt = %d ; Input= %lu", a->length, strlen(i));
 
     
 }
 
-
-void
-test_fail(void)
+void test_display(void)
 {
-    int a, b;
+    char i[]= "12345678";
+    bigint* BIGNUM = newnumc(i);
+    char* str_BIGNUM = string(BIGNUM);
 
-    /* This condition is designed to fail so you can see what the failed test
-     * output looks like. */
-    a = 1;
-    b = 2;
-    TEST_CHECK(a + b == 5);
 
-    /* Here is TEST_CHECK_ in action. */
-    TEST_CHECK_(a + b == 5, "%d + %d == 5", a, b);
+    TEST_CHECK(strcmp(str_BIGNUM,i)==0);
+    TEST_MSG("string(BIGNUM)=%s", str_BIGNUM);
 
-    /* We may also show more information about the failure. */
-    if(!TEST_CHECK(a + b == 5)) {
-        TEST_MSG("a: %d", a);
-        TEST_MSG("b: %d", b);
-    }
-
-    /* The macro TEST_MSG() only outputs something when the preceding
-     * condition fails, so we can avoid the 'if' statement. */
-    TEST_CHECK(a + b == 3);
-    TEST_MSG("a: %d", a);
-    TEST_MSG("b: %d", b);
+    print(BIGNUM);
 }
 
 
 // Run TESTs 
 TEST_LIST = {
-    { "tutorial", test_tutorial },
-    {"Fail test", test_fail},
+    { "Element of BigInt", test_BigInt_element },
+    {"Display", test_display},
     {NULL, NULL} // Terminate the test
 };

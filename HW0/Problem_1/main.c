@@ -7,9 +7,12 @@
 
 int main()
 {
-    char a[MAX_DEC], b[MAX_DEC];
+    
+    bigint* a;
+     newnumc("3434");
 
-    scanf("%s", a);
+    //scanf("%s %s", a, b);
+    
 
     //bigint* I = newnumc(a[1]);
 

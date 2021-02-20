@@ -7,10 +7,10 @@ BUILD:
 
 TEST:
 	mkdir -p test/build
-	gcc -o test/build/test.out test/runtest.c
+	gcc -o test/build/test.out test/runtest.c bigint.c
 	./test/build/test.out
 
 
 RUN:
-	./build/main < test/INPUT
+	./build/main 
 

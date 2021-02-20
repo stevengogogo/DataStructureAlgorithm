@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "bigint.h": "c",
+        "stdlib.h": "c",
+        "memory_resource": "c"
+    }
+}
