@@ -9,7 +9,7 @@ int main()
 {
     
     bigint* a;
-     newnumc("3434");
+    // newnumc("3434");
 
     //scanf("%s %s", a, b);
     

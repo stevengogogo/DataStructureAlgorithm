@@ -2,6 +2,7 @@
     "files.associations": {
         "bigint.h": "c",
         "stdlib.h": "c",
-        "memory_resource": "c"
+        "memory_resource": "c",
+        "random": "c"
     }
 }

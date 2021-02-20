@@ -2,13 +2,14 @@ CFLAGS = -I.
 
 BUILD: 
 	mkdir -p build
-	gcc -o build/main main.c bigint.c 
+	gcc -o build/main src/main.c src/bigint.c src/utils.h
 
 
 TEST:
 	mkdir -p test/build
-	gcc -o test/build/test.out test/runtest.c bigint.c
-	./test/build/test.out
+	gcc -o test/build/test.out test/runtest.c src/bigint.c src/utils.c
+
+	./test/build/test.out 
 
 
 RUN:
