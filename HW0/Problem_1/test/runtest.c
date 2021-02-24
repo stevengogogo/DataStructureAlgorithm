@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 #include "acutest.h"
-#include "../src/bigint.h"
-#include "../src/utils.h"
+#include "bigint.h"
+#include "utils.h"
 
 
 void test_create_bigint_from_ints(void){
