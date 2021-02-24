@@ -74,3 +74,4 @@ int main(void) {
     - Syntax Example. [[tutorial](https://www.programiz.com/c-programming/c-dynamic-memory-allocation)]
     - Dynamic memory allocation. [[wiki](https://en.wikipedia.org/wiki/C_dynamic_memory_allocation)]
 8. Pointer 整理. [[blog](http://hackgrass.blogspot.com/2018/03/c-pointerint-foo-int-bar.html)]
+9. Do not use sizeof for array parameters. [[GreekforGeek](https://www.geeksforgeeks.org/using-sizof-operator-with-array-paratmeters/)]

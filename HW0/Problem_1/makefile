@@ -1,8 +1,9 @@
 CFLAGS = -I.
+.PHONY: BUILD TEST RUN
 
 BUILD: 
 	mkdir -p build
-	gcc -o build/main src/main.c src/bigint.c src/utils.h
+	gcc -o build/main src/main.c src/bigint.c src/utils.c
 
 
 TEST:
