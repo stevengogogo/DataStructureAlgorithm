@@ -2,13 +2,13 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "Build",
+            "label": "C/C++: gcc-9 build active file",
             "command": "/usr/bin/gcc-9",
             "args": [
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "src/* include/*"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"

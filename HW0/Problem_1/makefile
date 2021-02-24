@@ -36,15 +36,17 @@ MERGETEST:
 	rm $(testbuild)/main.c
 
 COMPILE_MAIN: 
-	gcc -o $(build_folder)/main.out $(build_folder)/*.c
+	gcc -g3 -o $(build_folder)/main.out $(build_folder)/*.c
 
 
-BUILD:  MERGE COMPILE_MAIN clean
+
+BUILD:  MERGE COMPILE_MAIN 
 	echo "$(green)Built and deploy at $(mag) $(build_folder)/$(outfile)$(reset)";
 
 
+
 RUNTEST: MERGETEST 
-	gcc -o $(testbuild)/test.out $(testbuild)/*.c
+	gcc -g3 -o $(testbuild)/test.out $(testbuild)/*.c
 	./test/build/test.out 
 
 TEST: MERGETEST RUNTEST cleantest
