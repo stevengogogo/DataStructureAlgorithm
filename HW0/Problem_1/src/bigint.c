@@ -2,8 +2,8 @@
 #include<string.h>
 #include<stdlib.h>
 #include <assert.h>
-#include "bigint.h"
-#include "utils.h"
+#include "include/bigint.h"
+#include "include/utils.h"
 
 //Create new biginteger from string
 bigint newnumc(char* numb)
