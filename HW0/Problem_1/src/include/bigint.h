@@ -9,24 +9,23 @@ typedef struct
     int length;
 } bigint;
 
-bigint init_bigint(int* number, int length);
+bigint init_bigint(int number[], int length);
 
-void free_bigint(bigint*);
 
 void copy_bigint(bigint*, bigint*);
 
-bigint* newnumc(char*);
+bigint newnumc(char*);
 
-bigint* newnumint(int*, int );
+bigint newnumint(int*, int );
 
-bigint newnumint_eff(int*,int);
+bigint newnumint_eff(int,int);
 //Manipulation
-bigint add(bigint*, bigint*);
+bigint add(bigint, bigint);
 
 //Display
-void print(bigint*);
+void print(bigint);
 
-char* string(bigint);
+char* create_string(bigint);
 
 int str2int(char);
 

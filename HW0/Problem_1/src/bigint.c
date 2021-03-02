@@ -5,35 +5,30 @@
 #include "include/bigint.h"
 #include "include/utils.h"
 
-bigint* init_bigint(int number[], int length)
+bigint init_bigint(int number[], int length)
 {
-  bigint* p = malloc(sizeof(bigint));
-  
-  p->number = number; 
-  p->length = length;
-  
-  return p;
+    bigint p;
+    memset(p.number, 0, sizeof(p.number)); // Fill zeros
+    for(int i=0; i<length; i++){
+        p.number[i] = number[i];
+    }
+
+    p.length = length;
+    
+    return p;
 }
 
-void free_bigint(bigint* p)
-{
-    free(p->number);
-    free(p->length);
-    free(p);
-}
 
-void copy_bigint(bigint* dst, bigint* src)
-{
 
-}
+
 
 //Create new biginteger from string
-bigint* newnumc(char* numb)
+bigint newnumc(char* numb)
 {
 
     int nlen = strlen(numb);
     int number[MAX_DEC];
-    bigint* num;
+    bigint num;
     //allocate storage for the number, in the right length
 
     for(int i=0;i<nlen;i++)
@@ -47,11 +42,11 @@ bigint* newnumc(char* numb)
     return num;
 }
 
-bigint* newnumint(int* int_arr,int length)
+bigint newnumint(int int_arr[],int length)
 {
 
     int non_zero_start = length-1;
-    bigint* num;
+    bigint num;
     //Get first non-zero site
     for (int i=length-1; i>=0; i--){
         assert(int_arr[i] >=0);
@@ -78,7 +73,8 @@ bigint* newnumint(int* int_arr,int length)
 }
 
 /* Return Bigint with effective number. */
-void effective_num(bigint* ovnum)
+/*
+bigint effective_num(bigint ovnum)
 {
   int eff_i = ovnum->length;
   for (int i=ovnum->length-1; i>0; i-- ){
@@ -91,13 +87,14 @@ void effective_num(bigint* ovnum)
   }
 
   ovnum->length = eff_i + 1;
-
+  
 }
+*/
 
-bigint add(bigint* a, bigint* b)
+bigint add(bigint a, bigint b)
 {
     extm len_max;
-    len_max = max(&(a->length), &(b->length));
+    len_max = max(&(a.length), &(b.length));
 
     int shorter_len;
     bigint SUM;
@@ -108,16 +105,16 @@ bigint add(bigint* a, bigint* b)
 
     // Get shorter length
     if (len_max.arg == 0) { // a is bigger
-        shorter_len = b->length;
+        shorter_len = b.length;
     }
     else {
-        shorter_len = a->length;
+        shorter_len = a.length;
     }
     
     //Add
     carrier = 0; 
     for (int i=0;i<shorter_len;i++){
-        s = *(a->number) + *(b->number) + carrier;
+        s = a.number[i] + b.number[i] + carrier;
         if (s < 10){
             number[i] = s;
             carrier = 0;
@@ -134,26 +131,26 @@ bigint add(bigint* a, bigint* b)
 
 
 
-void print(bigint* num)
+void print(bigint num)
 {
     int j;
-    for (int i=0;i<num->length;i++)
+    for (int i=0;i<num.length;i++)
     {
-        j = num->length - i - 1;
-        printf("%d",num->number[j]);
+        j = num.length - i - 1;
+        printf("%d",num.number[j]);
     }
 }
 
 
-char* string(bigint* num)
+char* create_string(bigint num)
 {   
     int j; 
-    char* STR = (char*)malloc(num->length * sizeof(char));
-
-    for (int i=0; i<num->length;i++)
+    char* STR = (char*)malloc((num.length + 1) * sizeof(char));
+    STR[ num.length ] = '\0';
+    for (int i=0; i<num.length;i++)
     {
-        j = num->length - i - 1;
-        STR[j] = num->number[i] + '0';
+        j = num.length - i - 1;
+        STR[j] = num.number[i] + '0';
     }
  
     return STR;

@@ -86,3 +86,4 @@ memset(number, 0, sizeof(number)); //zero array
 12. Free a struct. [[StackOverFlow](https://stackoverflow.com/questions/13590812/c-freeing-structs]]
     - constructor [[stack](https://stackoverflow.com/questions/537244/default-constructor-in-c)]
     - Build struct. [[stack](https://stackoverflow.com/questions/3774193/constructor-for-structs-in-c)]
+13. Pass an array to function. [[issue](https://github.com/stevengogogo/DataStructureAlgorithm/issues/3)]

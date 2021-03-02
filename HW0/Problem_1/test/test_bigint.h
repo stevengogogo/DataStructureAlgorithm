@@ -12,18 +12,17 @@ void test_create_bigint_from_ints(void){
     int len_a = 9;
     int a_[] = {1,2,3,4,4,5 };
     int len_a_ = 5;
-    bigint* big = newnumint(a, len_a);
+    bigint big = newnumint(a, len_a);
 
     print(big);
     //TEST_ASSERT(big.length == 6);
 
     for (int i=0;i< len_a_;i++)
     {
-        TEST_ASSERT(big->number[i]== a_[i]);
-        TEST_MSG("Bigint->%d; Input->%d at i=%d", big->number[i], a_[i], i);
+        TEST_ASSERT(big.number[i]== a_[i]);
+        TEST_MSG("Bigint.%d; Input.%d at i=%d", big.number[i], a_[i], i);
     }
 
-    free_bigint(big);
 }
 
 void
@@ -58,15 +57,14 @@ void test_display(void)
 {
     char i[]= "12345678";
     bigint BIGNUM = newnumc(i);
-    char* str_BIGNUM = string(BIGNUM);
+    char* str_BIGNUM = create_string(BIGNUM);
 
-
+    TEST_CHECK(str_BIGNUM[sizeof(i)/sizeof(i[0])]== '\0');
     TEST_CHECK(strcmp(str_BIGNUM,i)==0);
     TEST_MSG("string(BIGNUM)=%s", str_BIGNUM);
 
     print(BIGNUM);
 
-    free(str_BIGNUM);
 }
 
 
@@ -74,10 +72,10 @@ void test_ADD(void)
 {
     bigint a = newnumc("123");
     bigint b = newnumc("2");
-    bigint c = add(&a,&b);
+    bigint c = add(a,b);
     bigint ans = newnumc("125");
     TEST_CHECK(c.length == 3);
-    TEST_CHECK(c.number[1] == [5);
+    TEST_CHECK(c.number[0] == 5);
 }
 
 

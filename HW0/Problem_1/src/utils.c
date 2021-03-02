@@ -48,4 +48,3 @@ extm min(int* a, int* b)
 }
 
 
-int* getdata(int* )
