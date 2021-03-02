@@ -7,15 +7,16 @@
 
 int main()
 {
-    
-    bigint a = newnumc("34343");
+    char n[]="34343";
+    bigint a = newnumc(n);
     // newnumc("3434");
-    int i = 1;
+    
     //scanf("%s %s", a, b);
     
-
+    
     //bigint* I = newnumc(a[1]);
-    printf("Hello World\n");
+    char* i = create_string(a);
+    printf("%d", strcmp(i, n));
 
     return 0;
 }

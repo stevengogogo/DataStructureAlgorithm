@@ -18,7 +18,10 @@ bigint init_bigint(int number[], int length)
     return p;
 }
 
-
+bigint init_bigint_zero(void){
+    int z[] ={0};
+    return init_bigint(z, 1);
+}
 
 
 
@@ -97,9 +100,7 @@ bigint add(bigint a, bigint b)
     len_max = max(&(a.length), &(b.length));
 
     int shorter_len;
-    bigint SUM;
-    int number[len_max.extreme+1];
-    memset(number, 0, sizeof(number)); //zero array
+    bigint SUM = init_bigint_zero();
     int length; 
     int carrier, s;
 
@@ -116,18 +117,20 @@ bigint add(bigint a, bigint b)
     for (int i=0;i<shorter_len;i++){
         s = a.number[i] + b.number[i] + carrier;
         if (s < 10){
-            number[i] = s;
+            SUM.number[i] = s;
             carrier = 0;
         }
         else {
-            number[i] = s % 10;
+            SUM.number[i] = s % 10;
             carrier = 1;
         }
     }
 
-    
+    return SUM;
 
 }
+
+
 
 
 

@@ -4,7 +4,7 @@
 
 #include "acutest.h"
 #include "include/bigint.h"
-
+#include "include/utils.h"
 
 
 void test_create_bigint_from_ints(void){
@@ -74,8 +74,18 @@ void test_ADD(void)
     bigint b = newnumc("2");
     bigint c = add(a,b);
     bigint ans = newnumc("125");
-    TEST_CHECK(c.length == 3);
-    TEST_CHECK(c.number[0] == 5);
+
+    TEST_CHECK(striden(create_string(c), create_string(ans)));
+}
+
+void test_init_bigint(void){
+    int a[] = {1,2,3,4};
+
+    bigint p = init_bigint(a,4);
+    bigint z = init_bigint_zero();
+
+    TEST_CHECK(z.length == 1);
+    TEST_CHECK(p.length == 4);
 }
 
 

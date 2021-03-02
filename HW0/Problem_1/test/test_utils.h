@@ -14,5 +14,16 @@ void test_utils(void)
     TEST_CHECK(MIN.extreme == a);
 }
 
+void test_str_identical(void){
+    char a[] = "23232";
+    char b[] = "23236";
+    char c[] = "232";
+    char d[] = "23232";
+
+    TEST_CHECK(striden(a,b) != 0);
+    TEST_CHECK(striden(a,c) != 0);
+    TEST_CHECK(striden(a,d) == 0);
+}
+
 
 #endif

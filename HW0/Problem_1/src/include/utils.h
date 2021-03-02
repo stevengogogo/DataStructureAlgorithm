@@ -9,6 +9,7 @@ typedef struct {
 extm max(int*,int*);
 extm min(int*,int*);
 
+int striden(char*,char*);
 
 
 #endif

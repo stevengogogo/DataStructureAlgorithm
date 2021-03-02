@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <string.h>
 #include "include/utils.h"
 
 //Choose the bigger one
@@ -47,4 +49,17 @@ extm min(int* a, int* b)
     return val_min;
 }
 
+/*Compare two string. if identical returns 0. otherwise, return 0*/
+int striden(char* a, char* b){
+    int diff;
+    int len_sh = strcmp(a,b);
+    size_t len = strlen(a);
 
+    if  (len_sh == 0) {
+        diff = strncmp(a,b, strlen(a));
+        return diff;
+    }
+    else{
+        return len_sh;
+    }
+}
