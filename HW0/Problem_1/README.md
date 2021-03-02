@@ -83,3 +83,6 @@ memset(number, 0, sizeof(number)); //zero array
 9. Do not use sizeof for array parameters. [[GreekforGeek](https://www.geeksforgeeks.org/using-sizof-operator-with-array-paratmeters/)]
 10. `Makefile` tutorial. [[tutorial](https://makefiletutorial.com/)]
 11. `i++` or `++i`. [[web](https://nwpie.blogspot.com/2017/07/5-i-i.html)]
+12. Free a struct. [[StackOverFlow](https://stackoverflow.com/questions/13590812/c-freeing-structs]]
+    - constructor [[stack](https://stackoverflow.com/questions/537244/default-constructor-in-c)]
+    - Build struct. [[stack](https://stackoverflow.com/questions/3774193/constructor-for-structs-in-c)]

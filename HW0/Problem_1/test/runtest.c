@@ -2,6 +2,7 @@
 
 #include "acutest.h"
 
+#include "test_construct_free.h"
 #include "test_bigint.h"
 #include "test_utils.h"
 
