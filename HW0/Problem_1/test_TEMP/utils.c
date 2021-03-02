@@ -47,5 +47,3 @@ extm min(int* a, int* b)
     return val_min;
 }
 
-
-int* getdata(int* )

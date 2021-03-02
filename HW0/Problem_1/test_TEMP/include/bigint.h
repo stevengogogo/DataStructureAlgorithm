@@ -8,19 +8,11 @@ typedef struct
 {
     int* number;
     int length;
-} bigint;
-
-void init_bigint(bigint*);
-
-void free_bigint(bigint*);
-
-void copy_bigint(bigint*, bigint*);
+} bigint; 
 
 bigint newnumc(char*);
 
 bigint newnumint(int*, int );
-
-bigint newnumint_eff(int*,int);
 //Manipulation
 bigint add(bigint*, bigint*);
 

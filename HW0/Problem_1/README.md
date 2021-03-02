@@ -59,6 +59,12 @@ int main(void) {
     ```
 
 
+## Fill the array: [`memset` function](https://www.geeksforgeeks.org/memset-c-example/)
+
+```c
+int number[5];
+memset(number, 0, sizeof(number)); //zero array
+```
 
 ---
 
@@ -76,3 +82,4 @@ int main(void) {
 8. Pointer 整理. [[blog](http://hackgrass.blogspot.com/2018/03/c-pointerint-foo-int-bar.html)]
 9. Do not use sizeof for array parameters. [[GreekforGeek](https://www.geeksforgeeks.org/using-sizof-operator-with-array-paratmeters/)]
 10. `Makefile` tutorial. [[tutorial](https://makefiletutorial.com/)]
+11. `i++` or `++i`. [[web](https://nwpie.blogspot.com/2017/07/5-i-i.html)]

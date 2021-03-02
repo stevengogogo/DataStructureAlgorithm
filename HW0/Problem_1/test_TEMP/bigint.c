@@ -5,12 +5,6 @@
 #include "include/bigint.h"
 #include "include/utils.h"
 
-void init_bigint(bigint*)
-{
-    
-}
-
-
 //Create new biginteger from string
 bigint newnumc(char* numb)
 {
@@ -64,29 +58,6 @@ bigint newnumint(int* int_arr,int length)
     };
 
     return num;
-}
-
-/* Return Bigint with effective number. */
-bigint newnumint_eff(int* int_arr, int length)
-{
-  int eff_len = length;
-  for (int i=length-1; i>0; i-- )
-  {
-      if (int_arr == 0)
-      {
-        eff_len--;
-      }
-      else 
-      {
-        break;
-      }
-  }
-
-  bigint num = {
-      *eff_len,
-      getdata(int_arr, eff_len)
-  };
-
 }
 
 bigint add(bigint* a, bigint* b)
