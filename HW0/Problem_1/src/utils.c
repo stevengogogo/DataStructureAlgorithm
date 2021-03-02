@@ -53,7 +53,6 @@ extm min(int* a, int* b)
 int striden(char* a, char* b){
     int diff;
     int len_sh = strcmp(a,b);
-    size_t len = strlen(a);
 
     if  (len_sh == 0) {
         diff = strncmp(a,b, strlen(a));
