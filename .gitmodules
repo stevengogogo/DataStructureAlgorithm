@@ -1,0 +1,6 @@
+[submodule "HW0/GreatestCommonDivisor"]
+	path = HW0/GreatestCommonDivisor
+	url = https://github.com/stevengogogo/GreatestCommonDivisor
+[submodule "HW0/NonogramSolver"]
+	path = HW0/NonogramSolver
+	url = https://github.com/stevengogogo/NonogramSolver
