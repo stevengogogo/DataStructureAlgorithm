@@ -1,5 +1,6 @@
 # Data Structures 2021 Spring
 
+## Course Website
 
 
 ## How to use `gitsubmodule`
@@ -15,15 +16,22 @@ git submodule status --recursive
 Update all submodule
 --------------------
 
-- Fetch
+#### Add project
+
+```bash
+# Clone to the current folder: 
+git submodule add <repository> 
+git submodule init
+
+```
+
+#### Fetch
 ```bash
 git submodule update --recursive
 ```
 
-- Pull
+#### Pull
 ```bash
 git pull --recurse-submodules
 ```
 
-## Reference
-1. 
