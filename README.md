@@ -35,3 +35,6 @@ git submodule update --recursive
 git pull --recurse-submodules
 ```
 
+## Plotting with [diagrams](https://app.diagrams.net/)
+
+[Diagram](https://app.diagrams.net/) features uploading to Github repository, making the drawing up-to-date easily!

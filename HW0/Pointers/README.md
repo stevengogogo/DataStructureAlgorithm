@@ -85,7 +85,7 @@ node* alloc(int data, node *left, node *right){
 
 //traverses (遍歷) the nodes recursively
 void traverse(node* root){
-    if (root->data != NULL){
+    if (root->left != NULL & root->right){
         printf("%d", root->data);
         traverse(root->left);
         traverse(root->right);
@@ -94,13 +94,33 @@ void traverse(node* root){
 
 //frees the nodes recursively
 void destroy(node *root){
-    if (root->data != NULL){
-
+    if (root->left != NULL & root->right){
+        destroy(root->left);
+        destroy(root->right);
+        //clean sensitive data
+        memset(root, 0, sizeof(root));
+        free(root);
     }
 }
 
+int main(){
+    // creates a hierarchical data structure
+    node *root = \
+        alloc(0,
+            alloc(3,
+                alloc(7, NULL, NULL),
+                alloc(4, NULL, NULL)
+            ),
+            alloc(2,
+                alloc(1, NULL, NULL),
+                alloc(9, NULL, NULL)
+            )
+        );
+}
 
 ```
+
+![](img/Problem3c.png)
 
 ---
 
