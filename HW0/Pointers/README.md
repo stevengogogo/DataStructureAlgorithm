@@ -27,12 +27,82 @@ for(int i=0;i<2;i++)
     printf("%d", *(real_b + i));
 ```
 
-
+Test at: https://onlinegdb.com/SJ4JFi-7_
 
 ![](img/Problem3a.png)
 
+---
+
+## Problem 3b - An array supporting negative indices
+
+![Screen Shot 2021-03-07 at 9 17 08 AM](https://user-images.githubusercontent.com/29009898/110226009-f7a16880-7f25-11eb-81db-7c27eb264c33.png)
+
+```c
+#include <stdio.h>
+#define MINN -50
+#define MAXN 50
+
+int main(){
+    int storage[MAXN - MINN + 1] = {0}; // 101
+    int *ary = storage - MINN ; //fill the blank
+
+    for(int i=MINN;i<=MAXN;i++)
+        ary[i] = i;
+    for(int i=MINN;i<=MAXN;i++)
+        printf("%d", ary[i]);
+    return 0;
+}
+```
+Verified at: https://onlinegdb.com/rydhl3W7u
+
+![](img/Problem3b.png)
 
 
+## Problem 3C: Tranverses data nodes in a linked list.
+
+
+![Screen Shot 2021-03-07 at 9 49 51 AM](https://user-images.githubusercontent.com/29009898/110226462-7dbfae00-7f2a-11eb-8a42-c612afe9761c.png)
+
+```c
+#include <stdio.h>
+#include <stdlib.h> //malloc /free
+#include <memory.h> //memset
+
+//use typedef to substitute "struct node with "node""
+typedef struct node {
+    int data;
+    struct node *left, *right;
+} node;
+
+//creates a node filledwith predefined values
+node* alloc(int data, node *left, node *right){
+    node *tmp = (node*)malloc(sizeof(node));
+    tmp->data = data,
+    tmp->left = left;
+    tmp->right = right;
+    return tmp;
+}
+
+//traverses (遍歷) the nodes recursively
+void traverse(node* root){
+    if (root->data != NULL){
+        printf("%d", root->data);
+        traverse(root->left);
+        traverse(root->right);
+    }
+}
+
+//frees the nodes recursively
+void destroy(node *root){
+    if (root->data != NULL){
+
+    }
+}
+
+
+```
+
+---
 
 ## Notes
 
