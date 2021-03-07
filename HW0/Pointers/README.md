@@ -1,7 +1,6 @@
 # Prolem 3 - *(Human Compiler)(Hand-written)
 
-
-## Problem 3-(a) Swaps two arrays using pointers
+## Problem 3a: Swaps two arrays using pointers
 
 ![Screen Shot 2021-03-07 at 8 34 25 AM](https://user-images.githubusercontent.com/29009898/110225352-efdec580-7f1f-11eb-9675-516acb605e42.png)
 
@@ -33,7 +32,7 @@ Test at: https://onlinegdb.com/SJ4JFi-7_
 
 ---
 
-## Problem 3b - An array supporting negative indices
+## Problem 3b: An array supporting negative indices
 
 ![Screen Shot 2021-03-07 at 9 17 08 AM](https://user-images.githubusercontent.com/29009898/110226009-f7a16880-7f25-11eb-81db-7c27eb264c33.png)
 
@@ -57,6 +56,7 @@ Verified at: https://onlinegdb.com/rydhl3W7u
 
 ![](img/Problem3b.png)
 
+---
 
 ## Problem 3C: Tranverses data nodes in a linked list.
 
