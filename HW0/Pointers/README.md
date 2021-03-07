@@ -85,7 +85,7 @@ node* alloc(int data, node *left, node *right){
 
 //traverses (遍歷) the nodes recursively
 void traverse(node* root){
-    if (root->left != NULL & root->right){
+    if ((root->left != NULL) & (root->right != NULL)){
         printf("%d", root->data);
         traverse(root->left);
         traverse(root->right);
@@ -94,7 +94,7 @@ void traverse(node* root){
 
 //frees the nodes recursively
 void destroy(node *root){
-    if (root->left != NULL & root->right){
+    if ((root->left != NULL) & (root->right!=NULL)){
         destroy(root->left);
         destroy(root->right);
         //clean sensitive data
@@ -117,9 +117,8 @@ int main(){
             )
         );
 }
-
 ```
-
+Verify at: https://onlinegdb.com/B1eRPFnbXd
 ![](img/Problem3c.png)
 
 ---
