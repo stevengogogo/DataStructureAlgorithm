@@ -18,10 +18,15 @@ for(int i=0;i<2;i++)
     printf("%d", *(real_b + i));
 
 int *tmp = real_a; //tmp is a pointer to pointer
-real_b = real_a; (*tmp)
-real_b = ()
+real_b = fake_a;  // fill the blanks
+real_a = fake_b;  // fil the blanks
 
+for(int i=0;i<2;i++)
+    printf("%d", *(real_a + i));
+for(int i=0;i<2;i++)
+    printf("%d", *(real_b + i));
 ```
+
 
 
 ![](img/Problem3a.png)
