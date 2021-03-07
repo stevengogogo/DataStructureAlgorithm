@@ -60,10 +60,59 @@ Verified at: https://onlinegdb.com/rydhl3W7u
 
 ## Problem 3C: Tranverses data nodes in a linked list.
 
+![Screen Shot 2021-03-07 at 12 03 34 PM](https://user-images.githubusercontent.com/29009898/110228580-38f14280-7f3d-11eb-9891-65aeaeb849e0.png)
 
-## Problem 3D:
+```c
+#include <stdio.h>
+#include <stdlib.h> //malloc / free
+#include <memory.h> //memset
+
+//use typedef to define "struct node" as "node"
+typedef struct node{
+    int data;
+    struct node *nxt;
+} node;
+
+node* alloc(int data, node* nxt){
+    node *tmp = (node*)malloc(sizeof(node));
+    tmp->data=data;
+    tmp->nxt = nxt;
+    return tmp;
+}
+
+void destroy(node *head){
+    if(head != NULL){ //FIll the blank 
+        destroy(head->nxt);
+        //clean sensitive data;
+        memset(head,0,sizeof(head));
+        free(head);
+    }
+}
+
+int main(){
+    // create nodes [0,1,2,4]
+    node* head = alloc(0, alloc(1,alloc(2,alloc(4,NULL))));
+    node* tmp = head;
+    //print the nodes subsequently
+    while(tmp!=NULL){
+        printf("%d -> ", (*tmp) -> data ); //FIll the blank 
+        tmp = (*tmp)->nxt; //FIll the blank 
+    }
+    printf("NULL");
+
+    //free the nodes subsequently to avoid memory leak
+    destroy(head);
+    return 0;
+}
+```
+
+---
+
+## Problem 3D: Binary Tree
 ![Screen Shot 2021-03-07 at 11 52 38 AM](https://user-images.githubusercontent.com/29009898/110228385-9f756100-7f3b-11eb-92e7-76ee4bf3413f.png)
 ![Screen Shot 2021-03-07 at 11 52 48 AM](https://user-images.githubusercontent.com/29009898/110228386-a603d880-7f3b-11eb-9108-fb2e0b11d480.png)
+
+**問題**: `printf` 應該在 `if` 前面
 
 ```c
 #include <stdio.h>
