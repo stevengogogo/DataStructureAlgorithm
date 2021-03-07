@@ -95,7 +95,7 @@ int main(){
     node* tmp = head;
     //print the nodes subsequently
     while(tmp!=NULL){
-        printf("%d -> ", (*tmp) -> data ); //FIll the blank 
+        printf("%d -> ", *tmp-> data ); //FIll the blank 
         tmp = (*tmp)->nxt; //FIll the blank 
     }
     printf("NULL");
@@ -105,6 +105,20 @@ int main(){
     return 0;
 }
 ```
+
+### Curate
+
+Use `temp->data` not `(*tmp)->data`
+
+#### Copy a pointer to another pointer
+
+![Screen Shot 2021-03-07 at 12 31 17 PM](https://user-images.githubusercontent.com/29009898/110229016-09dcd000-7f41-11eb-9414-77bad043e4c8.png)
+> From [Basics of C Programmin](https://computer.howstuffworks.com/c24.htm)
+
+### Question 
+
+Wrong version: https://www.onlinegdb.com/
+Corrected version: https://onlinegdb.com/BkReV0bXd
 
 ---
 
@@ -241,3 +255,4 @@ Verify at: https://onlinegdb.com/r1VxlA-7d
 ## Reference
 1. Segmentation fault and pointer. [[stackoverflow](https://stackoverflow.com/questions/17873561/pointer-initialisation-gives-segmentation-fault)]
 2. String and storage. [[GreekforGeek](https://www.geeksforgeeks.org/storage-for-strings-in-c/)]
+3. Pointing to the same address. [[eBook-Basics of C Programming](https://computer.howstuffworks.com/c24.htm)]
