@@ -61,7 +61,9 @@ Verified at: https://onlinegdb.com/rydhl3W7u
 ## Problem 3C: Tranverses data nodes in a linked list.
 
 
-![Screen Shot 2021-03-07 at 9 49 51 AM](https://user-images.githubusercontent.com/29009898/110226462-7dbfae00-7f2a-11eb-8a42-c612afe9761c.png)
+## Problem 3D:
+![Screen Shot 2021-03-07 at 11 52 38 AM](https://user-images.githubusercontent.com/29009898/110228385-9f756100-7f3b-11eb-92e7-76ee4bf3413f.png)
+![Screen Shot 2021-03-07 at 11 52 48 AM](https://user-images.githubusercontent.com/29009898/110228386-a603d880-7f3b-11eb-9108-fb2e0b11d480.png)
 
 ```c
 #include <stdio.h>
@@ -85,8 +87,8 @@ node* alloc(int data, node *left, node *right){
 
 //traverses (遍歷) the nodes recursively
 void traverse(node* root){
+    printf("%d", root->data);
     if ((root->left != NULL) & (root->right != NULL)){
-        printf("%d", root->data);
         traverse(root->left);
         traverse(root->right);
     }
@@ -116,9 +118,12 @@ int main(){
                 alloc(9, NULL, NULL)
             )
         );
+
+    traverse(root);
+    destroy(root);
 }
 ```
-Verify at: https://onlinegdb.com/B1eRPFnbXd
+Verify at: https://onlinegdb.com/r1VxlA-7d
 ![](img/Problem3c.png)
 
 ---
