@@ -1,0 +1,3 @@
+- [🤹 **Lecture Note**](README.md)
+- [Introduction](00_Introduction.md)
+- [Arrays and Linked Lists](01_linked_list.md)

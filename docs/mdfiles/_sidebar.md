@@ -1,0 +1,5 @@
+- [🏠 **Home**](README.md)
+- [🤹 **Lecture Note**](lec/)
+- [📒 **Assignments**](assignment.md)
+- [🤖️ **C Programming**](C.md)
+- [**Markdown**](how-to-use-docify.md)
