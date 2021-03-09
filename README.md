@@ -13,8 +13,8 @@ Steven Shao-Ting Chiu  (r07945001@ntu.edu.tw)
 - Course ID: CSIE 1212
 - Room: CSIE R103 (main) + CSIE R102, R104
 - Time: Tuesday, 13:20 ~ 16:10
-- Lecturer: Hsuan-Tien Lin (first-half semester) & Hsin-Mu (Michael) Tsai (second-half semester)
-- Contact: dsa_ta@csie.ntu.edu.tw
+- Lecturer: Hsuan-Tien Lin & Hsin-Mu (Michael) Tsai 
+- Contact: `dsa_ta@csie.ntu.edu.tw`
 
 
 ## Course Syllabus
