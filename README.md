@@ -48,6 +48,7 @@ This is the lecture note for the DSA course at NTU, it is used for non-profit ed
 
 
 ## TA Hours
+<details>
 
 |TA Hour / Location|Notes|
 |--- |--- |
@@ -77,3 +78,5 @@ This is the lecture note for the DSA course at NTU, it is used for non-profit ed
 |Fri. 13:00 ~ 14:00 @ 德田館 B1||
 
 `(Duplicate from course website)`
+
+</details>

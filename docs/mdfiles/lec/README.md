@@ -2,6 +2,8 @@
 
 > [!info]
 > [Video Stream on Youtube](https://www.csie.ntu.edu.tw/~htlin/course/dsa21spring/screencast.php)
+>
+> Credit by Dr. Hsuan-Tien Lin & Dr. Hsin-Mu (Michael) Tsai
 
 
 |#|Date|Topic|Lecturer||
@@ -24,3 +26,6 @@
 |16|06/08 (Tue.)|B Tree|Hsinmu||
 |17|06/15 (Tue.)|Final Exam|Hsinmu|Homework 3 due|
 |18|06/22 (Tue.)|Project Week|||
+
+`Source: course website (see main page)`
+
