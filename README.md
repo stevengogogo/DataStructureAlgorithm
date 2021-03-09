@@ -3,6 +3,10 @@
 Steven Shao-Ting Chiu  (r07945001@ntu.edu.tw)
 
 
+## Disclaimer
+
+This is the lecture note for the DSA course at NTU, it is used for non-profit education purpose. For the teaching resources, I tried my best to cite each source to avoid copyright issues. If one found inappropriate contents, please inform me via email (r07945001@ntu.edu.tw). 
+
 ## Course Website
 
 >  https://cool.ntu.edu.tw/courses/4621
@@ -40,7 +44,7 @@ Steven Shao-Ting Chiu  (r07945001@ntu.edu.tw)
 |17|06/15 (Tue.)|Final Exam|Hsinmu|Homework 3 due|
 |18|06/22 (Tue.)|Project Week|||
 
-
+`(Duplicate from course website)`
 
 
 ## TA Hours
@@ -71,3 +75,5 @@ Steven Shao-Ting Chiu  (r07945001@ntu.edu.tw)
 |Fri. 13:00 ~ 14:00 @ 德田館 B1||
 |Fri. 13:00 ~ 14:00 @ 德田館 B1||
 |Fri. 13:00 ~ 14:00 @ 德田館 B1||
+
+`(Duplicate from course website)`
