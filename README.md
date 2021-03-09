@@ -48,6 +48,7 @@ This is the lecture note for the DSA course at NTU, it is used for non-profit ed
 
 
 ## TA Hours
+
 <details>
 
 |TA Hour / Location|Notes|
