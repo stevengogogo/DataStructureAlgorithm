@@ -7,9 +7,12 @@ Steven Shao-Ting Chiu  (r07945001@ntu.edu.tw)
 
 This is the lecture note for the DSA course at NTU, it is used for non-profit education purpose. For the teaching resources, I tried my best to cite each source to avoid copyright issues. If one found inappropriate contents, please inform me via email (r07945001@ntu.edu.tw). 
 
-## Course Website
+## Course Website (rigistered only)
 
 >  https://cool.ntu.edu.tw/courses/4621
+
+## Course ITA book (rigistered only)
+https://cool.ntu.edu.tw/courses/4621/modules
 
 
 ## Course Information
