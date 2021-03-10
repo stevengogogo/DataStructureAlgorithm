@@ -4,6 +4,8 @@
 
 ---
 
+> suggested reading: Introduction to Algorithm: **Sec 10.2, 2.2**
+
 ## Online judge:  可以加速到 0.0002ms?
 
 <img width="652" alt="Screen Shot 2021-03-09 at 1 41 27 PM" src="https://user-images.githubusercontent.com/29009898/110424065-26157400-80dd-11eb-90c4-e75d97130eae.png">
@@ -233,3 +235,4 @@ $$\lim_{n\rightarrow \infty}\frac{f(n)}{g(n)}\leq c$$
 
 - $O$ 描述花的計算量, 記憶體 和 網路傳輸的使用
 - $f(n) \in O(g(n))$ 在 CS, 習慣用 $f(n) = O(n)$
+
