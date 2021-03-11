@@ -4,11 +4,11 @@
 
 ## Homework 0
 
+### Greatest Common Divisor
+https://github.com/stevengogogo/GreatestCommonDivisor/tree/main
 
-
-|Porblem|Status|
-|---|---|
-|rgrg|grg|
+### Nonogram Solver
+https://github.com/stevengogogo/NonogramSolver/tree/main
 
 
 ## Homework 1
