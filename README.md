@@ -1,11 +1,18 @@
-# Lecture Notes of Data Structure and Algorithm (2021 Spring)
+# Lecture Notes of Data Structure and Algorithm with C (2021 Spring)
 
 Steven Shao-Ting Chiu  (r07945001@ntu.edu.tw)
 
 
-## Course Website
+## Disclaimer
+
+This is the lecture note for the DSA course at NTU, it is used for non-profit education purpose. For the teaching resources, I tried my best to cite each source to avoid copyright issues. If one found inappropriate contents, please inform me via email (r07945001@ntu.edu.tw). 
+
+## Course Website (rigistered only)
 
 >  https://cool.ntu.edu.tw/courses/4621
+
+## Course ITA book (rigistered only)
+https://cool.ntu.edu.tw/courses/4621/modules
 
 
 ## Course Information
@@ -13,8 +20,8 @@ Steven Shao-Ting Chiu  (r07945001@ntu.edu.tw)
 - Course ID: CSIE 1212
 - Room: CSIE R103 (main) + CSIE R102, R104
 - Time: Tuesday, 13:20 ~ 16:10
-- Lecturer: Hsuan-Tien Lin (first-half semester) & Hsin-Mu (Michael) Tsai (second-half semester)
-- Contact: dsa_ta@csie.ntu.edu.tw
+- Lecturer: Hsuan-Tien Lin & Hsin-Mu (Michael) Tsai 
+- Contact: `dsa_ta@csie.ntu.edu.tw`
 
 
 ## Course Syllabus
@@ -40,34 +47,40 @@ Steven Shao-Ting Chiu  (r07945001@ntu.edu.tw)
 |17|06/15 (Tue.)|Final Exam|Hsinmu|Homework 3 due|
 |18|06/22 (Tue.)|Project Week|||
 
-
+`(Duplicate from course website)`
 
 
 ## TA Hours
 
-|TA|TA Hour / Location|Notes|
-|--- |--- |--- |
-|曾揚哲|Mon. 08:00 ~ 09:00 @ *德田館 B1||
-|蕭啟湘|Mon. 09:00 ~ 10:00 @ 德田館 B1||
-|吳由由|Mon. 14:00 ~ 15:00 @ 德田館 B1||
-|鄭豫澤|Mon. 14:20 ~ 15:10 @ R217||
-|徐敬能|Mon. 16:30 ~ 17:30 @ 德田館 B1|**English TA Hour|
-|熊育霆|Mon. 16:30 ~ 17:30 @ 德田館 B1||
-|陳明信|Mon. 16:30 ~ 17:30 @ 德田館 B1||
-|余友竹|Tue. 10:30 ~ 11:30 @ Lab 536||
-|黃品硯|Tue. 10:30 ~ 11:30 @ Lab 536||
-|塗季芸|Tue. 14:15 ~ 15:15 @ 德田館 B1||
-|林瑋毅|Wed. 09:00 ~ 10:00 @ Lab 536|**English TA Hour|
-|彭光湞|Wed. 10:30 ~ 11:30 @ 德田館 B1||
-|林庭風|Wed. 13:00 ~ 14:00 @ 德田館 B1||
-|林采鋒|Wed. 14:20 ~ 15:20 @ 德田館 B1||
-|王風意|Wed. 19:00 ~ 20:00 @ 德田館 B1||
-|謝文傑|Wed. 19:00 ~ 20:00 @ 德田館 B1||
-|陳富中|Wed. 19:00 ~ 20:00 @ 德田館 B1||
-|陳昱妤|Thu. 09:00 ~ 10:00 @ 德田館 B1||
-|陳玉恆|Thu. 10:30 ~ 11:30 @ 德田館 B1||
-|裴梧鈞|Thu. 11:00 ~ 12:00 @ 德田館 B1||
-|曾子顏|Thu. 14:30 ~ 15:30 @ 德田館 B1||
-|劉俊緯|Fri. 13:00 ~ 14:00 @ 德田館 B1||
-|謝議霆|Fri. 13:00 ~ 14:00 @ 德田館 B1||
-|陳威翰|Fri. 13:00 ~ 14:00 @ 德田館 B1||
+<details>
+
+|TA Hour / Location|Notes|
+|--- |--- |
+|Mon. 08:00 ~ 09:00 @ *德田館 B1||
+|Mon. 09:00 ~ 10:00 @ 德田館 B1||
+|Mon. 14:00 ~ 15:00 @ 德田館 B1||
+|Mon. 14:20 ~ 15:10 @ R217||
+|Mon. 16:30 ~ 17:30 @ 德田館 B1|**English TA Hour|
+|Mon. 16:30 ~ 17:30 @ 德田館 B1||
+|Mon. 16:30 ~ 17:30 @ 德田館 B1||
+|Tue. 10:30 ~ 11:30 @ Lab 536||
+|Tue. 10:30 ~ 11:30 @ Lab 536||
+|Tue. 14:15 ~ 15:15 @ 德田館 B1||
+|Wed. 09:00 ~ 10:00 @ Lab 536|**English TA Hour|
+|Wed. 10:30 ~ 11:30 @ 德田館 B1||
+|Wed. 13:00 ~ 14:00 @ 德田館 B1||
+|Wed. 14:20 ~ 15:20 @ 德田館 B1||
+|Wed. 19:00 ~ 20:00 @ 德田館 B1||
+|Wed. 19:00 ~ 20:00 @ 德田館 B1||
+|Wed. 19:00 ~ 20:00 @ 德田館 B1||
+|Thu. 09:00 ~ 10:00 @ 德田館 B1||
+|Thu. 10:30 ~ 11:30 @ 德田館 B1||
+|Thu. 11:00 ~ 12:00 @ 德田館 B1||
+|Thu. 14:30 ~ 15:30 @ 德田館 B1||
+|Fri. 13:00 ~ 14:00 @ 德田館 B1||
+|Fri. 13:00 ~ 14:00 @ 德田館 B1||
+|Fri. 13:00 ~ 14:00 @ 德田館 B1||
+
+`(Duplicate from course website)`
+
+</details>

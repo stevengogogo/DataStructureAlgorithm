@@ -17,10 +17,14 @@ Update all submodule
 
 ```bash
 # Clone to the current folder: 
-git submodule add <repository> 
+git submodule add -b <branch-name> <repository> <local-folder-name-to-be-breated>
 git submodule init
 
 ```
+
+
+## Update gitsubmodule from remote
+git submodule update --recursive --remote
 
 #### Fetch
 ```bash
@@ -35,3 +39,5 @@ git pull --recurse-submodules
 ## Plotting with diagrams
 
 [Diagram](https://app.diagrams.net/) features uploading to Github repository, making the drawing up-to-date easily!
+
+
