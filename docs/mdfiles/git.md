@@ -36,6 +36,28 @@ git submodule update --recursive
 git pull --recurse-submodules
 ```
 
+
+## Tag
+
+
+### Tag a version
+
+```bash
+git tag -a [tag-name] -m "commit"
+```
+
+### Push a tag
+
+```bash
+git push origin [tag-name]
+```
+
+### List all tags
+
+```bash
+git tag
+```
+
 ## Plotting with diagrams
 
 [Diagram](https://app.diagrams.net/) features uploading to Github repository, making the drawing up-to-date easily!
