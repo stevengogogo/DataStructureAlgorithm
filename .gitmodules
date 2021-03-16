@@ -4,3 +4,19 @@
 [submodule "HW0/NonogramSolver"]
 	path = HW0/NonogramSolver
 	url = https://github.com/stevengogogo/NonogramSolver
+[submodule "HW1/P6_KLeastElement"]
+	path = HW1/P6_KLeastElement
+	url = https://github.com/stevengogogo/DSA-KLeastElement.git
+	branch = main
+[submodule "HW1/P5_WastonAbili"]
+	path = HW1/P5_WastonAbili
+	url = https://github.com/stevengogogo/DSA-WastonAbili.git
+	branch = main
+[submodule "HW1/P4_EvilEval"]
+	path = HW1/P4_EvilEval
+	url = https://github.com/stevengogogo/DSA-EvilEval.git
+	branch = main
+[submodule "HW1/P123_NonProgramming"]
+	path = HW1/P123_NonProgramming
+	url = https://github.com/stevengogogo/DSA-HW1-Nonprogramming.git
+	branch = main
