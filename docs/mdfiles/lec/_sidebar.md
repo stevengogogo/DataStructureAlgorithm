@@ -2,3 +2,4 @@
 - [Introduction](00_Introduction.md)
 - [Arrays and Linked Lists](01_linked_list.md)
 - [Performance Evaluation](03_performance.md)
+- [Stacks and Queues](04_stacks_queues.md)
