@@ -1,5 +1,6 @@
 # Git Tips
 
+
 ## How to use `gitsubmodule`
 
 
@@ -24,7 +25,14 @@ git submodule init
 
 
 ## Update gitsubmodule from remote
+
+```git
 git submodule update --recursive --remote
+```
+
+```git
+git pull --recurse-submodules
+```
 
 #### Fetch
 ```bash
@@ -63,3 +71,6 @@ git tag
 [Diagram](https://app.diagrams.net/) features uploading to Github repository, making the drawing up-to-date easily!
 
 
+## Reference
+
+Tutorial of updateing submodules: https://stackoverflow.com/questions/1030169/easy-way-to-pull-latest-of-all-git-submodules
