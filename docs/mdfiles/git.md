@@ -27,6 +27,12 @@ git submodule init
 ## Update gitsubmodule from remote
 
 ```git
+git submodule foreach git pull origin main
+```
+
+Warning: please make sure to push all the branch, then update the main repo
+
+```git
 git submodule update --recursive --remote
 ```
 
