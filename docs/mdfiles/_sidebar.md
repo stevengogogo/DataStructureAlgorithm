@@ -5,3 +5,5 @@
 - [💡 **Algorithm**](Algorithm.md)
 - [🔨 **Git Tips**](git.md)
 - [**Markdown**](how-to-use-docify.md)
+- [💯**Coding Challenge**](coding-challenge.md)
+- [**Exam**](exam.md)
