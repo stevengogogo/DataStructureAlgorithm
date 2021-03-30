@@ -25,4 +25,3 @@ Deadline: **2021/04/11, 13:00**
 ---
 ## Non-programming Submission
 - https://www.gradescope.com 
-- Gradescope code: GEVNV7
