@@ -3,3 +3,4 @@
 - [Arrays and Linked Lists](01_linked_list.md)
 - [Performance Evaluation](03_performance.md)
 - [Stacks and Queues](04_stacks_queues.md)
+- [Tree (Traverse + BST)](05_tree.md)
