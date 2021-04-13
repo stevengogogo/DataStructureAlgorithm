@@ -1,6 +1,6 @@
 - [🏠 **Home**](README.md)
 - [🤹 **Lecture Note**](lec/)
-- [📒 **Assignments**](assignment.md)
+- [📒 **Assignments**](hw/)
 - [🤖️ **C Programming**](C.md)
 - [💡 **Algorithm**](Algorithm.md)
 - [🔨 **Git Tips**](git.md)
