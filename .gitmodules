@@ -32,3 +32,6 @@
 [submodule "HW2/P6_PackageArrangement"]
 	path = HW2/P6_PackageArrangement
 	url = https://github.com/stevengogogo/DSA_PackageArrangement
+[submodule "HW2/P123_Nonprogramming"]
+	path = HW2/P123_Nonprogramming
+	url = https://github.com/stevengogogo/DSA-HW2-Nonprogramming
