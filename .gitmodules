@@ -23,3 +23,12 @@
 [submodule "OnlineJudge"]
 	path = OnlineJudge
 	url = git@dsa-2021.csie.org:r07945001.git
+[submodule "HW2/P4_FakeBinarySearchTree"]
+	path = HW2/P4_FakeBinarySearchTree
+	url = https://github.com/stevengogogo/DSA_FakeBinarySearchTree
+[submodule "HW2/P5_IntersectingTriangles"]
+	path = HW2/P5_IntersectingTriangles
+	url = https://github.com/stevengogogo/DSA_IntersectingTriangles
+[submodule "HW2/P6_PackageArrangement"]
+	path = HW2/P6_PackageArrangement
+	url = https://github.com/stevengogogo/DSA_PackageArrangement
