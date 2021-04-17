@@ -23,8 +23,10 @@ https://github.com/stevengogogo/DSA-EvilEval
 https://github.com/stevengogogo/DSA-WastonAbili
 
 ### Non-programming problems
+
+[![hackmd-github-sync-badge](https://hackmd.io/p1bIKDGDSfKEOnCntsm6MA/badge)](https://hackmd.io/p1bIKDGDSfKEOnCntsm6MA)
+
 https://github.com/stevengogogo/DSA-HW1-Nonprogramming
-- HacdMD: https://hackmd.io/@stevenchiu/HkN2CRfUu
 
 ## **Homework 2**
 
@@ -39,6 +41,9 @@ https://github.com/stevengogogo/DSA_IntersectingTriangles/
 https://github.com/stevengogogo/DSA_PackageArrangement/
 
 ### Non-programming problems
+
+[![hackmd-github-sync-badge](https://hackmd.io/p1bIKDGDSfKEOnCntsm6MA/badge)](https://hackmd.io/p1bIKDGDSfKEOnCntsm6MA)
+
 https://github.com/stevengogogo/DSA-HW2-Nonprogramming
 
 ---
