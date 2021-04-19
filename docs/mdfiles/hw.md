@@ -42,7 +42,8 @@ https://github.com/stevengogogo/DSA_PackageArrangement/
 
 ### Non-programming problems
 
-[![hackmd-github-sync-badge](https://hackmd.io/lQc0xN-7RsOa9Ux7Z9VVjQ)
+
+[![hackmd-github-sync-badge](https://hackmd.io/p1bIKDGDSfKEOnCntsm6MA/badge)](https://hackmd.io/@stevenchiu/ByB5JxdIu)
 
 https://github.com/stevengogogo/DSA-HW2-Nonprogramming
 
