@@ -24,7 +24,7 @@ https://github.com/stevengogogo/DSA-WastonAbili
 
 ### Non-programming problems
 
-[![hackmd-github-sync-badge](https://hackmd.io/p1bIKDGDSfKEOnCntsm6MA/badge)](https://hackmd.io/p1bIKDGDSfKEOnCntsm6MA)
+[![hackmd-github-sync-badge](https://hackmd.io/p1bIKDGDSfKEOnCntsm6MA/badge)](https://hackmd.io/@stevenchiu/rkVYzeOUu)
 
 https://github.com/stevengogogo/DSA-HW1-Nonprogramming
 
