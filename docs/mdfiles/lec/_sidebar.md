@@ -6,3 +6,4 @@
 - [Tree (Traverse + BST)](05_tree.md)
 - [Sorting](06_sorting.md)
 - [String Matching](07_string.md)
+- [Linear Sort](08_linear_sort.md)
