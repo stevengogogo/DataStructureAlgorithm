@@ -35,3 +35,6 @@
 [submodule "HW2/P123_Nonprogramming"]
 	path = HW2/P123_Nonprogramming
 	url = https://github.com/stevengogogo/DSA-HW2-Nonprogramming
+[submodule "FinalProject/code"]
+	path = FinalProject/code
+	url = https://github.com/stevengogogo/DSA_EmailSearcher
