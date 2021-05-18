@@ -8,3 +8,4 @@
 - [String Matching](07_string.md)
 - [Linear Sort](08_linear_sort.md)
 - [Disjoint Set](09_disjoint_set.md)
+- [Hashing](10_hashing.md)
