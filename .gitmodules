@@ -38,3 +38,15 @@
 [submodule "FinalProject/code"]
 	path = FinalProject/code
 	url = https://github.com/stevengogogo/DSA_EmailSearcher
+[submodule "HW3/P6_RecoverGraph"]
+	path = HW3/P6_RecoverGraph
+	url = https://github.com/stevengogogo/DSA_GraphReconstruction
+[submodule "HW3/P5_AliceBookshelf"]
+	path = HW3/P5_AliceBookshelf
+	url = https://github.com/stevengogogo/DSA_PriorityTree
+[submodule "HW3/P4_TooManyEmails"]
+	path = HW3/P4_TooManyEmails
+	url = https://github.com/stevengogogo/DSA_GarbledTextFilter
+[submodule "HW3/P123_NonProgramming"]
+	path = HW3/P123_NonProgramming
+	url = https://github.com/stevengogogo/DSA-HW3-Nonprogramming
