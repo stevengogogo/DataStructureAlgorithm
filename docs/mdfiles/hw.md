@@ -47,15 +47,22 @@ https://github.com/stevengogogo/DSA_PackageArrangement/
 
 https://github.com/stevengogogo/DSA-HW2-Nonprogramming
 
----
 
-## DSA Judge
+## **Homework 3**
 
-https://dsa-2021.csie.org/
+### Garbled Text Editor
+https://github.com/stevengogogo/DSA_GarbledTextFilter
+
+### Priority Tree
+https://github.com/stevengogogo/DSA_PriorityTree
+
+### Graph Reconstruction
+https://github.com/stevengogogo/DSA_GraphReconstruction
+
+### Non-programming problems
+[![hackmd-github-sync-badge](https://hackmd.io/p1bIKDGDSfKEOnCntsm6MA/badge)](https://hackmd.io/JZUhv-byTRqV46cumxZ9Xw)
+
+https://github.com/stevengogogo/DSA-HW3-Nonprogramming
 
 
-## TA Hours
 
-- In person: See schedule in [home page 🏠](https://stevengogogo.github.io/DataStructureAlgorithm/#/?id=dsa-judge).
-- Letter: 
-    Title Format: `[HW0][P1] What does GCD mean?`
