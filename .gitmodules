@@ -50,3 +50,6 @@
 [submodule "HW3/P123_NonProgramming"]
 	path = HW3/P123_NonProgramming
 	url = https://github.com/stevengogogo/DSA-HW3-Nonprogramming
+[submodule "FinalProject/report"]
+	path = FinalProject/report
+	url = https://github.com/stevengogogo/DSA_EmailSearcher_Report
