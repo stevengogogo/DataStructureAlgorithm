@@ -63,6 +63,8 @@ https://github.com/stevengogogo/DSA_GraphReconstruction
 
 
 
-### Final Project: Email Searcher
+## **Final Project**
+
+### Email Searcher
 
 https://github.com/stevengogogo/DSA_EmailSearcher/tree/main
