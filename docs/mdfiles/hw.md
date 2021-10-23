@@ -1,4 +1,4 @@
-# Assignment
+# Assignments
 
 
 
@@ -26,7 +26,6 @@ https://github.com/stevengogogo/DSA-WastonAbili
 
 [![hackmd-github-sync-badge](https://hackmd.io/p1bIKDGDSfKEOnCntsm6MA/badge)](https://hackmd.io/@stevenchiu/rkVYzeOUu)
 
-https://github.com/stevengogogo/DSA-HW1-Nonprogramming
 
 ## **Homework 2**
 
@@ -45,7 +44,6 @@ https://github.com/stevengogogo/DSA_PackageArrangement/
 
 [![hackmd-github-sync-badge](https://hackmd.io/p1bIKDGDSfKEOnCntsm6MA/badge)](https://hackmd.io/@stevenchiu/ByB5JxdIu)
 
-https://github.com/stevengogogo/DSA-HW2-Nonprogramming
 
 
 ## **Homework 3**
@@ -60,9 +58,11 @@ https://github.com/stevengogogo/DSA_PriorityTree
 https://github.com/stevengogogo/DSA_GraphReconstruction
 
 ### Non-programming problems
+
 [![hackmd-github-sync-badge](https://hackmd.io/p1bIKDGDSfKEOnCntsm6MA/badge)](https://hackmd.io/JZUhv-byTRqV46cumxZ9Xw)
 
-https://github.com/stevengogogo/DSA-HW3-Nonprogramming
 
 
+### Final Project: Email Searcher
 
+https://github.com/stevengogogo/DSA_EmailSearcher/tree/main
