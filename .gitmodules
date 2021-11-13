@@ -20,9 +20,6 @@
 	path = HW1/P123_NonProgramming
 	url = https://github.com/stevengogogo/DSA-HW1-Nonprogramming.git
 	branch = main
-[submodule "OnlineJudge"]
-	path = OnlineJudge
-	url = git@dsa-2021.csie.org:r07945001.git
 [submodule "HW2/P4_FakeBinarySearchTree"]
 	path = HW2/P4_FakeBinarySearchTree
 	url = https://github.com/stevengogogo/DSA_FakeBinarySearchTree
