@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "utils.h": "c"
+        "utils.h": "c",
+        "stdio.h": "c",
+        "test_textcompress.h": "c"
     }
 }

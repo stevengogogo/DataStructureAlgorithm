@@ -10,6 +10,14 @@
  */
 #ifndef UTILS_H
 #define UTILS_H
+#define EMTY_QUE_SIG -121242
+#define N_ASCII_ELEMENT 128
+#define MAX_STR_LEN 150000
+
+#include <stdlib.h>
+#include <assert.h>
+
+int str2ascii(char);
 
 /**
  * @brief Argmax function with intergers
@@ -19,5 +27,42 @@
  * @return int 0 when a is larger than b. Otherwise, 0.
  */
 int argmax(int a, int b);
+
+
+
+//dynamic array
+typedef struct{
+    int len;
+    int size;
+    int* i;
+} dymArr;
+
+//init and kill
+dymArr init_Arr(int size);
+void kill_dymArr(dymArr*);
+
+//clear
+void clear_Arr(dymArr*);
+
+//append
+void append_dymArr(dymArr*, int val);
+int get_item(dymArr, int i);
+int pop_item(dymArr*);
+
+
+typedef struct{
+    dymArr arr;
+    int head;
+    int tail;
+} que;
+
+que init_que(int size);
+void kill_que(que*);
+
+void enque(que*, int val);
+int deque(que*);
+int deque_rear(que*);
+int peek_que(que*);
+int peek_que_rear(que* q);
 
 #endif
