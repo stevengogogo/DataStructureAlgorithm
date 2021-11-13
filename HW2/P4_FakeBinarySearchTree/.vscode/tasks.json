@@ -8,8 +8,8 @@
             "args": [
                 "-g",
                 "-o",
-                "${fileDirname}/../build/${fileBasenameNoExtension}",
-                "${fileDirname}/*.c",
+                "${workspaceFolder}/build/${fileBasenameNoExtension}",
+                "${workspaceFolder}/src/*.c",
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
