@@ -1,0 +1,3326 @@
+2 3324
+-6890 -1404
+Query 1 1 1
+Query 2 2 1
+Query 1 1 1
+Reverse 2 2
+Query 2 2 1
+Delete 2
+Delete 1
+Insert 1 7966
+Query 1 1 1
+Reverse 1 1
+Delete 1
+Insert 1 -2401
+Insert 1 -9110
+Delete 2
+Query 1 1 1
+Query 1 1 1
+Query 1 1 1
+Reverse 1 1
+Delete 1
+Insert 1 -8090
+Reverse 1 1
+Insert 1 563
+Delete 2
+Query 1 1 1
+Insert 2 1574
+Query 1 1 1
+Reverse 1 2
+Query 1 2 1
+Delete 2
+Delete 1
+Insert 1 6380
+Query 1 1 1
+Query 1 1 1
+Insert 2 5491
+Delete 2
+Insert 1 -8504
+Delete 2
+Query 1 1 1
+Delete 1
+Insert 1 4247
+Insert 2 -8094
+Delete 2
+Reverse 1 1
+Reverse 1 1
+Query 1 1 1
+Reverse 1 1
+Reverse 1 1
+Query 1 1 1
+Reverse 1 1
+Reverse 1 1
+Reverse 1 1
+Query 1 1 1
+Delete 1
+Insert 1 8114
+Insert 2 -9000
+Query 2 2 1
+Delete 2
+Reverse 1 1
+Query 1 1 1
+Insert 1 3037
+Insert 2 -3567
+Query 3 3 1
+Reverse 2 3
+Delete 1
+Query 1 1 1
+Delete 1
+Insert 2 -7113
+Query 1 1 1
+Reverse 2 2
+Reverse 1 2
+Delete 2
+Reverse 1 1
+Insert 1 8767
+Reverse 2 2
+Query 1 1 1
+Reverse 1 2
+Reverse 2 2
+Reverse 2 2
+Reverse 2 2
+Delete 2
+Query 1 1 1
+Delete 1
+Insert 1 6531
+Insert 1 -9602
+Insert 3 -5346
+Query 1 1 1
+Reverse 1 1
+Query 2 3 2
+Query 3 3 1
+Delete 1
+Query 1 1 1
+Insert 2 -8438
+Delete 1
+Insert 2 6778
+Delete 1
+Reverse 1 2
+Reverse 1 1
+Delete 2
+Insert 1 5263
+Delete 1
+Reverse 1 1
+Query 1 1 1
+Reverse 1 1
+Delete 1
+Insert 1 -5187
+Insert 1 -4335
+Delete 1
+Query 1 1 1
+Query 1 1 1
+Insert 2 -9944
+Reverse 1 2
+Delete 2
+Delete 1
+Insert 1 8104
+Insert 2 4288
+Insert 1 -4654
+Insert 4 1995
+Query 4 4 1
+Query 2 4 3
+Query 4 4 1
+Insert 1 -1001
+Query 2 3 1
+Insert 4 -2187
+Delete 5
+Query 1 4 1
+Insert 5 8595
+Query 1 2 1
+Insert 5 -7387
+Delete 6
+Delete 1
+Delete 3
+Delete 2
+Reverse 2 3
+Insert 4 -1251
+Delete 3
+Query 3 3 1
+Reverse 1 3
+Insert 4 -1142
+Reverse 3 4
+Delete 4
+Reverse 2 2
+Query 2 2 1
+Delete 2
+Delete 2
+Delete 1
+Insert 1 -1064
+Insert 2 -7356
+Insert 3 7492
+Insert 1 -9188
+Insert 3 -8622
+Reverse 5 5
+Insert 5 409
+Delete 4
+Insert 5 -4700
+Insert 7 4459
+Insert 5 7816
+Reverse 7 8
+Reverse 5 5
+Query 7 7 1
+Insert 4 -5403
+Delete 7
+Query 7 8 1
+Reverse 8 8
+Query 1 8 5
+Delete 3
+Insert 4 -8596
+Delete 3
+Delete 4
+Query 1 3 1
+Reverse 4 4
+Query 5 5 1
+Reverse 6 6
+Delete 2
+Query 3 3 1
+Insert 3 5639
+Delete 1
+Insert 3 -5215
+Delete 6
+Query 5 5 1
+Insert 5 -4366
+Insert 5 4002
+Delete 2
+Query 6 6 1
+Reverse 6 6
+Query 1 2 1
+Reverse 5 5
+Insert 1 -3803
+Delete 2
+Insert 6 -8141
+Query 7 7 1
+Query 6 6 1
+Query 7 7 1
+Insert 3 -5587
+Delete 5
+Query 7 7 1
+Insert 7 5390
+Delete 7
+Insert 8 -1359
+Query 6 7 1
+Reverse 8 8
+Insert 7 1675
+Delete 7
+Query 2 7 3
+Delete 1
+Insert 5 5264
+Insert 8 -8283
+Insert 3 -8356
+Query 3 3 1
+Reverse 7 9
+Insert 2 7208
+Insert 5 -6321
+Reverse 7 7
+Query 11 11 1
+Delete 8
+Reverse 10 10
+Insert 1 -8504
+Delete 12
+Delete 1
+Insert 5 -2363
+Insert 8 -509
+Delete 6
+Query 9 10 1
+Delete 8
+Insert 7 -2353
+Insert 1 -4439
+Delete 7
+Insert 5 4671
+Delete 12
+Query 9 11 3
+Reverse 4 4
+Query 8 8 1
+Delete 6
+Query 1 10 8
+Query 3 5 1
+Reverse 2 3
+Delete 6
+Reverse 7 8
+Delete 5
+Query 8 8 1
+Reverse 1 8
+Reverse 1 1
+Query 4 8 1
+Delete 3
+Query 5 6 1
+Delete 3
+Reverse 1 5
+Query 6 6 1
+Query 4 5 2
+Insert 7 -6157
+Reverse 2 4
+Delete 6
+Reverse 4 5
+Insert 4 -8664
+Query 5 5 1
+Reverse 6 7
+Query 6 7 2
+Delete 2
+Delete 5
+Delete 1
+Query 1 2 2
+Delete 2
+Query 2 3 2
+Query 1 2 2
+Delete 1
+Insert 2 -2432
+Delete 3
+Query 1 2 1
+Insert 2 -736
+Query 2 3 2
+Delete 3
+Delete 1
+Reverse 1 1
+Delete 1
+Insert 1 -7955
+Reverse 1 1
+Delete 1
+Insert 1 4648
+Query 1 1 1
+Insert 1 6849
+Insert 1 109
+Insert 2 -9183
+Reverse 3 4
+Delete 2
+Insert 4 8868
+Insert 5 -344
+Insert 5 5322
+Reverse 6 6
+Insert 3 2841
+Query 6 7 2
+Insert 3 3422
+Delete 7
+Insert 4 8240
+Delete 8
+Query 4 5 1
+Reverse 3 6
+Reverse 3 7
+Reverse 3 7
+Insert 8 -9204
+Reverse 1 1
+Query 6 8 1
+Delete 8
+Delete 7
+Reverse 2 2
+Query 6 6 1
+Query 4 6 3
+Reverse 3 3
+Query 5 6 2
+Delete 4
+Insert 1 3125
+Insert 5 -9779
+Reverse 3 7
+Reverse 6 6
+Query 6 6 1
+Insert 1 -4470
+Delete 5
+Query 3 7 2
+Reverse 7 7
+Insert 6 9533
+Delete 5
+Query 4 5 2
+Delete 2
+Delete 3
+Query 4 5 2
+Insert 5 -8511
+Query 1 6 2
+Delete 5
+Delete 1
+Query 3 3 1
+Delete 4
+Query 2 3 2
+Query 1 2 1
+Query 1 3 1
+Insert 3 3873
+Delete 4
+Delete 1
+Query 1 2 1
+Delete 2
+Query 1 1 1
+Query 1 1 1
+Insert 2 9953
+Delete 1
+Delete 1
+Insert 1 2581
+Reverse 1 1
+Insert 2 6217
+Insert 1 6305
+Delete 1
+Insert 2 214
+Delete 3
+Delete 2
+Delete 1
+Insert 1 -5353
+Delete 1
+Insert 1 -3633
+Query 1 1 1
+Insert 2 -9183
+Reverse 2 2
+Delete 2
+Query 1 1 1
+Query 1 1 1
+Query 1 1 1
+Insert 2 5861
+Insert 3 -5569
+Delete 1
+Query 1 2 2
+Reverse 2 2
+Reverse 2 2
+Delete 1
+Delete 1
+Insert 1 -3008
+Query 1 1 1
+Insert 2 -4195
+Insert 3 685
+Insert 3 5050
+Delete 4
+Reverse 2 2
+Delete 2
+Delete 2
+Reverse 1 1
+Query 1 1 1
+Reverse 1 1
+Insert 1 -9232
+Delete 1
+Delete 1
+Insert 1 9787
+Reverse 1 1
+Reverse 1 1
+Delete 1
+Insert 1 -9484
+Delete 1
+Insert 1 4628
+Query 1 1 1
+Insert 2 -4215
+Reverse 2 2
+Query 1 1 1
+Delete 2
+Insert 1 2954
+Reverse 2 2
+Insert 2 -2170
+Delete 2
+Insert 3 -4876
+Insert 3 -8165
+Reverse 3 3
+Query 2 3 2
+Reverse 2 2
+Delete 1
+Insert 2 5131
+Query 4 4 1
+Query 1 1 1
+Reverse 3 4
+Reverse 3 4
+Query 4 4 1
+Delete 4
+Delete 1
+Delete 1
+Query 1 1 1
+Insert 1 -2337
+Query 2 2 1
+Query 1 1 1
+Query 1 1 1
+Reverse 1 1
+Insert 2 -4250
+Delete 2
+Query 1 2 1
+Delete 1
+Delete 1
+Insert 1 1008
+Insert 2 -4765
+Delete 1
+Delete 1
+Insert 1 4332
+Delete 1
+Insert 1 2861
+Insert 2 -874
+Insert 3 -8940
+Delete 2
+Insert 3 -232
+Delete 3
+Reverse 2 2
+Query 1 1 1
+Delete 2
+Delete 1
+Insert 1 -5532
+Delete 1
+Insert 1 520
+Delete 1
+Insert 1 -4941
+Reverse 1 1
+Reverse 1 1
+Query 1 1 1
+Insert 2 8760
+Query 1 2 2
+Reverse 2 2
+Delete 1
+Query 1 1 1
+Delete 1
+Insert 1 -3947
+Delete 1
+Insert 1 -7919
+Reverse 1 1
+Reverse 1 1
+Query 1 1 1
+Query 1 1 1
+Insert 2 -1946
+Query 1 1 1
+Insert 2 768
+Reverse 3 3
+Reverse 3 3
+Query 1 3 1
+Query 2 2 1
+Delete 3
+Reverse 1 2
+Delete 2
+Delete 1
+Insert 1 187
+Insert 1 6088
+Delete 2
+Reverse 1 1
+Insert 1 1524
+Delete 1
+Reverse 1 1
+Query 1 1 1
+Reverse 1 1
+Reverse 1 1
+Query 1 1 1
+Reverse 1 1
+Delete 1
+Insert 1 -4660
+Reverse 1 1
+Delete 1
+Insert 1 -7301
+Reverse 1 1
+Query 1 1 1
+Insert 2 -6098
+Reverse 2 2
+Reverse 1 2
+Query 1 2 2
+Insert 3 362
+Delete 2
+Reverse 1 2
+Reverse 1 1
+Delete 2
+Delete 1
+Insert 1 9869
+Reverse 1 1
+Reverse 1 1
+Reverse 1 1
+Insert 1 -5228
+Delete 1
+Reverse 1 1
+Insert 1 1168
+Reverse 1 1
+Reverse 1 2
+Insert 3 -7980
+Query 3 3 1
+Delete 1
+Insert 1 -4343
+Delete 2
+Delete 1
+Reverse 1 1
+Delete 1
+Insert 1 4195
+Insert 1 281
+Query 2 2 1
+Delete 1
+Delete 1
+Insert 1 -9320
+Query 1 1 1
+Delete 1
+Insert 1 -492
+Query 1 1 1
+Insert 2 -8450
+Query 1 1 1
+Query 1 1 1
+Reverse 2 2
+Insert 3 6234
+Reverse 1 1
+Insert 1 7269
+Reverse 2 3
+Insert 3 263
+Insert 5 -5134
+Query 3 4 1
+Delete 6
+Insert 2 5795
+Insert 6 -902
+Insert 1 -9277
+Delete 6
+Insert 2 9541
+Reverse 5 5
+Delete 4
+Delete 7
+Reverse 4 4
+Insert 5 -1574
+Reverse 6 6
+Reverse 5 5
+Reverse 7 7
+Insert 4 407
+Insert 9 3863
+Query 1 3 1
+Query 9 9 1
+Query 9 9 1
+Reverse 5 9
+Reverse 3 4
+Reverse 1 3
+Query 8 9 1
+Insert 9 8657
+Query 10 10 1
+Insert 4 -388
+Delete 3
+Reverse 2 8
+Reverse 10 10
+Query 7 10 3
+Reverse 1 5
+Insert 5 5786
+Insert 9 -4271
+Insert 13 3302
+Insert 12 7048
+Delete 8
+Query 1 2 2
+Reverse 12 13
+Delete 7
+Query 3 12 9
+Reverse 1 1
+Delete 9
+Insert 10 -203
+Query 4 10 4
+Insert 4 7957
+Insert 14 -7670
+Reverse 13 13
+Delete 10
+Delete 1
+Query 4 9 3
+Reverse 12 12
+Query 9 12 4
+Query 12 12 1
+Delete 2
+Query 10 10 1
+Reverse 1 4
+Query 10 11 1
+Insert 12 6055
+Query 12 12 1
+Reverse 1 4
+Reverse 7 7
+Insert 3 726
+Reverse 1 8
+Delete 8
+Reverse 11 12
+Query 7 9 2
+Insert 10 3048
+Reverse 8 8
+Insert 1 -9449
+Delete 5
+Reverse 7 12
+Insert 2 893
+Delete 11
+Reverse 4 13
+Delete 1
+Insert 1 -8072
+Query 13 13 1
+Query 8 9 1
+Reverse 3 6
+Delete 11
+Insert 7 -5687
+Insert 6 4969
+Reverse 9 9
+Delete 13
+Reverse 3 4
+Reverse 5 12
+Delete 12
+Insert 4 2173
+Insert 3 -6244
+Delete 1
+Delete 11
+Insert 5 566
+Delete 4
+Query 6 10 2
+Query 5 7 2
+Insert 2 -2398
+Reverse 5 5
+Query 9 11 1
+Reverse 6 11
+Delete 1
+Reverse 11 12
+Reverse 8 12
+Query 11 11 1
+Delete 12
+Reverse 3 10
+Insert 11 -6097
+Query 1 7 2
+Query 7 10 1
+Insert 1 883
+Delete 3
+Reverse 1 9
+Reverse 9 10
+Query 5 10 1
+Insert 7 846
+Reverse 6 11
+Insert 1 -8142
+Insert 6 2668
+Reverse 6 6
+Reverse 14 14
+Insert 15 3725
+Query 1 5 3
+Reverse 8 16
+Delete 3
+Reverse 9 10
+Delete 1
+Reverse 10 14
+Query 7 14 7
+Reverse 11 14
+Insert 2 -6731
+Query 14 14 1
+Reverse 7 10
+Delete 12
+Reverse 14 14
+Delete 6
+Insert 5 7334
+Delete 3
+Reverse 11 11
+Delete 4
+Reverse 3 9
+Query 5 5 1
+Query 12 12 1
+Reverse 8 10
+Insert 4 -8569
+Reverse 2 8
+Insert 1 -6272
+Query 4 9 5
+Query 5 6 1
+Reverse 1 2
+Reverse 7 11
+Query 10 10 1
+Query 4 6 3
+Query 8 14 2
+Reverse 12 14
+Query 10 12 2
+Reverse 10 12
+Insert 10 3685
+Insert 14 -680
+Reverse 14 15
+Insert 2 1645
+Insert 14 6539
+Insert 3 9631
+Query 8 10 3
+Delete 16
+Query 18 18 1
+Insert 16 -7063
+Query 8 16 7
+Delete 17
+Delete 14
+Query 5 13 6
+Delete 6
+Query 13 13 1
+Reverse 5 5
+Reverse 15 15
+Delete 10
+Query 9 13 4
+Reverse 8 10
+Delete 6
+Query 6 8 1
+Insert 7 -7426
+Query 9 11 3
+Reverse 10 12
+Insert 7 9048
+Delete 4
+Reverse 12 13
+Reverse 1 4
+Query 5 11 5
+Reverse 8 15
+Insert 12 3180
+Delete 11
+Delete 2
+Insert 5 -6716
+Reverse 11 13
+Reverse 1 14
+Reverse 14 14
+Query 13 15 2
+Query 4 11 4
+Delete 5
+Reverse 13 14
+Delete 5
+Query 7 9 1
+Reverse 12 12
+Query 5 5 1
+Reverse 10 11
+Query 4 13 6
+Query 2 12 10
+Query 4 10 3
+Reverse 5 6
+Query 12 13 2
+Query 10 12 1
+Delete 1
+Delete 11
+Query 11 11 1
+Reverse 6 9
+Reverse 5 5
+Reverse 7 10
+Reverse 8 8
+Delete 10
+Insert 1 -9217
+Insert 9 8408
+Delete 2
+Reverse 9 9
+Query 3 5 3
+Insert 5 -1635
+Query 4 9 2
+Query 11 11 1
+Reverse 7 12
+Reverse 4 11
+Reverse 4 12
+Query 6 12 7
+Insert 10 6524
+Query 8 13 2
+Delete 1
+Insert 9 4598
+Reverse 6 9
+Reverse 4 7
+Query 4 10 3
+Reverse 11 11
+Reverse 2 8
+Delete 13
+Query 2 9 4
+Delete 9
+Delete 10
+Insert 6 634
+Delete 11
+Insert 8 481
+Insert 8 7046
+Query 12 12 1
+Insert 9 -4038
+Reverse 11 11
+Reverse 1 9
+Delete 8
+Query 4 10 5
+Query 9 10 1
+Insert 12 -2516
+Reverse 7 7
+Delete 12
+Delete 1
+Delete 2
+Query 4 7 1
+Query 6 8 1
+Reverse 1 2
+Reverse 7 8
+Reverse 7 9
+Delete 10
+Reverse 5 6
+Insert 10 5247
+Query 10 10 1
+Query 1 8 1
+Query 2 3 1
+Query 4 5 1
+Insert 2 -4689
+Delete 2
+Reverse 4 5
+Delete 4
+Query 4 9 6
+Delete 8
+Query 4 7 2
+Query 6 7 1
+Reverse 1 3
+Reverse 2 2
+Query 4 4 1
+Reverse 2 4
+Insert 5 8397
+Reverse 9 9
+Query 8 8 1
+Delete 8
+Query 8 8 1
+Reverse 3 6
+Query 2 5 4
+Query 4 8 1
+Query 7 7 1
+Delete 5
+Delete 3
+Insert 3 7842
+Insert 5 -3815
+Delete 7
+Delete 4
+Reverse 6 6
+Insert 2 -9783
+Insert 2 2041
+Reverse 8 8
+Query 8 8 1
+Insert 5 -5552
+Insert 2 -5280
+Query 1 8 3
+Delete 5
+Insert 4 -6918
+Delete 8
+Query 6 9 1
+Reverse 5 6
+Query 1 8 8
+Insert 3 -7286
+Delete 7
+Query 1 7 5
+Insert 10 5837
+Query 9 10 2
+Query 3 9 5
+Insert 1 98
+Insert 6 7901
+Insert 4 -9230
+Insert 13 -9786
+Insert 13 5773
+Query 1 1 1
+Delete 8
+Reverse 3 9
+Reverse 4 10
+Query 7 12 3
+Insert 5 4197
+Query 3 9 4
+Query 7 11 1
+Query 3 3 1
+Query 3 12 2
+Delete 15
+Delete 12
+Reverse 13 13
+Delete 3
+Insert 6 2774
+Insert 14 -2369
+Delete 10
+Reverse 3 10
+Query 6 13 4
+Insert 4 -5409
+Delete 9
+Reverse 6 10
+Query 5 11 7
+Query 11 11 1
+Reverse 1 8
+Delete 6
+Insert 10 -139
+Insert 3 2001
+Reverse 7 12
+Reverse 11 11
+Reverse 5 11
+Query 14 14 1
+Insert 7 -9064
+Delete 15
+Reverse 7 14
+Insert 7 167
+Insert 4 2934
+Query 13 13 1
+Reverse 5 13
+Delete 14
+Delete 15
+Query 12 14 1
+Delete 5
+Reverse 9 11
+Insert 13 1424
+Insert 13 -635
+Query 1 14 3
+Delete 1
+Insert 4 1324
+Insert 13 -3289
+Reverse 13 16
+Reverse 1 5
+Delete 10
+Reverse 8 10
+Insert 1 -1902
+Delete 12
+Reverse 9 13
+Delete 15
+Delete 2
+Reverse 9 13
+Reverse 1 10
+Insert 5 -595
+Reverse 13 14
+Query 6 7 1
+Insert 11 -4896
+Reverse 10 11
+Reverse 12 13
+Insert 2 -7003
+Reverse 10 11
+Delete 3
+Delete 5
+Query 12 12 1
+Reverse 3 9
+Insert 2 -7424
+Insert 5 6790
+Insert 1 4970
+Insert 12 -2746
+Delete 6
+Reverse 10 16
+Delete 9
+Reverse 9 11
+Delete 5
+Insert 8 -9110
+Insert 7 -6156
+Reverse 5 7
+Query 7 10 2
+Delete 16
+Query 14 16 3
+Reverse 1 3
+Reverse 2 15
+Insert 4 -4556
+Insert 5 6148
+Delete 9
+Reverse 15 17
+Insert 5 21
+Insert 1 -7342
+Reverse 7 14
+Insert 16 -1032
+Delete 11
+Reverse 19 19
+Insert 18 6880
+Insert 3 -7755
+Delete 17
+Reverse 18 18
+Query 16 16 1
+Query 6 15 6
+Query 7 13 5
+Insert 18 -4100
+Query 1 16 9
+Query 14 15 2
+Query 6 13 8
+Reverse 15 19
+Query 4 13 3
+Reverse 5 13
+Insert 3 9091
+Reverse 17 18
+Reverse 15 21
+Delete 4
+Reverse 3 3
+Insert 17 -8858
+Delete 18
+Delete 1
+Insert 14 -2766
+Delete 2
+Delete 10
+Delete 3
+Delete 14
+Reverse 6 16
+Insert 1 8093
+Insert 11 -8401
+Insert 12 -3379
+Query 14 17 3
+Insert 18 -3726
+Delete 19
+Query 3 3 1
+Delete 13
+Query 12 17 1
+Reverse 16 16
+Query 2 8 6
+Query 1 19 7
+Delete 5
+Insert 17 4190
+Query 16 18 3
+Delete 12
+Delete 18
+Insert 7 -4108
+Delete 3
+Delete 14
+Query 16 16 1
+Reverse 7 16
+Insert 12 -4679
+Delete 13
+Query 7 16 8
+Delete 16
+Query 1 2 1
+Delete 13
+Delete 4
+Insert 8 3736
+Query 2 5 1
+Reverse 13 14
+Insert 12 -5046
+Reverse 1 2
+Delete 7
+Reverse 1 11
+Query 10 10 1
+Insert 13 -7677
+Query 11 14 3
+Insert 1 5295
+Delete 9
+Reverse 11 15
+Reverse 1 14
+Query 10 11 2
+Query 13 14 2
+Query 1 7 3
+Insert 8 60
+Delete 9
+Reverse 8 8
+Insert 12 -4695
+Insert 7 -697
+Insert 3 -8838
+Delete 14
+Reverse 17 17
+Insert 14 738
+Query 8 14 7
+Query 4 10 6
+Insert 10 4141
+Query 15 16 2
+Reverse 15 18
+Insert 4 -5338
+Reverse 1 9
+Reverse 20 20
+Delete 13
+Query 6 13 1
+Reverse 3 10
+Query 15 15 1
+Query 7 19 12
+Insert 11 6874
+Delete 8
+Delete 19
+Reverse 4 8
+Reverse 14 15
+Query 14 18 1
+Reverse 14 16
+Delete 12
+Delete 2
+Query 14 16 1
+Query 8 11 4
+Insert 10 -3102
+Insert 10 -8281
+Reverse 12 16
+Delete 5
+Delete 9
+Delete 1
+Reverse 3 15
+Reverse 15 15
+Query 3 3 1
+Query 6 10 1
+Query 12 12 1
+Query 4 7 4
+Insert 16 -3315
+Reverse 14 15
+Query 12 14 2
+Query 4 9 1
+Insert 2 5445
+Delete 9
+Insert 5 3692
+Insert 10 -5697
+Insert 3 2956
+Query 10 17 8
+Query 1 5 5
+Insert 15 2030
+Insert 15 4444
+Insert 14 -5270
+Query 3 19 7
+Insert 22 4292
+Reverse 8 23
+Query 9 12 3
+Query 19 23 5
+Insert 11 6556
+Insert 24 -29
+Delete 20
+Delete 8
+Reverse 9 12
+Delete 12
+Query 8 15 8
+Reverse 4 13
+Query 14 21 2
+Delete 13
+Query 21 21 1
+Query 20 20 1
+Delete 3
+Insert 3 7019
+Query 19 20 1
+Insert 9 -4745
+Insert 9 3434
+Query 3 20 17
+Insert 15 -4248
+Insert 20 -8884
+Query 23 25 2
+Delete 14
+Reverse 12 14
+Insert 18 6181
+Insert 20 -7554
+Insert 5 -39
+Insert 28 1246
+Reverse 17 17
+Query 1 11 6
+Delete 7
+Reverse 1 18
+Reverse 8 12
+Delete 4
+Query 1 16 1
+Query 22 25 2
+Query 20 26 7
+Insert 7 858
+Insert 7 8207
+Reverse 17 17
+Insert 22 3162
+Reverse 7 10
+Insert 18 -5374
+Delete 2
+Insert 20 -3586
+Reverse 20 30
+Delete 18
+Reverse 8 25
+Insert 6 -2206
+Reverse 21 27
+Delete 21
+Delete 8
+Reverse 16 16
+Query 21 26 6
+Reverse 21 21
+Query 15 17 3
+Insert 21 -5817
+Reverse 23 25
+Delete 3
+Insert 11 -7291
+Insert 19 2814
+Delete 17
+Query 1 19 13
+Delete 26
+Query 2 19 2
+Delete 10
+Delete 25
+Delete 4
+Delete 2
+Insert 17 -8713
+Reverse 8 12
+Reverse 1 10
+Query 3 19 4
+Query 10 12 1
+Insert 10 490
+Delete 2
+Reverse 15 16
+Query 11 15 5
+Delete 7
+Delete 12
+Reverse 3 23
+Insert 8 -5442
+Query 4 4 1
+Reverse 8 22
+Delete 23
+Insert 11 4496
+Query 14 14 1
+Insert 2 -5741
+Delete 19
+Insert 15 -2559
+Reverse 21 25
+Reverse 25 25
+Delete 22
+Insert 8 2697
+Delete 13
+Query 2 15 8
+Insert 8 9226
+Insert 25 -2339
+Reverse 8 19
+Delete 8
+Query 17 19 3
+Insert 15 3698
+Query 16 21 4
+Query 6 16 2
+Query 11 25 1
+Query 16 16 1
+Reverse 4 23
+Delete 25
+Insert 1 -5217
+Reverse 10 17
+Insert 10 -2986
+Reverse 8 27
+Reverse 7 12
+Reverse 9 26
+Insert 12 -7998
+Delete 20
+Insert 18 -1283
+Reverse 25 27
+Query 18 18 1
+Insert 10 -3246
+Insert 2 8816
+Reverse 12 28
+Insert 7 -200
+Query 6 23 17
+Reverse 6 28
+Delete 28
+Query 30 30 1
+Query 2 5 4
+Reverse 12 18
+Query 26 28 1
+Reverse 10 26
+Reverse 14 27
+Query 11 20 5
+Delete 18
+Reverse 8 16
+Reverse 8 16
+Query 16 26 4
+Delete 2
+Reverse 7 12
+Query 3 15 4
+Insert 22 3495
+Query 12 29 8
+Insert 29 1143
+Insert 4 1184
+Delete 31
+Delete 21
+Insert 9 8307
+Reverse 24 24
+Delete 27
+Delete 2
+Reverse 18 20
+Delete 6
+Delete 2
+Reverse 23 24
+Reverse 18 20
+Insert 23 8500
+Insert 25 -1133
+Reverse 27 27
+Reverse 16 26
+Insert 16 -6331
+Delete 26
+Reverse 20 24
+Query 18 23 6
+Insert 18 -6800
+Insert 24 3660
+Insert 9 -4716
+Query 5 13 7
+Delete 13
+Query 17 28 6
+Reverse 16 18
+Query 27 28 2
+Insert 29 9852
+Delete 27
+Query 24 29 3
+Delete 11
+Delete 9
+Delete 12
+Query 25 26 1
+Reverse 17 25
+Insert 24 6874
+Insert 15 1602
+Query 12 24 9
+Insert 21 9356
+Reverse 16 24
+Reverse 27 30
+Reverse 10 28
+Query 24 26 1
+Insert 26 4521
+Query 2 28 23
+Insert 12 3483
+Delete 15
+Insert 4 -8540
+Reverse 25 28
+Delete 29
+Reverse 14 19
+Delete 31
+Reverse 13 25
+Reverse 15 23
+Delete 18
+Insert 7 2015
+Reverse 23 27
+Reverse 14 17
+Insert 17 9067
+Query 31 31 1
+Query 20 29 3
+Query 15 26 9
+Insert 26 8110
+Delete 28
+Delete 10
+Delete 17
+Delete 6
+Reverse 2 5
+Reverse 9 21
+Query 28 28 1
+Delete 20
+Delete 3
+Delete 7
+Reverse 24 24
+Delete 21
+Reverse 5 17
+Query 12 19 6
+Delete 16
+Reverse 6 14
+Reverse 9 17
+Delete 2
+Query 7 8 2
+Delete 3
+Query 18 21 1
+Query 13 20 1
+Delete 12
+Delete 5
+Delete 18
+Query 6 9 1
+Delete 9
+Reverse 16 17
+Insert 14 -6060
+Delete 1
+Reverse 8 10
+Query 16 16 1
+Insert 18 3532
+Reverse 6 17
+Query 7 12 6
+Reverse 11 14
+Reverse 4 11
+Delete 8
+Delete 17
+Reverse 12 12
+Reverse 3 6
+Delete 9
+Query 5 8 3
+Insert 3 -9171
+Delete 6
+Insert 3 1340
+Delete 9
+Delete 8
+Query 14 14 1
+Query 7 9 2
+Reverse 13 13
+Reverse 10 11
+Delete 3
+Insert 2 -4296
+Insert 10 -21
+Insert 5 -5343
+Reverse 14 14
+Reverse 15 15
+Reverse 15 15
+Delete 2
+Reverse 3 9
+Insert 11 986
+Insert 16 -774
+Reverse 9 10
+Query 9 16 2
+Delete 8
+Delete 13
+Delete 4
+Reverse 14 14
+Query 12 14 3
+Insert 6 8045
+Query 9 10 1
+Delete 14
+Delete 6
+Insert 3 -7373
+Query 14 14 1
+Insert 3 -3121
+Reverse 10 11
+Delete 11
+Delete 12
+Reverse 7 7
+Delete 3
+Reverse 6 6
+Delete 1
+Insert 7 -9632
+Reverse 9 10
+Insert 5 -5196
+Insert 14 -1621
+Delete 12
+Query 3 5 3
+Delete 5
+Delete 12
+Query 3 11 6
+Reverse 4 5
+Query 11 11 1
+Reverse 1 1
+Insert 4 5402
+Delete 8
+Delete 10
+Query 7 9 2
+Query 3 4 2
+Reverse 8 9
+Reverse 2 6
+Insert 6 1523
+Delete 11
+Reverse 1 1
+Insert 11 6500
+Query 7 8 2
+Query 10 10 1
+Delete 4
+Insert 11 1601
+Insert 4 3127
+Query 2 11 6
+Reverse 5 11
+Delete 12
+Query 7 9 1
+Reverse 2 10
+Query 1 6 5
+Delete 2
+Delete 8
+Insert 6 -390
+Query 9 9 1
+Query 4 8 2
+Delete 2
+Reverse 5 5
+Delete 9
+Insert 4 -1118
+Query 9 9 1
+Insert 6 5017
+Delete 1
+Reverse 2 2
+Delete 8
+Delete 1
+Insert 6 2129
+Insert 7 -7153
+Query 8 8 1
+Reverse 4 9
+Query 1 4 1
+Insert 9 -4154
+Reverse 5 5
+Delete 8
+Reverse 7 9
+Insert 1 6304
+Insert 4 5041
+Delete 9
+Insert 6 5026
+Reverse 3 8
+Query 1 7 7
+Delete 3
+Insert 7 173
+Insert 8 7527
+Delete 10
+Reverse 2 9
+Delete 3
+Query 10 10 1
+Query 4 10 2
+Delete 3
+Insert 8 -4099
+Delete 4
+Reverse 8 9
+Reverse 5 7
+Delete 2
+Delete 5
+Delete 4
+Query 3 6 3
+Delete 3
+Query 4 4 1
+Reverse 5 5
+Delete 3
+Delete 2
+Insert 3 3053
+Insert 1 2319
+Delete 2
+Insert 3 5905
+Insert 1 -3964
+Query 4 4 1
+Insert 4 -1488
+Reverse 3 3
+Query 7 7 1
+Delete 1
+Reverse 5 5
+Reverse 5 6
+Delete 1
+Delete 2
+Delete 2
+Delete 3
+Insert 3 -8075
+Delete 3
+Reverse 1 2
+Reverse 2 2
+Query 2 2 1
+Reverse 1 2
+Query 2 2 1
+Insert 2 2989
+Reverse 1 3
+Insert 2 -9571
+Reverse 2 2
+Delete 2
+Query 1 1 1
+Reverse 2 2
+Delete 2
+Delete 2
+Query 1 1 1
+Insert 2 -907
+Reverse 1 1
+Insert 2 1696
+Reverse 1 3
+Query 1 3 1
+Reverse 1 2
+Insert 4 4397
+Insert 1 7387
+Delete 2
+Delete 1
+Query 2 3 1
+Insert 1 -1450
+Delete 1
+Reverse 3 3
+Reverse 3 3
+Query 1 3 3
+Query 2 2 1
+Insert 4 -5790
+Delete 1
+Delete 2
+Reverse 1 2
+Reverse 2 2
+Delete 2
+Insert 1 -4805
+Reverse 2 2
+Query 2 2 1
+Query 1 2 1
+Delete 1
+Query 1 1 1
+Reverse 1 1
+Reverse 1 1
+Query 1 1 1
+Delete 1
+Insert 1 9014
+Reverse 1 1
+Delete 1
+Insert 1 1457
+Delete 1
+Insert 1 4135
+Query 1 1 1
+Query 1 1 1
+Reverse 1 1
+Reverse 1 1
+Delete 1
+Insert 1 7476
+Insert 2 3467
+Insert 1 -2989
+Insert 2 2421
+Query 2 4 2
+Query 2 4 3
+Reverse 3 4
+Query 2 4 3
+Delete 1
+Reverse 2 3
+Delete 3
+Insert 2 6537
+Reverse 3 3
+Reverse 1 3
+Query 3 3 1
+Query 3 3 1
+Reverse 3 3
+Insert 1 9365
+Reverse 2 3
+Delete 1
+Reverse 2 3
+Insert 2 -8765
+Insert 4 2345
+Delete 2
+Reverse 4 4
+Reverse 3 4
+Query 3 4 1
+Reverse 4 4
+Insert 3 -1704
+Reverse 4 5
+Delete 2
+Insert 3 -608
+Delete 4
+Delete 2
+Query 2 3 1
+Reverse 3 3
+Reverse 3 3
+Insert 4 9874
+Delete 1
+Reverse 2 2
+Reverse 2 3
+Insert 3 -6160
+Insert 4 -5877
+Query 5 5 1
+Delete 3
+Query 4 4 1
+Delete 3
+Reverse 2 2
+Insert 1 -2029
+Insert 3 -2104
+Query 1 1 1
+Query 3 3 1
+Delete 1
+Reverse 1 4
+Delete 2
+Insert 1 5172
+Delete 2
+Reverse 2 3
+Delete 1
+Insert 2 6946
+Query 2 3 1
+Reverse 3 3
+Insert 1 -129
+Reverse 1 3
+Delete 4
+Insert 4 1037
+Query 4 4 1
+Reverse 1 1
+Reverse 2 2
+Query 3 4 2
+Delete 3
+Reverse 3 3
+Reverse 1 2
+Delete 3
+Reverse 1 1
+Insert 2 2658
+Delete 3
+Insert 1 1111
+Query 3 3 1
+Insert 4 772
+Delete 1
+Query 3 3 1
+Reverse 3 3
+Query 3 3 1
+Reverse 1 2
+Delete 2
+Reverse 2 2
+Reverse 1 2
+Insert 3 6439
+Insert 3 -9917
+Insert 4 6573
+Query 3 3 1
+Query 5 5 1
+Insert 4 -4294
+Delete 6
+Delete 5
+Reverse 3 4
+Delete 1
+Reverse 1 3
+Reverse 2 3
+Query 2 3 1
+Query 1 1 1
+Delete 2
+Reverse 1 2
+Insert 2 -8516
+Query 2 2 1
+Query 1 2 1
+Insert 1 -5325
+Insert 2 6232
+Query 4 4 1
+Delete 5
+Insert 2 1933
+Delete 1
+Delete 1
+Delete 2
+Delete 1
+Insert 1 6253
+Insert 1 -8290
+Delete 1
+Query 2 2 1
+Delete 1
+Query 1 1 1
+Query 1 1 1
+Reverse 1 1
+Query 1 1 1
+Reverse 1 1
+Query 1 1 1
+Delete 1
+Insert 1 5984
+Query 1 1 1
+Query 1 1 1
+Query 1 1 1
+Reverse 1 1
+Reverse 1 1
+Query 1 1 1
+Query 1 1 1
+Delete 1
+Insert 1 -3225
+Reverse 1 1
+Reverse 1 1
+Query 1 1 1
+Reverse 1 1
+Insert 2 -8881
+Query 2 2 1
+Insert 1 7198
+Delete 1
+Reverse 2 2
+Reverse 1 1
+Query 1 1 1
+Query 2 2 1
+Reverse 2 2
+Delete 2
+Query 1 1 1
+Query 1 1 1
+Reverse 1 1
+Query 1 1 1
+Query 1 1 1
+Delete 1
+Insert 1 -160
+Delete 1
+Insert 1 8329
+Query 1 1 1
+Delete 1
+Insert 1 -3948
+Query 1 1 1
+Delete 1
+Insert 1 -2608
+Reverse 1 1
+Delete 1
+Insert 1 6059
+Reverse 1 1
+Insert 2 7045
+Query 2 2 1
+Insert 1 3028
+Query 1 3 1
+Query 3 3 1
+Delete 1
+Reverse 1 2
+Reverse 2 2
+Insert 3 7206
+Delete 3
+Insert 3 -2511
+Reverse 2 2
+Reverse 3 3
+Delete 3
+Insert 3 6107
+Query 2 2 1
+Insert 2 990
+Delete 1
+Delete 3
+Query 2 2 1
+Query 1 2 1
+Query 1 1 1
+Query 2 2 1
+Insert 2 45
+Reverse 1 1
+Insert 2 -2850
+Reverse 4 4
+Delete 2
+Reverse 2 2
+Reverse 3 3
+Query 1 1 1
+Reverse 3 3
+Query 3 3 1
+Query 2 3 1
+Reverse 3 3
+Query 2 3 2
+Delete 3
+Insert 2 -3205
+Reverse 2 3
+Delete 3
+Delete 1
+Insert 2 376
+Query 2 2 1
+Insert 1 -9004
+Insert 2 -4774
+Insert 4 1517
+Reverse 3 5
+Insert 3 -6282
+Query 5 5 1
+Delete 6
+Reverse 1 5
+Reverse 4 4
+Insert 1 8301
+Query 6 6 1
+Insert 3 8716
+Query 3 6 3
+Query 5 7 1
+Query 5 7 2
+Query 5 6 1
+Reverse 3 7
+Delete 4
+Reverse 4 4
+Query 4 6 3
+Query 1 5 1
+Insert 2 -9235
+Query 1 1 1
+Reverse 2 4
+Insert 8 2688
+Reverse 6 8
+Reverse 6 6
+Delete 1
+Delete 1
+Query 3 4 1
+Insert 5 9715
+Insert 1 -224
+Query 1 8 5
+Delete 6
+Insert 5 9796
+Reverse 1 4
+Reverse 5 5
+Reverse 5 8
+Query 3 5 1
+Delete 1
+Insert 5 7556
+Delete 1
+Query 4 7 3
+Reverse 1 4
+Reverse 3 6
+Insert 3 7525
+Delete 4
+Query 3 7 4
+Insert 5 4309
+Reverse 6 6
+Delete 7
+Delete 4
+Reverse 2 5
+Query 1 3 1
+Reverse 6 6
+Delete 5
+Reverse 4 4
+Delete 5
+Reverse 2 2
+Insert 4 -8639
+Reverse 2 4
+Delete 5
+Delete 3
+Delete 2
+Insert 1 -2963
+Reverse 3 3
+Insert 1 5261
+Query 3 3 1
+Query 1 3 1
+Insert 5 4409
+Query 2 3 1
+Delete 2
+Reverse 1 4
+Reverse 3 3
+Delete 1
+Delete 2
+Delete 1
+Insert 2 4504
+Insert 1 -4522
+Delete 1
+Delete 1
+Insert 2 -967
+Insert 1 3588
+Delete 1
+Insert 1 -4585
+Delete 3
+Insert 1 -4622
+Reverse 1 3
+Insert 4 4576
+Insert 2 -5805
+Insert 3 -4187
+Reverse 5 5
+Delete 4
+Insert 1 4460
+Reverse 4 5
+Insert 1 1801
+Reverse 2 3
+Insert 8 -259
+Query 5 6 2
+Reverse 4 5
+Insert 7 -1646
+Query 2 5 1
+Insert 3 4720
+Reverse 5 5
+Query 2 8 3
+Delete 10
+Query 8 8 1
+Reverse 5 9
+Insert 2 -3336
+Query 6 6 1
+Query 8 10 2
+Query 1 6 1
+Reverse 2 7
+Query 9 10 2
+Insert 6 -7264
+Query 3 10 5
+Query 4 9 2
+Query 7 8 2
+Delete 3
+Reverse 8 10
+Reverse 3 6
+Delete 6
+Query 9 9 1
+Query 9 9 1
+Insert 9 -7634
+Insert 4 -5598
+Delete 4
+Insert 9 -4518
+Query 10 11 1
+Delete 7
+Insert 6 -9704
+Insert 1 5318
+Query 8 10 3
+Query 3 5 3
+Query 1 1 1
+Query 11 11 1
+Delete 1
+Insert 3 1318
+Insert 3 3124
+Insert 7 4521
+Query 1 9 5
+Reverse 10 13
+Delete 1
+Reverse 8 9
+Query 10 11 2
+Insert 11 9964
+Delete 4
+Query 1 10 2
+Delete 7
+Delete 4
+Delete 8
+Query 2 10 7
+Delete 10
+Reverse 1 9
+Reverse 5 9
+Reverse 6 6
+Reverse 8 8
+Query 9 9 1
+Delete 1
+Insert 6 8638
+Insert 3 4962
+Delete 1
+Query 4 4 1
+Query 8 9 2
+Insert 1 6248
+Delete 10
+Insert 10 9757
+Query 4 4 1
+Insert 10 -7571
+Reverse 2 9
+Query 1 2 2
+Query 8 11 4
+Delete 4
+Insert 1 3205
+Delete 9
+Insert 11 451
+Reverse 10 10
+Reverse 6 6
+Query 8 11 1
+Insert 12 7666
+Insert 5 -9030
+Insert 3 4643
+Query 3 8 4
+Query 12 14 2
+Delete 3
+Reverse 4 7
+Query 5 8 4
+Delete 13
+Insert 6 7597
+Delete 1
+Reverse 1 1
+Delete 5
+Delete 10
+Reverse 2 9
+Delete 7
+Query 8 8 1
+Insert 5 8812
+Query 9 9 1
+Reverse 4 9
+Delete 2
+Query 9 9 1
+Query 5 7 1
+Reverse 8 9
+Insert 6 -9417
+Insert 9 -62
+Query 7 10 1
+Delete 10
+Reverse 4 9
+Query 10 10 1
+Query 9 10 2
+Delete 4
+Reverse 3 9
+Query 5 5 1
+Delete 7
+Reverse 5 8
+Query 7 7 1
+Insert 5 -6398
+Delete 9
+Query 7 7 1
+Insert 1 2156
+Delete 2
+Insert 1 -3316
+Query 7 7 1
+Delete 9
+Reverse 3 4
+Reverse 6 6
+Delete 1
+Query 7 7 1
+Insert 3 -8035
+Reverse 3 7
+Delete 5
+Query 5 5 1
+Delete 7
+Insert 5 -2299
+Query 7 7 1
+Reverse 2 4
+Insert 3 2492
+Reverse 4 4
+Delete 3
+Reverse 1 3
+Query 7 7 1
+Reverse 2 5
+Reverse 5 6
+Query 3 5 1
+Query 6 6 1
+Insert 4 -3739
+Query 5 7 2
+Delete 6
+Insert 7 7262
+Insert 4 6591
+Delete 4
+Reverse 4 7
+Insert 7 -6326
+Query 4 9 5
+Delete 4
+Query 3 6 2
+Insert 3 -2179
+Insert 10 9200
+Reverse 3 7
+Insert 10 -4194
+Reverse 4 8
+Reverse 9 9
+Reverse 11 11
+Insert 9 -7047
+Reverse 10 11
+Insert 6 3187
+Reverse 13 13
+Reverse 3 9
+Delete 4
+Reverse 12 12
+Insert 6 -9834
+Delete 7
+Reverse 9 10
+Reverse 9 11
+Query 8 10 1
+Delete 8
+Query 8 8 1
+Reverse 11 11
+Insert 10 5511
+Query 10 12 1
+Query 2 3 1
+Insert 1 -3635
+Delete 9
+Query 5 12 1
+Delete 12
+Insert 7 -978
+Reverse 5 12
+Insert 12 -4454
+Query 4 8 1
+Delete 12
+Delete 7
+Delete 4
+Insert 6 -1049
+Delete 9
+Insert 3 -8394
+Delete 2
+Query 8 8 1
+Delete 1
+Reverse 3 7
+Insert 8 -3343
+Reverse 10 10
+Insert 4 2169
+Insert 11 -6597
+Query 10 10 1
+Delete 6
+Reverse 9 10
+Reverse 6 9
+Query 4 7 3
+Query 9 9 1
+Insert 5 5500
+Delete 8
+Query 4 10 3
+Query 5 5 1
+Query 5 6 1
+Delete 3
+Delete 1
+Insert 2 5839
+Insert 6 -2156
+Reverse 11 11
+Reverse 4 10
+Delete 6
+Reverse 6 6
+Insert 4 -6564
+Query 8 8 1
+Reverse 9 10
+Insert 10 713
+Query 7 11 3
+Query 12 12 1
+Delete 2
+Insert 7 6745
+Query 4 10 1
+Delete 6
+Delete 10
+Reverse 9 9
+Query 1 2 1
+Query 1 3 2
+Reverse 9 9
+Reverse 10 10
+Insert 2 1391
+Reverse 4 10
+Delete 11
+Query 1 7 3
+Reverse 6 9
+Delete 2
+Query 4 6 1
+Query 4 5 2
+Delete 4
+Reverse 2 3
+Reverse 7 8
+Reverse 6 7
+Delete 1
+Query 2 2 1
+Delete 1
+Insert 6 -4227
+Reverse 5 6
+Insert 6 -6860
+Delete 8
+Query 4 4 1
+Delete 1
+Reverse 6 6
+Reverse 6 6
+Insert 4 -4049
+Reverse 7 7
+Query 1 2 2
+Insert 3 -981
+Insert 2 -7151
+Reverse 4 9
+Reverse 4 9
+Delete 5
+Reverse 8 8
+Query 5 6 2
+Delete 8
+Query 2 7 2
+Delete 7
+Reverse 1 2
+Query 5 6 1
+Query 4 6 2
+Delete 2
+Query 3 4 1
+Query 5 5 1
+Reverse 4 5
+Query 1 1 1
+Insert 3 25
+Query 3 5 3
+Query 4 6 1
+Query 1 4 1
+Query 1 1 1
+Delete 1
+Delete 2
+Delete 4
+Reverse 1 3
+Delete 3
+Delete 2
+Insert 2 -4671
+Insert 2 9685
+Delete 1
+Query 2 2 1
+Delete 1
+Insert 2 -8635
+Insert 3 -6866
+Reverse 3 3
+Insert 1 -4139
+Delete 3
+Delete 1
+Reverse 1 1
+Delete 2
+Reverse 1 1
+Query 1 1 1
+Insert 1 -5055
+Insert 2 -5682
+Insert 4 -6310
+Delete 2
+Query 2 3 1
+Delete 3
+Reverse 2 2
+Reverse 2 2
+Reverse 1 2
+Query 2 2 1
+Reverse 1 1
+Insert 1 7882
+Insert 4 216
+Delete 1
+Query 1 2 1
+Query 3 3 1
+Insert 2 5068
+Query 3 4 2
+Reverse 1 1
+Insert 1 -4053
+Delete 3
+Reverse 4 4
+Reverse 3 4
+Delete 1
+Delete 2
+Query 1 2 2
+Reverse 1 2
+Query 2 2 1
+Insert 3 3383
+Insert 3 7650
+Reverse 4 4
+Reverse 2 2
+Delete 2
+Delete 2
+Reverse 2 2
+Delete 1
+Reverse 1 1
+Reverse 1 1
+Reverse 1 1
+Insert 2 -8192
+Query 1 1 1
+Reverse 1 1
+Query 1 1 1
+Query 1 1 1
+Delete 2
+Reverse 1 1
+Reverse 1 1
+Delete 1
+Insert 1 1667
+Insert 2 -536
+Reverse 2 2
+Insert 2 -9122
+Reverse 3 3
+Query 2 2 1
+Insert 2 4047
+Reverse 4 4
+Query 1 3 3
+Reverse 4 4
+Insert 4 -2984
+Query 1 4 1
+Reverse 1 4
+Query 3 5 3
+Query 2 5 4
+Query 4 4 1
+Query 4 4 1
+Reverse 2 5
+Query 3 4 1
+Reverse 3 3
+Reverse 5 5
+Insert 2 -5011
+Delete 5
+Query 2 3 1
+Query 1 2 1
+Insert 6 7230
+Query 5 5 1
+Delete 3
+Delete 3
+Reverse 3 4
+Reverse 2 3
+Insert 1 -2989
+Delete 3
+Query 3 4 1
+Reverse 4 4
+Delete 3
+Delete 1
+Reverse 2 2
+Reverse 2 2
+Delete 2
+Query 1 1 1
+Insert 2 8748
+Query 1 2 1
+Query 1 1 1
+Query 2 2 1
+Insert 3 4219
+Insert 3 -6511
+Insert 2 -5269
+Delete 2
+Insert 5 7419
+Query 4 4 1
+Query 1 4 3
+Insert 4 -3265
+Insert 3 7516
+Query 4 4 1
+Query 7 7 1
+Query 3 4 2
+Insert 1 5379
+Insert 7 -7996
+Query 7 9 1
+Reverse 2 7
+Reverse 4 8
+Delete 4
+Reverse 5 7
+Reverse 4 8
+Query 5 7 3
+Insert 8 6836
+Query 8 8 1
+Query 7 8 2
+Delete 8
+Insert 3 -1511
+Insert 3 -2323
+Insert 11 -6298
+Reverse 9 9
+Reverse 11 11
+Insert 5 2713
+Reverse 11 12
+Insert 10 -4693
+Insert 8 4060
+Reverse 3 7
+Delete 3
+Query 13 13 1
+Query 13 13 1
+Query 4 9 5
+Query 6 10 5
+Insert 2 1567
+Delete 14
+Reverse 13 13
+Insert 2 8774
+Reverse 12 13
+Query 6 9 4
+Delete 14
+Query 12 13 2
+Reverse 12 12
+Query 12 12 1
+Reverse 8 8
+Delete 2
+Reverse 12 12
+Delete 12
+Insert 7 8210
+Query 4 9 2
+Insert 9 7039
+Delete 1
+Insert 8 -9927
+Delete 13
+Query 7 7 1
+Delete 6
+Delete 4
+Reverse 10 10
+Delete 9
+Reverse 7 9
+Reverse 5 8
+Delete 8
+Reverse 1 2
+Query 2 8 6
+Reverse 2 5
+Reverse 2 5
+Insert 6 8320
+Query 8 8 1
+Insert 7 268
+Query 7 10 1
+Insert 3 -7409
+Insert 1 6452
+Reverse 6 12
+Delete 1
+Query 1 11 9
+Query 4 9 6
+Reverse 8 9
+Query 6 11 2
+Insert 9 4611
+Query 6 7 2
+Insert 7 -8936
+Insert 2 9601
+Query 1 12 7
+Reverse 4 9
+Delete 14
+Query 3 11 5
+Query 1 11 3
+Reverse 10 12
+Query 7 9 3
+Delete 8
+Reverse 5 11
+Reverse 2 8
+Reverse 9 12
+Query 7 10 1
+Insert 6 8496
+Delete 5
+Delete 5
+Insert 5 4627
+Reverse 7 12
+Query 11 11 1
+Insert 9 -3116
+Reverse 13 13
+Insert 1 -482
+Delete 13
+Reverse 12 12
+Delete 6
+Reverse 4 4
+Delete 1
+Insert 2 -1895
+Query 4 7 1
+Query 9 10 1
+Insert 3 -4620
+Query 7 7 1
+Reverse 10 10
+Delete 8
+Query 8 12 1
+Query 1 5 5
+Query 11 11 1
+Insert 5 -5558
+Delete 6
+Reverse 9 12
+Delete 8
+Delete 4
+Insert 10 -9499
+Delete 2
+Insert 6 9649
+Query 10 10 1
+Delete 11
+Reverse 7 7
+Insert 10 -1637
+Delete 7
+Query 3 4 2
+Insert 3 -2046
+Query 1 7 3
+Insert 1 890
+Reverse 4 4
+Query 12 12 1
+Reverse 12 12
+Insert 1 -890
+Delete 12
+Delete 4
+Insert 9 6440
+Query 2 2 1
+Reverse 8 11
+Delete 6
+Insert 4 3982
+Query 12 12 1
+Insert 1 5165
+Delete 9
+Delete 8
+Insert 11 2447
+Query 9 11 2
+Query 8 11 4
+Reverse 10 11
+Query 12 12 1
+Reverse 12 12
+Insert 11 -140
+Query 3 6 2
+Query 5 13 4
+Insert 1 7667
+Query 13 14 2
+Reverse 11 13
+Query 13 13 1
+Reverse 11 13
+Delete 4
+Query 2 10 3
+Insert 12 3712
+Delete 11
+Query 3 9 5
+Delete 13
+Delete 10
+Reverse 6 6
+Query 7 10 2
+Query 1 9 7
+Query 2 10 6
+Insert 7 -2274
+Insert 5 8890
+Reverse 4 10
+Reverse 8 8
+Insert 12 -8506
+Query 6 12 4
+Reverse 11 11
+Query 14 14 1
+Reverse 14 14
+Reverse 3 8
+Delete 11
+Query 10 11 1
+Query 9 13 3
+Reverse 6 9
+Query 1 3 3
+Delete 9
+Insert 9 -7854
+Insert 8 9032
+Delete 1
+Reverse 4 7
+Reverse 4 12
+Delete 3
+Query 2 2 1
+Reverse 11 12
+Query 6 7 1
+Reverse 10 10
+Reverse 3 3
+Delete 10
+Delete 11
+Insert 9 -4693
+Insert 9 -2007
+Delete 3
+Insert 10 -5520
+Insert 2 -8058
+Reverse 8 13
+Query 11 13 3
+Query 12 12 1
+Delete 12
+Delete 8
+Delete 5
+Insert 2 2013
+Insert 6 7500
+Delete 5
+Insert 11 -6042
+Reverse 9 9
+Query 9 11 3
+Reverse 8 8
+Delete 11
+Insert 3 7761
+Reverse 6 6
+Reverse 2 6
+Insert 11 9889
+Reverse 3 4
+Query 11 13 1
+Delete 5
+Query 7 11 2
+Query 7 11 1
+Delete 8
+Query 11 11 1
+Insert 9 -729
+Reverse 7 8
+Reverse 12 12
+Delete 6
+Reverse 8 11
+Insert 6 -2346
+Delete 10
+Query 4 4 1
+Insert 9 3773
+Delete 2
+Insert 1 -7819
+Insert 11 3685
+Query 5 8 3
+Delete 10
+Delete 4
+Delete 7
+Reverse 6 6
+Delete 3
+Query 1 5 1
+Reverse 5 7
+Delete 1
+Insert 3 -9287
+Query 1 3 2
+Reverse 9 9
+Reverse 2 9
+Query 2 2 1
+Reverse 9 9
+Delete 6
+Query 8 8 1
+Reverse 3 6
+Insert 9 2270
+Query 3 5 1
+Reverse 9 9
+Delete 9
+Query 4 6 1
+Query 7 7 1
+Delete 8
+Query 6 6 1
+Reverse 5 5
+Delete 2
+Query 4 5 2
+Delete 3
+Delete 1
+Query 2 2 1
+Query 1 3 3
+Reverse 4 4
+Reverse 2 4
+Reverse 2 2
+Reverse 3 3
+Insert 4 -8830
+Delete 4
+Reverse 4 4
+Query 3 4 1
+Delete 4
+Insert 1 3639
+Reverse 2 3
+Delete 4
+Delete 2
+Insert 1 4967
+Insert 2 1063
+Query 2 4 3
+Insert 5 2260
+Insert 2 2838
+Delete 3
+Delete 5
+Query 3 3 1
+Reverse 4 4
+Query 2 4 2
+Reverse 1 4
+Query 2 2 1
+Query 4 4 1
+Delete 1
+Delete 1
+Delete 1
+Query 1 1 1
+Delete 1
+Insert 1 -4802
+Query 1 1 1
+Delete 1
+Insert 1 -5942
+Reverse 1 1
+Query 1 1 1
+Reverse 1 1
+Reverse 1 1
+Delete 1
+Insert 1 6286
+Query 1 1 1
+Delete 1
+Insert 1 -8715
+Insert 2 3565
+Delete 2
+Reverse 1 1
+Query 1 1 1
+Delete 1
+Insert 1 5327
+Query 1 1 1
+Insert 2 9547
+Query 2 2 1
+Insert 1 2524
+Reverse 3 3
+Reverse 2 2
+Delete 1
+Reverse 1 2
+Query 2 2 1
+Query 2 2 1
+Delete 1
+Query 1 1 1
+Query 1 1 1
+Delete 1
+Insert 1 4293
+Insert 2 -7678
+Query 1 2 2
+Query 1 1 1
+Query 2 2 1
+Query 1 2 2
+Insert 2 5965
+Query 2 3 2
+Insert 3 -3843
+Reverse 2 4
+Delete 3
+Query 1 1 1
+Reverse 2 3
+Delete 3
+Delete 2
+Insert 2 1784
+Insert 2 2883
+Reverse 2 2
+Reverse 1 3
+Insert 2 7382
+Reverse 3 4
+Delete 3
+Query 3 3 1
+Delete 1
+Insert 3 -8918
+Delete 1
+Query 1 1 1
+Query 1 1 1
+Insert 1 4869
+Query 1 2 2
+Delete 2
+Query 2 2 1
+Insert 3 -100
+Insert 3 6258
+Delete 2
+Insert 1 -569
+Reverse 2 2
+Query 4 4 1
+Delete 2
+Reverse 3 3
+Delete 3
+Reverse 1 2
+Query 2 2 1
+Delete 1
+Delete 1
+Insert 1 7343
+Delete 1
+Insert 1 3507
+Insert 2 -3118
+Reverse 2 2
+Reverse 2 2
+Reverse 2 2
+Query 2 2 1
+Query 2 2 1
+Query 2 2 1
+Reverse 1 2
+Delete 2
+Reverse 1 1
+Delete 1
+Insert 1 3252
+Reverse 1 1
+Delete 1
+Insert 1 8039
+Reverse 1 1
+Query 1 1 1
+Query 1 1 1
+Query 1 1 1
+Delete 1
+Insert 1 -5720
+Query 1 1 1
+Delete 1
+Insert 1 8797
+Query 1 1 1
+Reverse 1 1
+Query 1 1 1
+Query 1 1 1
+Delete 1
+Insert 1 -7342
+Insert 1 3879
+Insert 1 -5519
+Reverse 2 3
+Query 1 3 3
+Insert 4 4893
+Reverse 2 2
+Query 1 2 1
+Query 2 4 3
+Reverse 3 4
+Delete 3
+Query 3 3 1
+Query 1 3 2
+Insert 3 3362
+Query 4 4 1
+Delete 2
+Delete 1
+Query 1 1 1
+Delete 2
+Reverse 1 1
+Reverse 1 1
+Reverse 1 1
+Query 1 1 1
+Query 1 1 1
+Reverse 1 1
+Reverse 1 1
+Delete 1
+Insert 1 2527
+Delete 1
+Insert 1 5538
+Insert 1 -6918
+Query 1 2 2
+Insert 3 7841
+Reverse 3 3
+Insert 2 9877
+Insert 1 -4975
+Query 2 3 2
+Insert 5 6852
+Delete 3
+Reverse 3 5
+Delete 4
+Reverse 1 1
+Reverse 4 4
+Reverse 4 4
+Reverse 3 4
+Delete 2
+Insert 3 -3645
+Query 2 3 1
+Reverse 4 4
+Insert 4 3265
+Delete 4
+Reverse 3 3
+Insert 1 8669
+Insert 6 6112
+Reverse 1 2
+Insert 7 -6280
+Query 2 2 1
+Query 2 2 1
+Insert 3 7320
+Query 7 7 1
+Delete 7
+Delete 4
+Insert 6 6392
+Query 6 6 1
+Insert 6 3948
+Query 1 7 4
+Query 4 6 1
+Insert 7 -6106
+Query 4 8 4
+Query 9 9 1
+Reverse 1 6
+Delete 3
+Insert 3 -1128
+Reverse 6 8
+Insert 3 6544
+Query 7 9 1
+Reverse 8 9
+Reverse 6 7
+Reverse 1 8
+Reverse 8 9
+Reverse 9 9
+Insert 1 -528
+Delete 1
+Reverse 6 6
+Insert 11 8065
+Reverse 2 9
+Insert 2 -7824
+Delete 11
+Delete 11
+Insert 3 -4126
+Reverse 7 8
+Insert 12 8785
+Reverse 9 11
+Delete 5
+Reverse 5 7
+Query 3 6 4
+Query 1 3 1
+Query 3 5 2
+Query 10 10 1
+Delete 3
+Reverse 3 10
+Delete 7
+Insert 2 2166
+Reverse 5 10
+Reverse 8 9
+Delete 5
+Delete 3
+Query 3 6 3
+Delete 4
+Delete 4
+Query 3 3 1
+Delete 3
+Insert 6 -3491
+Delete 4
+Insert 4 3009
+Insert 3 -5631
+Insert 1 6707
+Reverse 5 6
+Reverse 1 2
+Insert 2 -9344
+Query 8 8 1
+Delete 8
+Delete 8
+Query 6 6 1
+Query 4 7 2
+Insert 3 1330
+Reverse 8 8
+Query 7 7 1
+Query 5 8 1
+Reverse 6 8
+Query 4 5 1
+Delete 1
+Delete 4
+Query 4 4 1
+Query 2 3 1
+Insert 4 -4307
+Query 2 4 1
+Reverse 5 6
+Query 4 5 2
+Query 3 3 1
+Insert 1 -5922
+Delete 2
+Query 1 3 2
+Query 1 2 2
+Delete 5
+Insert 7 7098
+Delete 2
+Reverse 5 5
+Delete 4
+Insert 3 -1665
+Query 3 3 1
+Reverse 6 6
+Query 6 6 1
+Insert 5 -8792
+Insert 6 5366
+Insert 8 -1322
+Reverse 3 4
+Query 8 9 1
+Query 8 9 1
+Insert 3 8976
+Insert 5 -4347
+Query 8 8 1
+Delete 10
+Query 2 5 2
+Reverse 10 10
+Query 6 9 1
+Insert 4 4041
+Query 7 7 1
+Reverse 8 10
+Query 11 11 1
+Delete 2
+Query 4 10 2
+Insert 10 -4167
+Delete 9
+Insert 7 5871
+Delete 6
+Insert 2 -1900
+Query 1 7 5
+Reverse 7 11
+Reverse 4 7
+Delete 4
+Delete 8
+Query 6 7 2
+Reverse 9 9
+Reverse 3 5
+Delete 7
+Reverse 7 8
+Insert 5 -6550
+Delete 2
+Delete 5
+Query 6 6 1
+Reverse 2 3
+Insert 7 3262
+Reverse 5 7
+Reverse 8 8
+Insert 9 5943
+Delete 3
+Reverse 8 8
+Reverse 4 5
+Reverse 2 8
+Reverse 2 2
+Reverse 5 8
+Delete 8
+Insert 7 9963
+Query 1 6 4
+Delete 2
+Delete 5
+Reverse 4 4
+Query 1 5 4
+Insert 7 -8931
+Insert 8 1757
+Insert 2 -6598
+Reverse 6 9
+Reverse 7 9
+Insert 8 -5946
+Delete 1
+Reverse 2 4
+Delete 3
+Reverse 5 5
+Query 8 8 1
+Delete 7
+Reverse 7 7
+Reverse 6 6
+Delete 1
+Delete 3
+Delete 2
+Query 2 4 2
+Query 4 4 1
+Delete 1
+Insert 2 -6330
+Delete 3
+Delete 2
+Query 2 2 1
+Reverse 2 2
+Insert 1 3623
+Insert 3 -4033
+Query 2 2 1
+Reverse 4 4
+Delete 1
+Query 1 1 1
+Delete 3
+Delete 1
+Delete 1
+Insert 1 -2480
+Query 1 1 1
+Insert 1 -9750
+Reverse 1 2
+Insert 3 2084
+Reverse 3 3
+Insert 1 -9552
+Delete 4
+Delete 2
+Query 1 2 2
+Delete 2
+Reverse 1 1
+Delete 1
+Insert 1 658
+Reverse 1 1
+Insert 1 -2125
+Query 2 2 1
+Delete 1
+Query 1 1 1
+Query 1 1 1
+Delete 1
+Insert 1 9529
+Insert 1 3021
+Query 2 2 1
+Delete 1
+Insert 2 -7583
+Delete 1
+Insert 2 46
+Insert 1 -226
+Query 2 3 2
+Query 1 2 1
+Delete 2
+Reverse 1 1
+Query 2 2 1
+Delete 1
+Query 1 1 1
+Query 1 1 1
+Delete 1
+Insert 1 7846
+Query 1 1 1
+Insert 2 -352
+Query 2 2 1
+Insert 2 -8392
+Reverse 2 3
+Insert 1 6695
+Insert 1 6878
+Insert 4 482
+Query 1 5 2
+Reverse 4 6
+Insert 1 6942
+Query 3 4 1
+Insert 7 -1882
+Delete 7
+Reverse 4 4
+Reverse 3 6
+Insert 8 2664
+Reverse 3 6
+Delete 4
+Reverse 4 6
+Reverse 7 7
+Insert 6 8950
+Query 5 7 2
+Query 7 8 2
+Delete 8
+Reverse 5 7
+Query 3 6 2
+Delete 7
+Delete 4
+Reverse 5 5
+Delete 5
+Query 2 2 1
+Insert 1 8851
+Query 2 2 1
+Insert 1 2726
+Insert 1 -5150
+Insert 8 426
+Reverse 1 4
+Reverse 7 8
+Reverse 8 8
+Reverse 2 2
+Insert 2 -673
+Delete 7
+Insert 5 5766
+Insert 4 -9150
+Query 10 10 1
+Query 7 8 1
+Insert 6 3226
+Reverse 6 9
+Insert 11 7068
+Delete 1
+Query 9 11 1
+Reverse 2 8
+Insert 11 -3528
+Query 3 3 1
+Insert 6 -8739
+Query 13 13 1
+Insert 6 -5465
+Reverse 14 14
+Insert 13 -735
+Delete 4
+Reverse 4 7
+Reverse 6 9
+Delete 14
+Reverse 13 13
+Query 11 11 1
+Query 7 11 3
+Insert 2 8622
+Reverse 3 9
+Query 14 14 1
+Delete 6
+Insert 12 -8356
+Query 8 8 1
+Insert 9 8116
+Delete 12
+Reverse 8 12
+Query 4 14 2
+Insert 8 8170
+Reverse 15 15
+Query 14 15 2
+Insert 7 -1072
+Query 7 11 5
+Insert 11 5981
+Reverse 16 16
+Insert 5 4648
+Reverse 13 16
+Delete 15
+Insert 14 946
+Delete 3
+Query 5 11 4
+Reverse 7 9
+Delete 8
+Query 1 6 1
+Delete 12
+Delete 3
+Reverse 6 8
+Delete 4
+Reverse 8 9
+Delete 7
+Reverse 4 12
+Reverse 8 11
+Delete 8
+Query 5 6 2
+Query 7 11 5
+Query 2 2 1
+Query 2 10 8
+Query 2 11 10
+Query 9 11 3
+Query 11 11 1
+Delete 6
+Insert 3 -16
+Query 7 7 1
+Insert 5 7767
+Query 7 9 3
+Insert 13 -5384
+Reverse 1 2
+Insert 1 -4688
+Insert 4 9793
+Delete 3
+Insert 12 5405
+Reverse 13 15
+Reverse 2 11
+Reverse 11 15
+Query 2 8 1
+Query 13 14 2
+Delete 2
+Insert 7 -4978
+Insert 16 2890
+Delete 6
+Delete 7
+Delete 2
+Query 13 13 1
+Query 6 8 2
+Query 9 13 4
+Reverse 5 7
+Reverse 2 7
+Delete 9
+Insert 7 -2109
+Query 2 9 8
+Query 3 12 4
+Delete 8
+Delete 5
+Delete 3
+Delete 9
+Insert 7 -3607
+Delete 1
+Insert 2 -554
+Query 8 8 1
+Insert 2 -3337
+Query 8 11 2
+Query 2 6 2
+Delete 6
+Reverse 6 9
+Query 7 8 1
+Query 9 9 1
+Insert 6 -2836
+Query 6 8 3
+Delete 10
+Delete 6
+Query 9 9 1
+Reverse 8 9
+Reverse 5 9
+Query 9 9 1
+Delete 4
+Insert 9 9847
+Reverse 1 5
+Delete 1
+Query 6 8 3
+Query 2 2 1
+Insert 1 -5221
+Query 3 5 3
+Query 4 9 4
+Query 3 9 1
+Reverse 4 8
+Insert 2 8605
+Delete 6
+Query 6 7 2
+Reverse 8 9
+Delete 6
+Insert 7 -3500
+Query 1 8 8
+Query 2 9 2
+Insert 6 1541
+Delete 4
+Delete 2
+Delete 3
+Delete 3
+Reverse 3 4
+Query 3 5 1
+Query 1 1 1
+Reverse 1 1
+Reverse 3 4
+Reverse 5 5
+Reverse 6 6
+Insert 6 2008
+Reverse 5 7
+Reverse 1 4
+Reverse 1 3
+Query 7 7 1
+Reverse 4 7
+Reverse 6 6
+Delete 7
+Reverse 2 6
+Insert 4 -2311
+Reverse 1 5
+Query 4 6 1
+Delete 6
+Reverse 2 6
+Reverse 1 5
+Insert 5 -4036
+Query 6 6 1
+Insert 3 2344
+Delete 3
+Insert 2 -792
+Insert 2 -7048
+Query 7 7 1
+Query 7 9 2
+Delete 7
+Query 3 3 1
+Insert 1 1256
+Insert 4 -911
+Query 2 4 2
+Insert 10 8513
+Delete 7
+Delete 4
+Query 3 6 2
+Insert 2 3845
+Reverse 4 7
+Query 5 8 1
+Query 6 9 1
+Query 6 6 1
+Reverse 3 4
+Delete 8
+Delete 7
+Reverse 2 8
+Insert 1 -6226
+Query 6 6 1
+Query 9 9 1
+Reverse 3 9
+Reverse 5 7
+Reverse 7 8
+Reverse 6 8
+Delete 6
+Insert 4 -3871
+Insert 6 8369
+Query 9 9 1
+Reverse 5 5
+Insert 9 -5498
+Delete 10
+Reverse 9 10
+Query 10 10 1
+Query 2 6 3
+Delete 10
+Query 4 9 6
+Insert 10 -4569
+Reverse 4 8
+Query 7 9 1
+Query 9 10 2
+Delete 7
+Reverse 9 9
+Insert 4 7924
+Insert 9 3252
+Reverse 2 9
+Reverse 10 11
+Insert 5 -235
+Query 1 12 6
+Insert 12 5710
+Delete 6
+Insert 13 7372
+Reverse 13 13
+Delete 7
+Delete 2
+Reverse 2 10
+Insert 9 -9423
+Reverse 3 7
+Delete 3
+Query 7 10 4
+Reverse 9 10
+Query 8 9 1
+Delete 11
+Query 8 10 2
+Reverse 1 1
+Query 6 8 1
+Insert 5 -5823
+Query 10 10 1
+Query 5 11 6
+Query 8 8 1
+Delete 7
+Reverse 2 8
+Insert 8 3672
+Delete 7
+Delete 6
+Reverse 6 7
+Delete 2
+Reverse 2 4
+Delete 1
+Delete 1
+Delete 1
+Query 1 1 1
+Delete 4
+Query 3 4 1
+Insert 5 -2173
+Delete 4
+Query 4 4 1
+Delete 4
+Insert 2 1173
+Insert 4 -4175
+Delete 4
+Reverse 2 3
+Insert 1 -749
+Insert 4 6176
+Reverse 4 4
+Reverse 4 4
+Delete 1
+Reverse 3 4
+Insert 4 6031
+Reverse 4 6
+Insert 2 6476
+Delete 7
+Query 4 4 1
+Reverse 2 3
+Reverse 4 5
+Delete 4
+Query 5 5 1
+Delete 3
+Query 2 2 1
+Delete 2
+Insert 1 2322
+Delete 3
+Reverse 2 2
+Delete 2
+Delete 1
+Query 1 1 1
+Delete 1
+Insert 1 -2139
+Query 1 1 1
+Query 1 1 1
+Reverse 1 1
+Reverse 1 1
+Delete 1
+Insert 1 1195
+Reverse 1 1
+Reverse 1 1
+Query 1 1 1
+Delete 1
+Insert 1 8287

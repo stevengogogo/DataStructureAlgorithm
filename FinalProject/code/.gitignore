@@ -1,0 +1,5 @@
+.DS_Store
+test/build/
+test_TEMP/
+build/
+.vscode/

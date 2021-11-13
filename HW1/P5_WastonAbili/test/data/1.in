@@ -1,0 +1,31 @@
+5 30
+enter 4 2788
+leave 4
+migrate 4 3
+enter 2 132
+enter 0 2800
+migrate 2 3
+enter 1 3116
+enter 3 8714
+enter 0 267
+migrate 0 1
+enter 4 4055
+migrate 3 0
+enter 2 2567
+migrate 1 4
+migrate 1 2
+enter 4 72
+leave 1
+migrate 0 4
+migrate 4 1
+migrate 2 0
+enter 1 1230
+migrate 3 2
+migrate 0 4
+leave 3
+enter 2 8548
+enter 0 4983
+leave 4
+migrate 3 2
+enter 3 3731
+enter 1 9536

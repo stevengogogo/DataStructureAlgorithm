@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "utils.h": "c",
+        "array": "c",
+        "string_view": "c",
+        "type_traits": "c",
+        "test_dataarrange.h": "c"
+    }
+}

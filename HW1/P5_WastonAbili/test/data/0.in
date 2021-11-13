@@ -1,0 +1,8 @@
+3 7
+enter 1 1
+enter 1 2
+enter 2 3
+enter 2 4
+enter 2 5
+leave 2
+migrate 2 1

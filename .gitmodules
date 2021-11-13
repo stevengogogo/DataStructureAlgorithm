@@ -1,0 +1,52 @@
+[submodule "HW0/GreatestCommonDivisor"]
+	path = HW0/GreatestCommonDivisor
+	url = https://github.com/stevengogogo/GreatestCommonDivisor
+[submodule "HW0/NonogramSolver"]
+	path = HW0/NonogramSolver
+	url = https://github.com/stevengogogo/NonogramSolver
+[submodule "HW1/P6_KLeastElement"]
+	path = HW1/P6_KLeastElement
+	url = https://github.com/stevengogogo/DSA-KLeastElement.git
+	branch = main
+[submodule "HW1/P5_WastonAbili"]
+	path = HW1/P5_WastonAbili
+	url = https://github.com/stevengogogo/DSA-WastonAbili.git
+	branch = main
+[submodule "HW1/P4_EvilEval"]
+	path = HW1/P4_EvilEval
+	url = https://github.com/stevengogogo/DSA-EvilEval.git
+	branch = main
+[submodule "HW1/P123_NonProgramming"]
+	path = HW1/P123_NonProgramming
+	url = https://github.com/stevengogogo/DSA-HW1-Nonprogramming.git
+	branch = main
+[submodule "HW2/P4_FakeBinarySearchTree"]
+	path = HW2/P4_FakeBinarySearchTree
+	url = https://github.com/stevengogogo/DSA_FakeBinarySearchTree
+[submodule "HW2/P5_IntersectingTriangles"]
+	path = HW2/P5_IntersectingTriangles
+	url = https://github.com/stevengogogo/DSA_IntersectingTriangles
+[submodule "HW2/P6_PackageArrangement"]
+	path = HW2/P6_PackageArrangement
+	url = https://github.com/stevengogogo/DSA_PackageArrangement
+[submodule "HW2/P123_Nonprogramming"]
+	path = HW2/P123_Nonprogramming
+	url = https://github.com/stevengogogo/DSA-HW2-Nonprogramming
+[submodule "FinalProject/code"]
+	path = FinalProject/code
+	url = https://github.com/stevengogogo/DSA_EmailSearcher
+[submodule "HW3/P6_RecoverGraph"]
+	path = HW3/P6_RecoverGraph
+	url = https://github.com/stevengogogo/DSA_GraphReconstruction
+[submodule "HW3/P5_AliceBookshelf"]
+	path = HW3/P5_AliceBookshelf
+	url = https://github.com/stevengogogo/DSA_PriorityTree
+[submodule "HW3/P4_TooManyEmails"]
+	path = HW3/P4_TooManyEmails
+	url = https://github.com/stevengogogo/DSA_GarbledTextFilter
+[submodule "HW3/P123_NonProgramming"]
+	path = HW3/P123_NonProgramming
+	url = https://github.com/stevengogogo/DSA-HW3-Nonprogramming
+[submodule "FinalProject/report"]
+	path = FinalProject/report
+	url = https://github.com/stevengogogo/DSA_EmailSearcher_Report

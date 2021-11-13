@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "utils.h": "c",
+        "array": "c",
+        "*.tcc": "c",
+        "memory": "c",
+        "istream": "c",
+        "functional": "c",
+        "tuple": "c",
+        "utility": "c"
+    }
+}

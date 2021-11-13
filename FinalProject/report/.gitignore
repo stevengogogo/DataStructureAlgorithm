@@ -1,0 +1,34 @@
+# Save aux file for hyper citation
+*.out
+*.log
+*.fls
+*.fdb_latexmk
+*.blg
+*.bbl
+*.synctex.gz
+*.spl
+*.snm
+*.nav
+*.aux
+*.lof
+*.toc
+*.lot
+
+#!aux/*
+
+
+# ignore subfolder aux/
+fig/**/aux/
+table/**/aux/
+
+
+# VS code setting
+/.vscode
+
+# For jupyter
+/.ipynb_checkpoints
+# For Mac
+*.DS_Store
+
+# Ignore output pdf
+main.pdf

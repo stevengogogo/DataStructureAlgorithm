@@ -1,0 +1,86 @@
+% !TeX root = ./main.tex
+
+
+
+
+%中文設定
+\usepackage{xeCJK} %讓中英文字體分開設置
+% Noto Font: Download here: https://www.google.com/get/noto/#sans-hant
+\setCJKmainfont{Noto Sans CJK TC}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{array}
+
+
+\geometry{
+    a4paper,
+    total={7in, 9.5in},
+    top=1.1in
+}
+
+\renewcommand{\footrulewidth}{0.4pt}
+\fontfamily{charter}\selectfont
+\pagenumbering{gobble}
+\linespread{1.2}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Team No.\teamno}
+\lhead{DSA Final Project Report}
+\lfoot{Ranking: \bestranking \quad Score: \bestscore}
+\rfoot{\teammembers}
+
+
+
+
+%數學
+\usepackage{amsmath}
+
+
+
+
+
+\usepackage{booktabs} % 畫分隔線
+
+%隱藏標題碼
+\makeatletter
+\renewcommand\@seccntformat[1]{}
+\makeatother
+
+%顏色
+\usepackage[dvipsnames]{xcolor}
+
+
+
+%超連結
+\usepackage[unicode]{hyperref} %用 unicode防止中文亂碼
+\usepackage{url}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=NavyBlue,
+    filecolor=NavyBlue,      
+    urlcolor=NavyBlue,
+    citecolor=NavyBlue
+} %超連結顏色
+
+% 可愛圖
+\usepackage{fontawesome5} %gallery of fontawesome: https://mirror-hk.koddos.net/CTAN/fonts/fontawesome5/doc/fontawesome5.pdf
+
+%文包圖
+\usepackage{subcaption}
+\usepackage{stfloats} %caption footnote
+%彩色方塊文字
+\usepackage{tcolorbox}
+
+%圖的文字編碼
+\usepackage[labelfont=bf, font={small}]{caption}
+
+
+%Reference
+\usepackage[numbers]{natbib}
+%\usepackage[round]{natbib}
+\bibliographystyle{unsrtnat}

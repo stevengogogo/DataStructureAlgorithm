@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+  --mono-hue: 222;
+  --mono-saturation: 14%;
+  --base-background-color: #282c35;
+  --theme-color: #66e0ff;
+  --link-color: var(--theme-color);
+
+  --base-font-family: Roboto, sans-serif;
+  --strong-font-weight: 700;
+
+  --search-flex-order: 0;
+  --search-margin: 1rem 0;
+  --docsify-example-panels-left-panel-width : 50%;
+  --docsify-example-panels-right-panel-width : 50%;
+}
+
+@media screen and (min-width: 1230px) {
+  :root {
+    --sidebar-width: 22rem;
+    --content-max-width : 66em;
+  }
+}
