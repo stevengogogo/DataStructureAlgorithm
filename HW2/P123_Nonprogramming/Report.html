@@ -1,0 +1,1140 @@
+<!DOCTYPE html><html><head>
+      <title>Report</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      
+        <script type="text/x-mathjax-config">
+          MathJax.Hub.Config({"extensions":["tex2jax.js"],"jax":["input/TeX","output/HTML-CSS"],"messageStyle":"none","tex2jax":{"processEnvironments":false,"processEscapes":true,"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"TeX":{"extensions":["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]},"HTML-CSS":{"availableFonts":["TeX"]}});
+        </script>
+        <script type="text/javascript" async src="file:////Users/stevenchiu/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.5.18/node_modules/@shd101wyy/mume/dependencies/mathjax/MathJax.js" charset="UTF-8"></script>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <style>
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+.markdown-preview.markdown-preview {
+  /* Please visit the URL below for more information: */
+  /*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+}
+.markdown-preview.markdown-preview .markdown-preview.markdown-preview h1 {
+  font-size: 1px;
+}
+.markdown-preview.markdown-preview .markdown-preview.markdown-preview h2 {
+  font-size: 14px;
+}
+.markdown-preview.markdown-preview .markdown-preview.markdown-preview h3 {
+  font-size: 13px;
+}
+.markdown-preview.markdown-preview .markdown-preview.markdown-preview h1,
+.markdown-preview.markdown-preview .markdown-preview.markdown-preview h2,
+.markdown-preview.markdown-preview .markdown-preview.markdown-preview h3,
+.markdown-preview.markdown-preview .markdown-preview.markdown-preview h4,
+.markdown-preview.markdown-preview .markdown-preview.markdown-preview h5,
+.markdown-preview.markdown-preview .markdown-preview.markdown-preview h6 {
+  border-bottom: none;
+}
+
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview  ">
+      <p><a href="https://hackmd.io/lQc0xN-7RsOa9Ux7Z9VVjQ"><img width="150" src="https://i.imgur.com/f4QaiGE.png"></a></p>
+<center>
+<h1>Homework 2: Non-Programming Part</h1>
+<p>&#x90B1;&#x7D39;&#x5EAD;<br>
+<code>r07945001@ntu.edu.tw</code></p>
+</center>
+<p><strong>Table of Contents</strong></p>
+<ul>
+<li><a href="#problem-1-sort-80pt-20pt">Problem 1 - Sort (80pt + 20pt)</a>
+<ul>
+<li><a href="#1-10pts">1. (10pts)</a></li>
+<li><a href="#2-20pts">2. (20pts)</a></li>
+<li><a href="#3-10pts">3. (10pts)</a></li>
+<li><a href="#4-5pt">4. (5pt)</a></li>
+<li><a href="#5-20-pt">5. (20 pt)</a></li>
+<li><a href="#6-15pt">6. (15pt)</a></li>
+<li><a href="#7-5pt">7. (5pt)</a></li>
+<li><a href="#8-15pt">8. (15pt)</a></li>
+</ul>
+</li>
+<li><a href="#problem-2-tree-65pt">Problem 2 - Tree (65pt)</a>
+<ul>
+<li><a href="#1-10pt">1. (10pt)</a></li>
+<li><a href="#2-15pt">2. (15pt)</a></li>
+<li><a href="#3-10pt">3. (10pt)</a></li>
+<li><a href="#4-15pt">4. (15pt)</a></li>
+<li><a href="#5-15pt">5. (15pt)</a></li>
+</ul>
+</li>
+<li><a href="#problem-3-heap-55pt">Problem 3 - Heap (55pt)</a>
+<ul>
+<li><a href="#1-15pts">1. (15pts)</a></li>
+<li><a href="#2-10pt">2. (10pt)</a></li>
+<li><a href="#310pt">3.(10pt)</a></li>
+<li><a href="#4-20pt">4. (20pt)</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 class="mume-header" id="problem-1-sort-80pt-20pt">Problem 1 - Sort (80pt + 20pt)</h2>
+
+<h3 class="mume-header" id="1-10pts">1. (10pts)</h3>
+
+<p>Because median is surely not one of the extemes, we can try <span class="mathjax-exps">$n-2$</span> times eliminiate the impossible i-of-median one by one. The remaining two <span class="mathjax-exps">$P$</span> will be the extremes.</p>
+<pre data-role="codeBlock" data-info="cpp {.line-numbers}" class="language-cpp line-numbers">Find<span class="token operator">-</span><span class="token function">Extremes</span><span class="token punctuation">(</span>P<span class="token punctuation">)</span>
+    Is <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">]</span>
+   
+    <span class="token keyword">for</span> j <span class="token operator">=</span> <span class="token number">4</span> to P<span class="token punctuation">.</span>len<span class="token operator">+</span><span class="token number">1</span>
+        i <span class="token operator">=</span> PANCAKE<span class="token operator">-</span>GOD<span class="token operator">-</span><span class="token function">ORACLE</span><span class="token punctuation">(</span>P<span class="token punctuation">,</span>Is<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span>
+        <span class="token function">remove</span><span class="token punctuation">(</span>Is<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span>
+        <span class="token keyword">if</span> j <span class="token operator">==</span> P<span class="token punctuation">.</span>len<span class="token operator">+</span><span class="token number">1</span>
+            <span class="token keyword">break</span>
+        <span class="token function">append</span><span class="token punctuation">(</span>Is<span class="token punctuation">,</span> j<span class="token punctuation">)</span>
+    
+    <span class="token keyword">return</span> Is
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre><p>Therefore, totoal iteration is <span class="mathjax-exps">$n-1$</span> times <span class="mathjax-exps">$\in O(n)$</span></p>
+<h3 class="mume-header" id="2-20pts">2. (20pts)</h3>
+
+<p>The main idea is how to convert <code>PANCAKE-GOD-ORACLE</code> into a <strong>comparison function</strong>, and use this comparison function to achieve the optimal of comparison sort.</p>
+<p><strong>Making a comparison function</strong></p>
+<p>Since we got the extremes, to say <span class="mathjax-exps">$P_{ext_1}$</span> and <span class="mathjax-exps">$P_{ext_2}$</span>, we can use one of the <span class="mathjax-exps">$P_{ext}$</span> as a baseline. We need to prove the following equality</p>
+<pre data-role="codeBlock" data-info="wrap=" class="language-wrap="><code>compare(i,j) = i == PANCAKE-GOD-ORACLE(P[i], P[j], P_ext)
+</code></pre><p>where <span class="mathjax-exps">$i,j\notin \{ P_{ext1}, P_{ext2} \}$</span></p>
+<ul>
+<li>when <code>P[i] &lt; P[j]</code> and <code>P_ext</code> is maximum
+<ul>
+<li><code>compare(i,j) == 1</code></li>
+</ul>
+</li>
+<li>Otherwise
+<ul>
+<li><code>compare(i,j) == 2</code></li>
+</ul>
+</li>
+<li>because  <span class="mathjax-exps">$P_{ext}$</span> is always bigger or smaller than both of <code>P[i]</code> and <code>P[j]</code></li>
+<li>For <code>P_ext</code> is a minimum, vice versa.</li>
+<li>We can not know <code>compare</code> is <code>argmin</code> or <code>argmax</code> function of <code>P[i]</code> and <code>P[j]</code>. But we can guarantee the monotonicity by using <code>compare</code> in quick sort.</li>
+</ul>
+<p><strong>Apply to comparison sort</strong></p>
+<p>Since we got the comparison function, we need to first allocate extremes to <code>P[1]</code> and <code>P[end]</code>. we can apply sorting algorithm, which is optimal in time complexity, to the sequence <code>P[2]...P[end-1]</code> (Noted that at this moment, <span class="mathjax-exps">$P[1]=P_{ext1}$</span>, <span class="mathjax-exps">$P[end] = P_{ext2}$</span>, <span class="mathjax-exps">$P[i] = P_k~if~k\in \{1,\cdots,end-1\}$</span>). To acheive <span class="mathjax-exps">$O(n\lg n)$</span>, I chose <strong>quick sort</strong> to the region with index <code>[2,...,end-1]</code> and use <code>compare</code> function proved above. For clarity, I listed the pseudo code below which is modified from <em>ITA P.171</em>:</p>
+<pre data-role="codeBlock" data-info="cpp {.line-numbers}" class="language-cpp line-numbers"><span class="token function">Quicksort</span><span class="token punctuation">(</span>A<span class="token punctuation">,</span>p<span class="token punctuation">,</span>r<span class="token punctuation">)</span>
+    <span class="token keyword">if</span> <span class="token function">compare</span><span class="token punctuation">(</span>p<span class="token punctuation">,</span>r<span class="token punctuation">)</span>
+        q <span class="token operator">=</span><span class="token function">Partition</span><span class="token punctuation">(</span>A<span class="token punctuation">,</span>p<span class="token punctuation">,</span>r<span class="token punctuation">)</span>
+        <span class="token function">Quicksort</span><span class="token punctuation">(</span>A<span class="token punctuation">,</span>p<span class="token punctuation">,</span> q<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span>
+        <span class="token function">Quicksort</span><span class="token punctuation">(</span>A<span class="token punctuation">,</span> q<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">,</span>r<span class="token punctuation">)</span>
+end 
+
+<span class="token function">Partition</span><span class="token punctuation">(</span>A<span class="token punctuation">,</span>p<span class="token punctuation">,</span>r<span class="token punctuation">)</span>
+    x <span class="token operator">=</span> A<span class="token punctuation">[</span>r<span class="token punctuation">]</span>
+    i <span class="token operator">=</span> p<span class="token operator">-</span><span class="token number">1</span>
+    <span class="token keyword">for</span> j <span class="token operator">=</span> p to r<span class="token operator">-</span><span class="token number">1</span>
+        <span class="token keyword">if</span> <span class="token function">compare</span><span class="token punctuation">(</span>A<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">,</span>x<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">1</span>
+            i <span class="token operator">=</span> i<span class="token operator">+</span><span class="token number">1</span>
+            exchange A<span class="token punctuation">[</span>j<span class="token punctuation">]</span> with A<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+    
+    exchange A<span class="token punctuation">[</span>r<span class="token punctuation">]</span> with A<span class="token punctuation">[</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span>
+    
+    <span class="token keyword">return</span> i<span class="token operator">+</span><span class="token number">1</span>  
+end
+
+<span class="token function">Sort</span><span class="token punctuation">(</span>P<span class="token punctuation">)</span>
+    Is <span class="token operator">=</span> Find<span class="token operator">-</span><span class="token function">Extremes</span><span class="token punctuation">(</span>P<span class="token punctuation">)</span>
+    allocate Is to P<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">and</span> P<span class="token punctuation">[</span>end<span class="token punctuation">]</span>
+    <span class="token function">Quicksort</span><span class="token punctuation">(</span>P<span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span>P<span class="token punctuation">.</span>end<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span>
+end
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre><p><strong>Query Complexity</strong></p>
+<ul>
+<li>For finding extrema: <span class="mathjax-exps">$O(n)$</span></li>
+<li>For sorting: It is implemented in quick sort that has the time complexity of <span class="mathjax-exps">$O(n\lg n)$</span>. This complexity can be regarded the calling times of <code>compare</code> which uses the <code>PANCAKE-GOD-ORACLE</code>. Therefore, the overall query complexity is <span class="mathjax-exps">$n\lg n$</span>.</li>
+</ul>
+<p><strong>Reference</strong>:</p>
+<ol>
+<li>Algorithm: Sort using Median and Just 1 comparison in <span class="mathjax-exps">$O(n \log n)$</span>. [Stackoverflow]<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></li>
+<li>Introduction to Algorithm. Page 171.</li>
+</ol>
+<h3 class="mume-header" id="3-10pts">3. (10pts)</h3>
+
+<p>The insertion takes in two parts:</p>
+<ol>
+<li>Comparison to extrema</li>
+<li>Binary search with extrema as a base number</li>
+</ol>
+<p>Let another pancake be <code>P_new</code> with testiness <code>t_new</code>. And assume list <code>L</code> is sorted with extremes locate at <code>L[1]</code> and <code>L[end]</code>. We want to find a site <code>i</code> to insert  <code>P_new</code> such that <code>L[i]</code> (<strong>Fig. 2-1</strong>).</p>
+<p><strong>Comparison to extrema</strong></p>
+<pre data-role="codeBlock" data-info="{.line-numbers}" class="language- line-numbers"><code>Pancake-God-Oracle(L[1], L[end], P_new)
+</code><span aria-hidden="true" class="line-numbers-rows"><span></span></span></pre><ol>
+<li>if <code>output=1</code>: Insert <code>P_new</code> at front</li>
+<li>else if <code>output=end</code>: Insert <code>P_new</code> at end</li>
+<li>Else:
+<ul>
+<li>Use <strong>binary search</strong> to find location</li>
+</ul>
+</li>
+</ol>
+<p><strong>Binary Search</strong></p>
+<p>As described in <a href="#1-10pts">P1-2</a>, we can use extrema to build a <strong>comparison function</strong> from <code>Pancake-God-Oracle</code>. After checking <code>P_new</code> is between <code>L[1]</code> and <code>L[end]</code>, we can apply the comparison function to <strong>binary search</strong> , which acheive <span class="mathjax-exps">$O(\log n)$</span> complexity, to find the place to insert <code>P_new</code>.</p>
+<pre data-role="codeBlock" data-info="python {.line-numbers}" class="language-python line-numbers">Insert<span class="token punctuation">(</span>L<span class="token punctuation">,</span> P_new<span class="token punctuation">)</span>
+    i <span class="token operator">=</span> Pancake<span class="token operator">-</span>God<span class="token operator">-</span>Oracle<span class="token punctuation">(</span>L<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span>L<span class="token punctuation">[</span>end<span class="token punctuation">]</span><span class="token punctuation">,</span>P_new<span class="token punctuation">)</span>
+    <span class="token keyword">if</span> i<span class="token operator">==</span><span class="token number">1</span>
+        insert P_new at <span class="token number">1</span> <span class="token comment">#case 1</span>
+    elseif i<span class="token operator">==</span>end
+        insert P_new at end <span class="token comment">#case 2</span>
+    <span class="token keyword">else</span> <span class="token comment">#case 3</span>
+        I <span class="token operator">=</span> Binary<span class="token operator">-</span>Search<span class="token punctuation">(</span>L<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">:</span>end<span class="token punctuation">]</span><span class="token punctuation">,</span>P_new<span class="token punctuation">,</span> func<span class="token operator">=</span>compare<span class="token punctuation">)</span>
+        insert P_new at I<span class="token operator">+</span><span class="token number">1</span>
+end
+
+compare<span class="token punctuation">(</span>i<span class="token punctuation">,</span>j<span class="token punctuation">)</span>
+    I <span class="token operator">=</span> Pancake<span class="token operator">-</span>God<span class="token operator">-</span>Oracle<span class="token punctuation">(</span>i<span class="token punctuation">,</span>j<span class="token punctuation">,</span> L<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+    <span class="token keyword">if</span> I<span class="token operator">==</span>i
+        <span class="token keyword">return</span> <span class="token number">1</span> <span class="token comment"># i&gt;j</span>
+    <span class="token keyword">else</span> 
+        <span class="token keyword">return</span> <span class="token number">2</span> 
+end
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre><p>The reason to use bianry search:</p>
+<ol>
+<li><span class="mathjax-exps">$L$</span> is <strong>sorted</strong>.</li>
+<li>When <code>P_new</code> is in the <strong>middle</strong> of the extremas, <strong>binary search</strong> is the fastest way to find an item in an <strong>sorted</strong> array.</li>
+</ol>
+<center>
+<img width="500" src="https://i.imgur.com/hx4MUIS.png">
+<p><strong>Fig. 1-1.</strong> Conditions of inserting a new value.</p>
+</center>
+<h3 class="mume-header" id="4-5pt">4. (5pt)</h3>
+
+<p>In <strong>problem 1-3</strong>, the <strong>insertion</strong> keeps the list <strong>sorted</strong> in <span class="mathjax-exps">$O(\log n)$</span> query complexity. Without locating the boundary pancakes, we can randomly choose two pancakes for starting. In <strong>Fig. 2-2</strong>, any list of two items is sorted. Therefore, we can apply the insertion algorithm proposed in <strong>problem 1-3</strong> (<strong>Fig. 2-1</strong>) to add the rest of pancakes one by one. The following is the proof of the sorting algorithm based on insertion.</p>
+<p><strong>Initiation</strong></p>
+<p>Any list of two items is <strong>sorted</strong>.</p>
+<p><strong>Loop invariance</strong></p>
+<p>Insertion algoritm in <strong>Problem 1-3</strong> keeps the inserted list sorted.</p>
+<p><strong>Termination</strong></p>
+<p>The last element is inserted with the same algorithm, so the list remains sorted.</p>
+<p>On the other hand, the query complexity of one insertion is <span class="mathjax-exps">$O(\log n)$</span>, and there are <span class="mathjax-exps">$n-2$</span> times of calling the insertion algorithm. Therefore, the resulting query complexity is <span class="mathjax-exps">$O(n\log n)$</span> for <span class="mathjax-exps">$n&gt;2$</span></p>
+<center>
+<img width="400" src="https://i.imgur.com/xXAwwL5.png">
+</center>
+<p><strong>Fig. 1-2.</strong>   Any list of two items is sorted, and can be applied to the insertion algorithm described in <strong>Fig. 2-1</strong>.</p>
+<h3 class="mume-header" id="5-20-pt">5. (20 pt)</h3>
+
+<p>In sorting with <code>PANCAKE-GOD-ORACLE</code>, we use the medians between three arguments to gain order information about an input sequence <span class="mathjax-exps">$\langle t_1,t_2,\cdots,t_n\rangle$</span>. we perform the tests, <span class="mathjax-exps">$t_i \in (t_j, t_k)$</span>, <span class="mathjax-exps">$t_j\notin (t_i, t_k)$</span> and <span class="mathjax-exps">$t_k \notin (t_k, t_j)$</span> when <code>PANCAKE-GOD-ORACLE(P,i,j,k)=Pi</code>. we can not inspect the values of the elements or gain order information about the tastes in any other way.</p>
+<p>To sort the list of <span class="mathjax-exps">$t_{i}$</span>, the permutation can be represented by the <strong>decision-tree model</strong> (<strong>Fig. 2-3</strong>). We can annotate each leaf by a permutation <span class="mathjax-exps">$\langle \pi(1),\cdots,\pi(n)\rangle$</span>. The execution of the sorting algorithm is equal to tracing a path from root of the decision tree down to a leaf. Each node represents a query, and there are <span class="mathjax-exps">$3$</span> possible outcomes that results in three sub-trees (<strong>Fig. 2-3</strong>). When coming to a leaf, the input sequence is already <em>sorted</em> in a order of <span class="mathjax-exps">$t_{\pi(1)} &lt; \cdots &lt;t_{\pi(n)}$</span> and <span class="mathjax-exps">$t_{\pi(1)} &gt; \cdots  &gt; t_{\pi(n)}$</span>. Because a correct sorting algorithm must be able to produce each permutation of its input, each of the <span class="mathjax-exps">$\frac{n!}{2}$</span> permutatoins muse appear as one of the leaves of the decision tree.</p>
+<p>Consider a decision tree of height <span class="mathjax-exps">$h$</span> with <span class="mathjax-exps">$l$</span> reachable leaves to sort <span class="mathjax-exps">$n$</span> elements. Because each of the <span class="mathjax-exps">$n!$</span> permutations of the input appears as some leaf, that is, <span class="mathjax-exps">$n!&lt;l$</span>. Since a <strong>tertiary tree</strong> of height <span class="mathjax-exps">$h$</span> has no more than <span class="mathjax-exps">$3^h$</span> leaves. Therefore,</p>
+<p></p><div class="mathjax-exps">$$n! \leq l \leq 3^h$$</div><p></p>
+<p>which, by using logarithms, shows</p>
+<p></p><div class="mathjax-exps">$$\begin{align} h &amp;\geq \log(n!) \\                  &amp;= \Omega(n\log n) \end{align}$$</div><p></p>
+<p>where <span class="mathjax-exps">$\log(n!) = \Omega(n\log n)$</span> is derived from <strong>Stirling&apos;s approximation</strong><sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>.</p>
+<p>By the definition of <span class="mathjax-exps">$\Omega$</span><sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup>,</p>
+<p></p><div class="mathjax-exps">$$\lim_{n\to \infty} \frac{n\log n}{f(n)} &gt; 0$$</div><p></p>
+<p>where <span class="mathjax-exps">$f(n)$</span> is the query complexity in respect of <span class="mathjax-exps">$n$</span>. Therefore, the equation <span class="mathjax-exps">$\lim_{x\to \infty} \frac{n\log n}{f(n)}=0$</span> is inachievable, to say, <span class="mathjax-exps">$f(n) \notin o(n\log)$</span>.</p>
+<center>
+<img src="https://i.imgur.com/ieFNpO1.jpg">
+</center>
+<p><strong>Fig. 1-3.</strong> A <strong>decision tree model</strong> of sorting <span class="mathjax-exps">$t_{i}$</span> where <span class="mathjax-exps">$i\in \{1,...,4\}$</span> with calling the function <code>PANCAKE-GOD-ORACLE(P,i,j,k)</code>. The syntax <span class="mathjax-exps">$\fbox{t1:t2:t3}$</span> represents a function call <code>PANCAKE-GOD-ORACXLE(P,1,2,3)</code>, and the output is labelled on the links. The sorted list is described in the bracket <span class="mathjax-exps">$\langle t_i ,\cdots,t_j\rangle$</span>.</p>
+<h3 class="mume-header" id="6-15pt">6. (15pt)</h3>
+
+<h3 class="mume-header" id="7-5pt">7. (5pt)</h3>
+
+<p>&#x1F4A1;<strong>Idea</strong></p>
+<blockquote>
+<p>Suppose we have a worst-case running time <span class="mathjax-exps">$T(n)$</span>, estimate the process region of the next reucrsive level.</p>
+</blockquote>
+<p>&#x1F4AC;<strong>Description</strong><br>
+When length of list is <span class="mathjax-exps">$n$</span>, <span class="mathjax-exps">$l=1$</span> and <span class="mathjax-exps">$r=n$</span>. The <code>ELF-SORT</code> function will proceed the list with length <span class="mathjax-exps">$n - \frac{1}{3} n$</span> for <span class="mathjax-exps">$3$</span> times, which is derived from <span class="mathjax-exps">$[l,r-\Delta]$</span> where <span class="mathjax-exps">$\Delta$</span> represent <span class="mathjax-exps">$\frac{1}{3}$</span> of current <span class="mathjax-exps">$n$</span>. The <code>swap</code> operation is independent from <span class="mathjax-exps">$n$</span>, so it can be done in constant time.</p>
+<p></p><div class="mathjax-exps">$$\begin{aligned}  T(n) &amp;= 3\underbrace{T(n - \frac{1}{3}n)}_{Next~function~call} + \underbrace{\Theta(1)}_{swap}\\      &amp;= 3T(\frac{n}{3/2}) + \Theta(1) \end{aligned}$$</div><p></p>
+<h3 class="mume-header" id="8-15pt">8. (15pt)</h3>
+
+<p>Let <span class="mathjax-exps">$a$</span> be the times of recursive calls and <span class="mathjax-exps">$b$</span> the ratio of current <span class="mathjax-exps">$n$</span> to the next. we have</p>
+<p></p><div class="mathjax-exps">$$T(n) = \underbrace{3}_{a}T(\frac{n}{\underbrace{\frac{3}{2}}_{b}}) + \Theta(1)$$</div><p></p>
+<p>let <span class="mathjax-exps">$f(n)$</span> be a function call of <code>SWAP</code>.</p>
+<p><strong>Number of <code>Swap</code> operation</strong></p>
+<p>The recursive function can be described in a tree structure (<strong>Fig. 1-4</strong>). The <code>swap</code> operation occurs on the leaf when <span class="mathjax-exps">$n=2$</span>. The height of the tree is around <span class="mathjax-exps">$\log_b n$</span>. Because all of the nodes have <span class="mathjax-exps">$a$</span> sub-nodes, that results in <span class="mathjax-exps">$a^{\log_b n}$</span> leaves, to say, <span class="mathjax-exps">$n^{\log_b a}$</span>. The sum of time complexity of swap operation is <span class="mathjax-exps">$\Theta(n^{\log_b a})$</span>.</p>
+<p><strong>Number of <code>ELF-SORT</code> calling</strong></p>
+<p>In <strong>Fig.1-4</strong>, each node represents a function call. The total function call is <span class="mathjax-exps">$g(n) = \sum_{j=0}^{\log_{b}(n) -1} a^j f(\frac{n}{b^j})$</span></p>
+<p><strong>Time complexity of <span class="mathjax-exps">$T(n)$</span></strong></p>
+<p>Because <span class="mathjax-exps">$f(n) \in \Theta(1)$</span>, <span class="mathjax-exps">$f(n) \in O(n^{\log_b a-\epsilon})$</span> for some constant <span class="mathjax-exps">$\epsilon&gt;0$</span>. This implies that <span class="mathjax-exps">$f(n/b^i) = O(n/b^j)^{\log_b a - \epsilon}$</span> where <span class="mathjax-exps">$\log_b a$</span> is the height of the recursive tree (<strong>Fig. 1-4</strong>). We get</p>
+<p></p><div class="mathjax-exps">$$\begin{aligned}     g(n) &amp;= \sum_{j=0}^{\log_{b}(n) -1} a^j f(\frac{n}{b^j}) \\          &amp;= \sum_{j=0}^{\log_{b}(n) -1} a^j (\frac{n}{b^j})^{\log_b a - \epsilon} \\          &amp;= n^{\log_b a-\epsilon} \sum_{j=0}^{\log_{b}(n) -1} (\frac{ab^\epsilon}{\underbrace{b^{\log_b a}}_{=a}})^j \\          &amp;= n^{\log_b a-\epsilon} \underbrace{\sum_{j=0}^{\log_{b}(n) -1} (b^\epsilon)^j}_{\text{Geometric series}} \\          &amp;= n^{\log_b a-\epsilon} (\frac{\overbrace{b^{\epsilon \log_b n}}^{n^\epsilon} - 1}{b^\epsilon - 1}) \\          &amp;= n^{\log_b a - \epsilon} (\frac{n^\epsilon - 1}{b^\epsilon - 1}) \\          &amp;\in O(n^{log_{b} a}) \end{aligned}$$</div><p></p>
+<p>Therefore, the total time complexity is<br>
+</p><div class="mathjax-exps">$$\begin{aligned}     T(n) &amp;= \underbrace{O(n^{\log_b a})}_{g} + \underbrace{\Theta(n^{\log_b a})}_{f} \\          &amp;= O(n^{\log_b a}) = O(n^{\log_{3/2}3}) \\          &amp;\approx O(n^{2.7}) \in O(n^3)  \end{aligned}$$</div><p></p>
+<center>
+<img width="400" src="https://i.imgur.com/VlJuon8.png">
+<p><strong>Fig. 1-4.</strong> Time complexity of a recursive function. Time complexity is labelled on nodes and leaves. The figure is modified from <sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup>.</p>
+</center>
+<hr>
+<h2 class="mume-header" id="problem-2-tree-65pt">Problem 2 - Tree (65pt)</h2>
+
+<h3 class="mume-header" id="1-10pt">1. (10pt)</h3>
+
+<p><strong>&#x1F4A1;Idea</strong></p>
+<ul>
+<li>Because <span class="mathjax-exps">$k-1 &lt; k$</span>, <span class="mathjax-exps">$t_{k-1}$</span> is on the left side of <span class="mathjax-exps">$t_k$</span></li>
+<li>On the other hand, <span class="mathjax-exps">$t_{k-1}$</span> possesses largest index on the left side of <span class="mathjax-exps">$t_{k}$</span></li>
+<li>Therefore, one can use the policy to find <span class="mathjax-exps">$t_{k-1}$</span> from <span class="mathjax-exps">$t_k$</span>
+<blockquote>
+<p>Turn left, and keep going right until reaching a NIL</p>
+</blockquote>
+</li>
+</ul>
+<p><strong>&#x1F527;Implementataion</strong></p>
+<pre data-role="codeBlock" data-info="cpp {.line-numbers}" class="language-cpp line-numbers">function <span class="token function">findPrev</span><span class="token punctuation">(</span>t_k<span class="token punctuation">)</span>
+    
+    <span class="token keyword">if</span><span class="token punctuation">(</span>t_k<span class="token punctuation">.</span>left <span class="token operator">==</span> NIL<span class="token punctuation">)</span>
+        <span class="token keyword">return</span> NIL
+    end
+    
+    t_prev <span class="token operator">=</span> t_k<span class="token punctuation">.</span>left
+    
+    <span class="token keyword">while</span><span class="token punctuation">(</span>t_prev<span class="token punctuation">.</span>right <span class="token operator">!=</span> NIL<span class="token punctuation">)</span>
+        t_prev <span class="token operator">=</span> t_prev<span class="token punctuation">.</span>right
+    end
+    
+    <span class="token keyword">return</span>  t_prev
+end
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre><h3 class="mume-header" id="2-15pt">2. (15pt)</h3>
+
+<p>Because avery sub-tree of <span class="mathjax-exps">$T$</span> is a binary search tree, and left sub-sub-tree contains data earlier than the sub-tree&apos;s root in time. That is, for the set <span class="mathjax-exps">$\{t_i | i\in left~side~of~t_k\}$</span> fullfills the inequality <span class="mathjax-exps">$t_{i} &lt; t_{k}$</span>.</p>
+<p></p><div class="mathjax-exps">$$\textbf{t_1 &lt; t_2 &lt; ...} &lt; t_k &lt; \cdots &lt; t_{n-1} &lt; t_n$$</div><p></p>
+<p>where the set of left nodes is in <strong>bold</strong> font. We can first proof that we can find the previous node of <span class="mathjax-exps">$t_{1}$</span> that is an empty set (<code>NIL</code>).</p>
+<p>For finding <span class="mathjax-exps">$t_{k-1}$</span>, there is no other value between <span class="mathjax-exps">$t_{k-1}$</span> and <span class="mathjax-exps">$t_{k}$</span> that is smaller than <span class="mathjax-exps">$t_k$</span>. Therefore, we need to find the biggies value in the set <span class="mathjax-exps">$\{t_i | i\in left~side~of~t_k\}$</span>. By keep reaching the <strong>right leaf</strong>, we can get the biggest value of <span class="mathjax-exps">$\{t_i | i\in left~side~of~t_k\}$</span>. That is <span class="mathjax-exps">$t_{k-1}$</span>.</p>
+<h3 class="mume-header" id="3-10pt">3. (10pt)</h3>
+
+<center>
+<img width="300" src="https://i.imgur.com/k3pNorJ.jpg">
+<p><strong>Fig. 2-1.</strong> Reconstructed binary tree<sup class="footnote-ref"><a href="#fn5" id="fnref5">[5]</a></sup>.</p>
+</center>
+<h3 class="mume-header" id="4-15pt">4. (15pt)</h3>
+
+<p><strong>Definition of root element</strong></p>
+<p>The definition of a root is always the <strong>first</strong> element of the <strong>preorder traversal</strong>. Thus, the determination of a root is unique, which is <code>inorder[1]</code>.</p>
+<p><strong>Definition of leaves</strong></p>
+<p>With a given root/subroot, the definition of left and right sets of leaves is unique (<strong>Fig. 2-2</strong>). Recursively, all the set of leaves will be uniquely distributed with complete inorder and preorder traversal.</p>
+<p><strong>Conclusion</strong></p>
+<p>Ther is no two binary trees share with the same <code>(inorder, preorder)</code> pair.</p>
+<center>
+<img width="300" src="https://i.imgur.com/J4m4hog.jpg">
+<p><strong>Fig. 2-2.</strong> Reucrsive algoritm of reconstructing a binary tree with preorder and inorder traversal<br>
+<sup class="footnote-ref"><a href="#fn6" id="fnref6">[6]</a></sup>.</p>
+</center>
+<h3 class="mume-header" id="5-15pt">5. (15pt)</h3>
+
+<p><strong>&#x1F4A1;Idea</strong></p>
+<ul>
+<li>Use recursive method described in <strong>Fig. 2-2</strong>.</li>
+<li>Use a look-table (<strong>Fig. 2-3</strong>) to record the <strong>preorder index</strong> and <strong>inorder index</strong> in respect of a <strong>key</strong> which is the alphabet in <strong>Fig. 2-2</strong>. <span class="mathjax-exps">$O(n)$</span> time complexity is required for this process including screening these two arrays.</li>
+<li><strong>A recursive method</strong> to build a binary tree. By intuition, the <strong>worst case</strong> of constructing a binary tree with a <strong>left-connected linked list</strong> that requires <span class="mathjax-exps">$O(n)$</span> time complexity</li>
+</ul>
+<center>
+<img width="300" src="https://i.imgur.com/GGDW9tN.jpg">
+<p><strong>Fig. 2-3.</strong> Data structure for storing the indexes of <strong>inorder</strong> and <strong>postorder</strong> array.</p>
+</center>
+<p><strong>&#x1F527;Implementation</strong></p>
+<ul>
+<li>
+<p>Constructing a look-up array</p>
+<pre data-role="codeBlock" data-info="cpp {.line-numbers}" class="language-cpp line-numbers"><span class="token keyword">struct</span> <span class="token class-name">node</span>
+    iIN  <span class="token comment">//index in inorder array</span>
+    iPRE <span class="token comment">//index in preorder array</span>
+    left <span class="token comment">//leaves</span>
+    right
+end
+
+function <span class="token function">getPairedArr</span><span class="token punctuation">(</span>inorder<span class="token punctuation">,</span> preorder<span class="token punctuation">)</span>
+
+    node arr<span class="token punctuation">[</span><span class="token function">length</span><span class="token punctuation">(</span>inorder<span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">for</span> i <span class="token operator">=</span> <span class="token number">1</span> to <span class="token function">length</span><span class="token punctuation">(</span>inorder<span class="token punctuation">)</span>
+        arr<span class="token punctuation">[</span>inorder<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">.</span>iIN <span class="token operator">=</span> i
+    end
+
+    <span class="token keyword">for</span> i <span class="token operator">=</span> <span class="token number">1</span> to <span class="token function">length</span><span class="token punctuation">(</span>preorder<span class="token punctuation">)</span>
+        arr<span class="token punctuation">[</span>preorder<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">.</span>iPRE <span class="token operator">=</span> i
+    end
+
+    <span class="token keyword">return</span> arr
+end
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></li>
+<li>
+<p>Reconstructing a binary tree</p>
+</li>
+</ul>
+<pre data-role="codeBlock" data-info="cpp {.line-numbers}" class="language-cpp line-numbers"><span class="token function">buildBST</span><span class="token punctuation">(</span>inorder<span class="token punctuation">,</span> preorder<span class="token punctuation">,</span> iIN<span class="token punctuation">)</span>
+    map <span class="token operator">=</span> <span class="token function">getPairedArr</span><span class="token punctuation">(</span>inorder<span class="token punctuation">,</span> preorder<span class="token punctuation">)</span>
+    iNA <span class="token operator">=</span> <span class="token number">1</span>
+    root<span class="token operator">=</span> <span class="token function">_buildBst</span><span class="token punctuation">(</span>map<span class="token punctuation">,</span> inorder<span class="token punctuation">,</span> preorder<span class="token punctuation">,</span> <span class="token operator">&amp;</span>iNA<span class="token punctuation">)</span>
+    <span class="token keyword">return</span> root
+end
+
+
+<span class="token function">_buildBST</span><span class="token punctuation">(</span>map<span class="token punctuation">,</span> inArr<span class="token punctuation">,</span> preArr<span class="token punctuation">,</span> <span class="token operator">*</span>iNA<span class="token punctuation">)</span>
+    
+    <span class="token comment">//Reach end</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">length</span><span class="token punctuation">(</span>inArr<span class="token punctuation">)</span><span class="token operator">==</span><span class="token number">0</span> <span class="token operator">||</span> <span class="token operator">*</span>iNA <span class="token operator">&gt;</span> <span class="token function">length</span><span class="token punctuation">(</span>preArr<span class="token punctuation">)</span><span class="token punctuation">)</span>
+        <span class="token keyword">return</span> <span class="token constant">NULL</span>
+    end
+    
+    <span class="token comment">//Asign new root</span>
+    root <span class="token operator">=</span> map<span class="token punctuation">[</span>preArr<span class="token punctuation">[</span><span class="token operator">*</span>iNA<span class="token punctuation">]</span><span class="token punctuation">]</span>
+    
+    Iin <span class="token operator">=</span> map<span class="token punctuation">[</span>preArr<span class="token punctuation">[</span><span class="token operator">*</span>iNA<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">.</span>iIN
+    
+    <span class="token operator">*</span>iNA<span class="token operator">++</span>
+    
+    root<span class="token punctuation">.</span>left <span class="token operator">=</span> <span class="token function">_buildBst</span><span class="token punctuation">(</span>map<span class="token punctuation">,</span> inArr<span class="token punctuation">[</span><span class="token number">1</span><span class="token operator">:</span>Iin<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span> preArr<span class="token punctuation">,</span> iNA<span class="token punctuation">)</span>
+    root<span class="token punctuation">.</span>right <span class="token operator">=</span> <span class="token function">_buildBst</span><span class="token punctuation">(</span>map<span class="token punctuation">,</span> inArr<span class="token punctuation">[</span>Iin<span class="token operator">+</span><span class="token number">1</span><span class="token operator">:</span>end<span class="token punctuation">]</span><span class="token punctuation">,</span> preArr<span class="token punctuation">,</span> iNA<span class="token punctuation">)</span>
+    
+    
+    <span class="token keyword">return</span> root
+end
+
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre><p>Note:</p>
+<ol>
+<li>This framework is majorly inspired by <sup class="footnote-ref"><a href="#fn6" id="fnref6:1">[6:1]</a></sup> and <sup class="footnote-ref"><a href="#fn7" id="fnref7">[7]</a></sup></li>
+<li>In Julia: <code>a[3:end] == []</code> when <code>length(a) == 2</code><sup class="footnote-ref"><a href="#fn8" id="fnref8">[8]</a></sup></li>
+</ol>
+<hr>
+<h2 class="mume-header" id="problem-3-heap-55pt">Problem 3 - Heap (55pt)</h2>
+
+<h3 class="mume-header" id="1-15pts">1. (15pts)</h3>
+
+<p><strong>&#x1F4A1;Idea</strong></p>
+<ul>
+<li><strong>Direction of change</strong>: First of all, if <code>x.key == v</code>, there is no need to move the element <code>x</code> We need to know the new assigned value <code>v</code> is greater or smaller.</li>
+<li><strong>Case 1: <code>x.key</code> is increased</strong>:
+<ul>
+<li>There is only one possibility: going downward to leaf.</li>
+</ul>
+</li>
+<li><strong>Case 2: <code>x.key</code> is decreased</strong>:
+<ul>
+<li>Going upward to root.</li>
+</ul>
+</li>
+</ul>
+<p>Both <em>Case 1</em> and <em>Case 2</em> can be recursively (or loop) implemented. The only difference is the direction of movement.</p>
+<center>
+<img width="300" src="https://i.imgur.com/gc9HtiV.jpg">
+<p><strong>Fig 3-1.</strong> Moving direction of node <code>x</code>.</p>
+</center>
+<p><strong>&#x1F527;Implementation</strong></p>
+<pre data-role="codeBlock" data-info="cpp {.line-numbers}" class="language-cpp line-numbers">h<span class="token punctuation">.</span><span class="token function">modify</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> v<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>x<span class="token punctuation">.</span>key<span class="token operator">==</span>v<span class="token punctuation">)</span>
+      <span class="token comment">//Do nothing</span>
+    <span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>x<span class="token punctuation">.</span>key<span class="token operator">&gt;</span>v<span class="token punctuation">)</span>
+        h<span class="token punctuation">.</span><span class="token function">increaseKey</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span>v<span class="token punctuation">)</span>
+    <span class="token keyword">else</span>
+        h<span class="token punctuation">.</span><span class="token function">decreaseKey</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span>v<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+
+h<span class="token punctuation">.</span><span class="token function">decreaseKey</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span>v<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token function">assert</span><span class="token punctuation">(</span>x<span class="token punctuation">.</span>key <span class="token operator">&gt;</span> v<span class="token punctuation">)</span>
+    x<span class="token punctuation">.</span>key <span class="token operator">=</span> v
+    <span class="token keyword">while</span><span class="token punctuation">(</span><span class="token function">parent</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span> <span class="token operator">!=</span> <span class="token constant">NULL</span> <span class="token operator">and</span> <span class="token function">parent</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">.</span>key <span class="token operator">&gt;</span> v<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token function">swap</span><span class="token punctuation">(</span> <span class="token function">parent</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">,</span> x<span class="token punctuation">)</span> 
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+
+h<span class="token punctuation">.</span><span class="token function">increaseKey</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token function">assert</span><span class="token punctuation">(</span>x<span class="token punctuation">.</span>key <span class="token operator">&lt;</span> v<span class="token punctuation">)</span>
+    x<span class="token punctuation">.</span>key <span class="token operator">=</span> v
+    
+    <span class="token keyword">while</span><span class="token punctuation">(</span> <span class="token operator">not</span> all of x<span class="token punctuation">.</span>leaves<span class="token punctuation">[</span><span class="token operator">:</span><span class="token punctuation">]</span> is <span class="token constant">NULL</span> <span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token comment">//Get the node with minimum key</span>
+        min_node <span class="token operator">=</span> <span class="token function">argmin</span><span class="token punctuation">(</span>x<span class="token punctuation">.</span>leaves<span class="token punctuation">[</span><span class="token operator">:</span><span class="token punctuation">]</span><span class="token punctuation">)</span> 
+        <span class="token keyword">if</span><span class="token punctuation">(</span>min_node<span class="token punctuation">.</span>key <span class="token operator">&lt;</span> x<span class="token punctuation">.</span>key<span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token function">swap</span><span class="token punctuation">(</span>min_node<span class="token punctuation">,</span> x<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre><p><strong>Description</strong></p>
+<ul>
+<li><code>h.decreaseKey</code>: For going upward, there is only one neighbor. That is <code>parent</code></li>
+<li><code>h.increaseKey</code>: Going downward is more complicated. We need to choose the direction in the following conditions:
+<ul>
+<li><strong>NUll end</strong>: Terminate here</li>
+<li><strong>One NULL end</strong>: Choose the node with key</li>
+<li><strong>Both leaves have key</strong>: Choose the <code>minimum</code> to swap</li>
+</ul>
+</li>
+</ul>
+<p><strong>Notes</strong></p>
+<ol>
+<li>I use <code>x.leaves[:]</code> is for generosity, that means there can be leaves more than two like <strong>d-ary heap</strong></li>
+<li>The <code>swap</code> function switches two variables.</li>
+</ol>
+<h3 class="mume-header" id="2-10pt">2. (10pt)</h3>
+
+<p><strong>Definition</strong></p>
+<p><code>u</code>: undefine variable</p>
+<h4 class="mume-header" id="a">(a)</h4>
+
+<table>
+<thead>
+<tr>
+<th>N\M</th>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+</tr>
+<tr>
+<td>1</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+</tr>
+<tr>
+<td>2</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>4</td>
+<td>u</td>
+<td>u</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<pre data-role="codeBlock" data-info="!" class="language-!"><code>D.add(2, 3, 1); D.add(3, 3, 2); D.add(3, 0, 4); ShowState();
+</code></pre><h5 class="mume-header" id="b">(b)</h5>
+
+<table>
+<thead>
+<tr>
+<th>N\M</th>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+</tr>
+<tr>
+<td>1</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+</tr>
+<tr>
+<td>2</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>4</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+</tr>
+</tbody>
+</table>
+<pre data-role="codeBlock" data-info="!" class="language-!"><code> D.extractMinRow(3) ; ShowState();
+</code></pre><h5 class="mume-header" id="c"><code>(c)</code></h5>
+
+<table>
+<thead>
+<tr>
+<th>N\M</th>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+</tr>
+<tr>
+<td>1</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+<td>3</td>
+</tr>
+<tr>
+<td>2</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>4</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+</tr>
+</tbody>
+</table>
+<pre data-role="codeBlock" data-info="c!" class="language-c!"><code>D.add(1, 3, 3); ShowState();
+</code></pre><h5 class="mume-header" id="d">(d)</h5>
+
+<table>
+<thead>
+<tr>
+<th>N\M</th>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+</tr>
+<tr>
+<td>1</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+<td>3</td>
+</tr>
+<tr>
+<td>2</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+</tr>
+<tr>
+<td>3</td>
+<td>4</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+</tr>
+</tbody>
+</table>
+<pre data-role="codeBlock" data-info="c!" class="language-c!"><code>D.delete(2, 3); ShowState();
+</code></pre><h5 class="mume-header" id="e">(e)</h5>
+
+<table>
+<thead>
+<tr>
+<th>N\M</th>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+</tr>
+<tr>
+<td>1</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+</tr>
+<tr>
+<td>2</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+</tr>
+<tr>
+<td>3</td>
+<td>4</td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+</tr>
+</tbody>
+</table>
+<pre data-role="codeBlock" data-info="c!" class="language-c!"><code>D.extractMinCol(3 ); ShowState();
+</code></pre><h3 class="mume-header" id="310pt">3.(10pt)</h3>
+
+<p><strong>&#x1F4A1;Idea</strong></p>
+<ul>
+<li>
+<p><strong><span class="mathjax-exps">$\log(NM)$</span> is the sum of two heaps&apos; operation</strong></p>
+<ul>
+<li>Since all of operations mentioned <code>O(log(nm))</code> time compleixty, it is likey the result of <strong>two-heap-operation</strong>, which causes <code>O(log(m) + log(n))</code> operation of a paired heap</li>
+</ul>
+</li>
+<li>
+<p>How to know the <strong>availability</strong> of an item?</p>
+<ul>
+<li>For each element <span class="mathjax-exps">$A_{i,j}$</span>, we need to labelled the availability by using <code>struct</code> or build another one-to-one map to store the data of availability. The status of an item can be:
+<ol>
+<li>Undefined</li>
+<li>Available</li>
+<li>Extracted</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p>Each column/row requires a heap to keep the track on the minimum. There will be <span class="mathjax-exps">$M+N$</span> heaps.</p>
+</li>
+<li>
+<p>Each node should keep track on its location <code>i</code> and <code>j</code>. To</p>
+</li>
+</ul>
+<center>
+<img width="300" src="https://i.imgur.com/kgjrWPg.jpg">
+<p><strong>Fig 3-2.</strong> 2D array with two array of heaps.</p>
+</center>
+<p><strong>&#x1F527;Implementation: Data Structure</strong></p>
+<ol>
+<li>Node <span class="mathjax-exps">$A_{i,j}$</span><pre data-role="codeBlock" data-info="cpp {.line-numbers}" class="language-cpp line-numbers"><span class="token keyword">struct</span> <span class="token class-name">node</span><span class="token punctuation">{</span>
+    key
+    i
+    j
+    iHr <span class="token comment">// location at row heap</span>
+    iHc <span class="token comment">//location at col heap</span>
+    avail<span class="token comment">//availability</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></li>
+<li>Heap<pre data-role="codeBlock" data-info="cpp {.line-numbers}" class="language-cpp line-numbers"><span class="token keyword">struct</span> <span class="token class-name">heap</span><span class="token punctuation">{</span>
+    node<span class="token operator">*</span> array<span class="token punctuation">[</span>N<span class="token punctuation">]</span> <span class="token comment">//M</span>
+    len <span class="token comment">//[0,N]/[0.M]</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></pre></li>
+<li>Data Structure <code>D</code><pre data-role="codeBlock" data-info="cpp {.line-numbers}" class="language-cpp line-numbers"><span class="token keyword">struct</span> <span class="token class-name">D</span><span class="token punctuation">{</span>
+    heap Hc<span class="token punctuation">[</span>M<span class="token punctuation">]</span>
+    heap Hr<span class="token punctuation">[</span>N<span class="token punctuation">]</span>
+    node A<span class="token punctuation">[</span>N<span class="token punctuation">,</span>M<span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></pre></li>
+</ol>
+<p><strong>&#x1F527;Implementation: Operations</strong></p>
+<ol>
+<li>
+<p><code>D.add(i, j, v)</code></p>
+<pre data-role="codeBlock" data-info="cpp {.line-numbers}" class="language-cpp line-numbers">function <span class="token function">add</span><span class="token punctuation">(</span>d<span class="token operator">::</span>D<span class="token punctuation">,</span> i<span class="token punctuation">,</span>j<span class="token punctuation">,</span>v<span class="token punctuation">)</span>
+    <span class="token comment">//Register A[i,j]</span>
+    d<span class="token punctuation">.</span>A<span class="token punctuation">[</span>i<span class="token punctuation">,</span>j<span class="token punctuation">]</span><span class="token punctuation">.</span>avail <span class="token operator">=</span> <span class="token boolean">true</span>
+    d<span class="token punctuation">.</span>A<span class="token punctuation">[</span>i<span class="token punctuation">,</span>j<span class="token punctuation">]</span><span class="token punctuation">.</span>i <span class="token operator">=</span> i
+    d<span class="token punctuation">.</span>A<span class="token punctuation">[</span>i<span class="token punctuation">,</span>j<span class="token punctuation">]</span><span class="token punctuation">.</span>j <span class="token operator">=</span> j
+    d<span class="token punctuation">.</span>A<span class="token punctuation">[</span>i<span class="token punctuation">,</span>j<span class="token punctuation">]</span><span class="token punctuation">.</span>key <span class="token operator">=</span> v
+
+    <span class="token function">insertHeap</span><span class="token punctuation">(</span>d<span class="token punctuation">.</span>Hr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>d<span class="token punctuation">.</span>A<span class="token punctuation">[</span>i<span class="token punctuation">,</span>j<span class="token punctuation">]</span><span class="token punctuation">)</span>
+    <span class="token function">insertHeap</span><span class="token punctuation">(</span>d<span class="token punctuation">.</span>Hc<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>d<span class="token punctuation">.</span>A<span class="token punctuation">[</span>i<span class="token punctuation">,</span>j<span class="token punctuation">]</span><span class="token punctuation">)</span> 
+end
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre><p>We have to extract all unavailable values until find the reachable minimum.</p>
+</li>
+<li>
+<p><code>D.extractMinRow(i)</code></p>
+<pre data-role="codeBlock" data-info="cpp {.line-numbers}" class="language-cpp line-numbers">function <span class="token function">extractMinRow</span><span class="token punctuation">(</span>d<span class="token operator">::</span>D<span class="token punctuation">,</span> r<span class="token punctuation">)</span>
+
+    d<span class="token punctuation">.</span>Hr<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>avail <span class="token operator">=</span> <span class="token boolean">false</span>
+    <span class="token function">extractMinHeap</span><span class="token punctuation">(</span>d<span class="token punctuation">.</span>Hr<span class="token punctuation">[</span>r<span class="token punctuation">]</span><span class="token punctuation">)</span>
+    <span class="token function">deleteHeap</span><span class="token punctuation">(</span>d<span class="token punctuation">.</span>Hc<span class="token punctuation">,</span> d<span class="token punctuation">.</span>Hr<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>iHc<span class="token punctuation">)</span> <span class="token comment">//heap deletion</span>
+
+end
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre><p>Similar to <code>D.extractMinCol</code></p>
+</li>
+<li>
+<p><code>D.extractMinCol(i)</code></p>
+<pre data-role="codeBlock" data-info="cpp {.line-numbers}" class="language-cpp line-numbers">function <span class="token function">extractMinRow</span><span class="token punctuation">(</span>d<span class="token operator">::</span>D<span class="token punctuation">,</span> c<span class="token punctuation">)</span>
+
+    d<span class="token punctuation">.</span>Hc<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>avail <span class="token operator">=</span> <span class="token boolean">false</span>
+    <span class="token function">extractMinHeap</span><span class="token punctuation">(</span>d<span class="token punctuation">.</span>Hc<span class="token punctuation">[</span>c<span class="token punctuation">]</span><span class="token punctuation">)</span>
+    <span class="token function">deleteHeap</span><span class="token punctuation">(</span>d<span class="token punctuation">.</span>Hr<span class="token punctuation">,</span> d<span class="token punctuation">.</span>Hc<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>iHr<span class="token punctuation">)</span> <span class="token comment">//heap deletion</span>
+
+end
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></li>
+<li>
+<p><code>D.delete(i, j)</code></p>
+<pre data-role="codeBlock" data-info="cpp {.line-numbers}" class="language-cpp line-numbers">function <span class="token keyword">delete</span><span class="token punctuation">(</span>d<span class="token operator">::</span>D<span class="token punctuation">,</span> i<span class="token punctuation">,</span> j<span class="token punctuation">)</span>
+   d<span class="token punctuation">.</span>A<span class="token punctuation">[</span>i<span class="token punctuation">,</span>j<span class="token punctuation">]</span><span class="token punctuation">.</span>avail <span class="token operator">=</span> <span class="token boolean">false</span>
+   <span class="token function">deleteHeap</span><span class="token punctuation">(</span>d<span class="token punctuation">.</span>Hr<span class="token punctuation">,</span> d<span class="token punctuation">.</span>A<span class="token punctuation">[</span>i<span class="token punctuation">,</span>j<span class="token punctuation">]</span><span class="token punctuation">.</span>iHr<span class="token punctuation">)</span>
+   <span class="token function">deleteHeap</span><span class="token punctuation">(</span>d<span class="token punctuation">.</span>Hc<span class="token punctuation">,</span> d<span class="token punctuation">.</span>A<span class="token punctuation">[</span>i<span class="token punctuation">,</span>j<span class="token punctuation">]</span><span class="token punctuation">.</span>iHc<span class="token punctuation">)</span>
+end
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></pre></li>
+</ol>
+<h3 class="mume-header" id="4-20pt">4. (20pt)</h3>
+
+<p>In <strong>Fig. 3-2</strong>, <span class="mathjax-exps">$M+N$</span> heaps have been estbalished for tracking the minimum value of columns and rows.</p>
+<h4 class="mume-header" id="add">Add</h4>
+
+<p>We need two heap insertions to track the minimum values of column <code>j</code> and row <code>i</code>. Therefore, the time complexity is <code>O(log M + log N) = O(log MN)</code></p>
+<h4 class="mume-header" id="extract">Extract</h4>
+
+<p>The extraction on either <code>col</code> or <code>row</code> requires a following heap deletion. Both of them requires <code>O(log(h))</code>. Therefore, the sum of complexity is <code>O(log N + log M)</code></p>
+<h4 class="mume-header" id="deletion">Deletion</h4>
+
+<p>We need to delete the same item in two heaps. Use the <code>iHc</code> and <code>iHr</code> to keep track on the location. The deletion can be done by simply set <code>d.Hrp[iHc] = -Inf</code> with heapify and extraction. All of them requires logarithmic time complexity on each side. In summary, the total time complexity is <code>O(log N + log M)</code></p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://stackoverflow.com/questions/19080059/algorithmsort-using-median-and-just-1-comparison-in-on-log-n">Algorithm Sort with median. StackOverflow</a> <a href="#fnref1" class="footnote-backref">&#x21A9;&#xFE0E;</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p><span class="mathjax-exps">$n!=\sqrt{2\pi n}(\frac{n}{e})^{n} e^{\alpha_n}$</span>. from CLRS P.58 <a href="#fnref2" class="footnote-backref">&#x21A9;&#xFE0E;</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p><a href="https://stackoverflow.com/questions/1364444/difference-between-big-o-and-little-o-notation">Difference between Big-O and Little-O Notation. StackOverflow</a> <a href="#fnref3" class="footnote-backref">&#x21A9;&#xFE0E;</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p>CLRS, Introduction to Algorithm. 3rd edition. P. 99. <a href="#fnref4" class="footnote-backref">&#x21A9;&#xFE0E;</a></p>
+</li>
+<li id="fn5" class="footnote-item"><p><a href="https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solution/">LeetCode: Binary Tree Traversal</a> <a href="#fnref5" class="footnote-backref">&#x21A9;&#xFE0E;</a></p>
+</li>
+<li id="fn6" class="footnote-item"><p><a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;ved=2ahUKEwiIzf_Av8bwAhUvy4sBHem3BCgQFjABegQIBBAD&amp;url=https%3A%2F%2Fs3-eu-west-1.amazonaws.com%2Fpfigshare-u-files%2F1800958%2FConstructionofuniqueBinarytree.pdf&amp;usg=AOvVaw23KzE0wgqxMB83ms4ZTp6Y"> Construction of unique Binary tree. Book chapter</a> <a href="#fnref6" class="footnote-backref">&#x21A9;&#xFE0E;</a> <a href="#fnref6:1" class="footnote-backref">&#x21A9;&#xFE0E;</a></p>
+</li>
+<li id="fn7" class="footnote-item"><p><a href="https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/discuss/1204516/recursive">BST recursive</a> <a href="#fnref7" class="footnote-backref">&#x21A9;&#xFE0E;</a></p>
+</li>
+<li id="fn8" class="footnote-item"><pre data-role="codeBlock" data-info="julia" class="language-julia">julia<span class="token operator">&gt;</span> a <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">]</span>
+<span class="token number">4</span><span class="token operator">-</span>element Array<span class="token punctuation">{</span>Int64<span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">}</span><span class="token punctuation">:</span>
+<span class="token number">1</span>
+<span class="token number">2</span>
+<span class="token number">3</span>
+<span class="token number">4</span>
+
+julia<span class="token operator">&gt;</span> a<span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">:</span><span class="token keyword">end</span><span class="token punctuation">]</span>
+Int64<span class="token punctuation">[</span><span class="token punctuation">]</span>
+</pre> <a href="#fnref8" class="footnote-backref">&#x21A9;&#xFE0E;</a></li>
+</ol>
+</section>
+
+      </div>
+      <div class="md-sidebar-toc"><ul>
+<li><a href="#problem-1-sort-80pt-20pt">Problem 1 - Sort (80pt + 20pt)</a>
+<ul>
+<li><a href="#1-10pts">1. (10pts)</a></li>
+<li><a href="#2-20pts">2. (20pts)</a></li>
+<li><a href="#3-10pts">3. (10pts)</a></li>
+<li><a href="#4-5pt">4. (5pt)</a></li>
+<li><a href="#5-20-pt">5. (20 pt)</a></li>
+<li><a href="#6-15pt">6. (15pt)</a></li>
+<li><a href="#7-5pt">7. (5pt)</a></li>
+<li><a href="#8-15pt">8. (15pt)</a></li>
+</ul>
+</li>
+<li><a href="#problem-2-tree-65pt">Problem 2 - Tree (65pt)</a>
+<ul>
+<li><a href="#1-10pt">1. (10pt)</a></li>
+<li><a href="#2-15pt">2. (15pt)</a></li>
+<li><a href="#3-10pt">3. (10pt)</a></li>
+<li><a href="#4-15pt">4. (15pt)</a></li>
+<li><a href="#5-15pt">5. (15pt)</a></li>
+</ul>
+</li>
+<li><a href="#problem-3-heap-55pt">Problem 3 - Heap (55pt)</a>
+<ul>
+<li><a href="#1-15pts">1. (15pts)</a></li>
+<li><a href="#2-10pt">2. (10pt)</a></li>
+<li><a href="#310pt">3.(10pt)</a></li>
+<li><a href="#4-20pt">4. (20pt)</a></li>
+</ul>
+</li>
+</ul>
+</div>
+      <a id="sidebar-toc-btn">&#x2261;</a>
+    
+    
+    
+    
+    
+    
+    
+    
+<script>
+
+var sidebarTOCBtn = document.getElementById('sidebar-toc-btn')
+sidebarTOCBtn.addEventListener('click', function(event) {
+  event.stopPropagation()
+  if (document.body.hasAttribute('html-show-sidebar-toc')) {
+    document.body.removeAttribute('html-show-sidebar-toc')
+  } else {
+    document.body.setAttribute('html-show-sidebar-toc', true)
+  }
+})
+</script>
+      
+  
+    </body></html>

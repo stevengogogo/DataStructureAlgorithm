@@ -10,6 +10,9 @@
  */
 #ifndef UTILS_H
 #define UTILS_H
+#include <assert.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * @brief Argmax function with intergers
@@ -19,5 +22,8 @@
  * @return int 0 when a is larger than b. Otherwise, 0.
  */
 int argmax(int a, int b);
+
+int max(int a, int b);
+
 
 #endif

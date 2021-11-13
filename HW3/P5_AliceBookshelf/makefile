@@ -36,7 +36,7 @@ RUNTEST: MERGETEST
 	gcc -g3 -o $(testbuild)/test.out test_TEMP/*.c
 	./$(testbuild)/test.out 
 
-TEST: MERGETEST RUNTEST cleantest
+TEST: MERGETEST RUNTEST cleantest TESTD
 
 
 RUN:
@@ -63,3 +63,5 @@ LEAK: TEST
 	valgrind --leak-check=full --show-leak-kinds=all --verbose ./test/build/test.out
 
 
+TESTD: BUILD
+	sudo bash ./test/testdata.sh
