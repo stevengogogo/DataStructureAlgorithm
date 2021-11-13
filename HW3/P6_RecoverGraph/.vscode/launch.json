@@ -10,7 +10,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/../build/main",
-            "args": [],
+            "args": ["<", "${workspaceFolder}/test/data/5.in"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],

@@ -2,3 +2,4 @@
 test/build/
 test_TEMP/
 build/
+test/data/*-EST.out
