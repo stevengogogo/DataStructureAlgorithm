@@ -6,6 +6,10 @@ updates:
     schedule:
       interval: "daily"
     labels:
-    - "GH Actions"
-    commit-message:
-      prefix: ci
+    - "automerge"
+  - package-ecosystem: 'gitsubmodule'
+    directory: '/'
+    schedule:
+      interval: 'daily'
+    labels:
+      - "automerge"
