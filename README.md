@@ -31,7 +31,7 @@ This is the lecture note for the DSA course at NTU, it is used for non-profit ed
 >  https://cool.ntu.edu.tw/courses/4621
 
 ## Course ITA book (rigistered only)
-https://cool.ntu.edu.tw/courses/4621/modules
+> https://cool.ntu.edu.tw/courses/4621/modules
 
 
 ## Course Information
@@ -68,39 +68,4 @@ https://cool.ntu.edu.tw/courses/4621/modules
 
 `(Duplicate from course website)`
 
-
-## TA Hours
-
-<details>
-
-|TA Hour / Location|Notes|
-|--- |--- |
-|Mon. 08:00 ~ 09:00 @ *德田館 B1||
-|Mon. 09:00 ~ 10:00 @ 德田館 B1||
-|Mon. 14:00 ~ 15:00 @ 德田館 B1||
-|Mon. 14:20 ~ 15:10 @ R217||
-|Mon. 16:30 ~ 17:30 @ 德田館 B1|**English TA Hour|
-|Mon. 16:30 ~ 17:30 @ 德田館 B1||
-|Mon. 16:30 ~ 17:30 @ 德田館 B1||
-|Tue. 10:30 ~ 11:30 @ Lab 536||
-|Tue. 10:30 ~ 11:30 @ Lab 536||
-|Tue. 14:15 ~ 15:15 @ 德田館 B1||
-|Wed. 09:00 ~ 10:00 @ Lab 536|**English TA Hour|
-|Wed. 10:30 ~ 11:30 @ 德田館 B1||
-|Wed. 13:00 ~ 14:00 @ 德田館 B1||
-|Wed. 14:20 ~ 15:20 @ 德田館 B1||
-|Wed. 19:00 ~ 20:00 @ 德田館 B1||
-|Wed. 19:00 ~ 20:00 @ 德田館 B1||
-|Wed. 19:00 ~ 20:00 @ 德田館 B1||
-|Thu. 09:00 ~ 10:00 @ 德田館 B1||
-|Thu. 10:30 ~ 11:30 @ 德田館 B1||
-|Thu. 11:00 ~ 12:00 @ 德田館 B1||
-|Thu. 14:30 ~ 15:30 @ 德田館 B1||
-|Fri. 13:00 ~ 14:00 @ 德田館 B1||
-|Fri. 13:00 ~ 14:00 @ 德田館 B1||
-|Fri. 13:00 ~ 14:00 @ 德田館 B1||
-
-`(Duplicate from course website)`
-
-</details>
 
