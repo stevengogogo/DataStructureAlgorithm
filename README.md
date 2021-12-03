@@ -3,121 +3,28 @@
 Steven Shao-Ting Chiu  (r07945001@ntu.edu.tw)
 
 
-# Assignments
-
-
-
-## **Homework 0**
-
-### Greatest Common Divisor
-
-`pointer`, `gcd`
-
-https://github.com/stevengogogo/GreatestCommonDivisor
-
-### Nonogram Solver
-
-`recursive`, `nonogram`
-
-https://github.com/stevengogogo/NonogramSolver
-
-
-## **Homework 1**
-
-### K-least Element
-
-`binary-search`, `linked-list`, `tree`
-
-https://github.com/stevengogogo/DSA-KLeastElement
-
-### EvilEval: Parsing equations
-
-`parser`, `arithmetic-computation`, `expression-tree`, `stack`
-
-https://github.com/stevengogogo/DSA-EvilEval
-
-### WastonAbili: Doubly Linked List
-
-`doubly-linked-list`, `invert`, `reverse`, `delete`
-
-https://github.com/stevengogogo/DSA-WastonAbili
-
-### Non-programming problems
-
-`time-complexity`, `master-theorem`, `array`, `linked-list`
-
-[![hackmd-github-sync-badge](https://hackmd.io/p1bIKDGDSfKEOnCntsm6MA/badge)](https://hackmd.io/@stevenchiu/rkVYzeOUu)
-
-
-## **Homework 2**
-
-
-### Fake Binary Search Tree
-
-`binary-search-tree`, `tree-traversal-algorithm`, `recursion`
-
-https://github.com/stevengogogo/DSA_FakeBinarySearchTree/
-
-### Intersecting Triangles
-
-`divide-and-conquer`, `merge-sort`, `computation-geometry`
-
-https://github.com/stevengogogo/DSA_IntersectingTriangles/
-
-### Package Arrangement
-
-`priority-queue`, `doubly-linked-list`, `leftist-heap`
-
-https://github.com/stevengogogo/DSA_PackageArrangement/
-
-### Non-programming problems
-
-`sorting`, `decision-tree-model`, `binary-tree`, `heap`
-
-[![hackmd-github-sync-badge](https://hackmd.io/p1bIKDGDSfKEOnCntsm6MA/badge)](https://hackmd.io/@stevenchiu/ByB5JxdIu)
-
-
-
-## **Homework 3**
-
-### Garbled Text Editor
-
-`string-matching`, `robin-karp-algorithm`
-
-https://github.com/stevengogogo/DSA_GarbledTextFilter
-
-### Priority Tree
-
-`priority-tree`, `rolling-linked-list`, `invert`, `reverse`
-
-https://github.com/stevengogogo/DSA_PriorityTree
-
-### Graph Reconstruction
-
-`graph`, `queue`, `edge-list`
-
-https://github.com/stevengogogo/DSA_GraphReconstruction
-
-### Non-programming problems
-
-`hash`, `linear-probing`, `double-hashing`, `string-matching`, `disjoint-sets`, `amortized-analysis`
-
-[![hackmd-github-sync-badge](https://hackmd.io/p1bIKDGDSfKEOnCntsm6MA/badge)](https://hackmd.io/JZUhv-byTRqV46cumxZ9Xw)
-
-
-
-## **Final Project**
-
-### Email Searcher
-
-`disjoint-set`, `robin-karp-algorithm`, `expression-match`
-
-https://github.com/stevengogogo/DSA_EmailSearcher/tree/main
+| Assignments | Projects | Topics |CI|
+| :--- | :--- | :--- |:---|
+|**Homework 0**| [Greatest Common Divisor](https://github.com/stevengogogo/GreatestCommonDivisor) | `pointer`, `gcd` |[![Ubuntu](https://github.com/stevengogogo/GreatestCommonDivisor/actions/workflows/ci.yml/badge.svg)](https://github.com/stevengogogo/GreatestCommonDivisor/actions/workflows/ci.yml)|
+|  | [Nonogram Solver](https://github.com/stevengogogo/NonogramSolver) | `recursive`, `nonogram` |[![Ubuntu](https://github.com/stevengogogo/NonogramSolver/actions/workflows/ci.yml/badge.svg)](https://github.com/stevengogogo/NonogramSolver/actions/workflows/ci.yml)|
+|  | [K-least Element](https://github.com/stevengogogo/DSA-KLeastElement) | `binary-search`, `linked-list`, `tree` |[![Ubuntu](https://github.com/stevengogogo/DSA-KLeastElement/actions/workflows/ci.yml/badge.svg)](https://github.com/stevengogogo/DSA-KLeastElement/actions/workflows/ci.yml)|
+|  | [EvilEval: Parsing equations](https://github.com/stevengogogo/DSA-EvilEval) | `parser`, `arithmetic-computation`, `expression-tree`, `stack` |[![Ubuntu](https://github.com/stevengogogo/DSA-EvilEval/actions/workflows/ci.yml/badge.svg)](https://github.com/stevengogogo/DSA-EvilEval/actions/workflows/ci.yml)|
+|  | [WastonAbili: Doubly Linked List](https://github.com/stevengogogo/DSA-WastonAbili) | `doubly-linked-list`, `invert`, `reverse`, `delete` |[![Ubuntu](https://github.com/stevengogogo/DSA-WastonAbili/actions/workflows/ci.yml/badge.svg)](https://github.com/stevengogogo/DSA-WastonAbili/actions/workflows/ci.yml)|
+|  | [Non-programming problems](https://hackmd.io/p1bIKDGDSfKEOnCntsm6MA/badge) | `time-complexity`, `master-theorem`, `array`, `linked-list` ||
+|**Homework 1**| [Fake Binary Search Tree](https://github.com/stevengogogo/DSA_FakeBinarySearchTree/) | `binary-search-tree`, `tree-traversal-algorithm`, `recursion` |[![Ubuntu](https://github.com/stevengogogo/DSA_FakeBinarySearchTree/actions/workflows/ci.yml/badge.svg)](https://github.com/stevengogogo/DSA_FakeBinarySearchTree/actions/workflows/ci.yml)|
+|  | [Intersecting Triangles](https://github.com/stevengogogo/DSA_IntersectingTriangles/) | `divide-and-conquer`, `merge-sort`, `computation-geometry` |[![Ubuntu](https://github.com/stevengogogo/DSA_IntersectingTriangles/actions/workflows/ci.yml/badge.svg)](https://github.com/stevengogogo/DSA_IntersectingTriangles/actions/workflows/ci.yml)|
+|  | [Package Arrangement](https://github.com/stevengogogo/DSA_PackageArrangement/) | `priority-queue`, `doubly-linked-list`, `leftist-heap` |[![Ubuntu](https://github.com/stevengogogo/DSA_PackageArrangement/actions/workflows/ci.yml/badge.svg)](https://github.com/stevengogogo/DSA_PackageArrangement/actions/workflows/ci.yml)|
+|  | [Non-programming problems](https://hackmd.io/p1bIKDGDSfKEOnCntsm6MA/badge) | `sorting`, `decision-tree-model`, `binary-tree`, `heap` ||
+|**Homework 2**| [Garbled Text Editor](https://github.com/stevengogogo/DSA_GarbledTextFilter) | `string-matching`, `robin-karp-algorithm` |[![Ubuntu](https://github.com/stevengogogo/GreatestCommonDivisor/actions/workflows/ci.yml/badge.svg)](https://github.com/stevengogogo/GreatestCommonDivisor/actions/workflows/ci.yml)|
+|**Homework 3**| [Priority Tree](https://github.com/stevengogogo/DSA_PriorityTree) | `priority-tree`, `rolling-linked-list`, `invert`, `reverse` |[![Ubuntu](https://github.com/stevengogogo/DSA_PriorityTree/actions/workflows/ci.yml/badge.svg)](https://github.com/stevengogogo/DSA_PriorityTree/actions/workflows/ci.yml)|
+|  | [Graph Reconstruction](https://github.com/stevengogogo/DSA_GraphReconstruction) | `graph`, `queue`, `edge-list` |[![Ubuntu](https://github.com/stevengogogo/DSA_GraphReconstruction/actions/workflows/ci.yml/badge.svg)](https://github.com/stevengogogo/DSA_GraphReconstruction/actions/workflows/ci.yml)|
+|  | [Non-programming problems](https://hackmd.io/p1bIKDGDSfKEOnCntsm6MA/badge)| `hash`, `linear-probing`, `double-hashing`, `string-matching`, `disjoint-sets`, `amortized-analysis` ||
+|**Final Project**| [Email Searcher](https://github.com/stevengogogo/DSA_EmailSearcher/tree/main) | `disjoint-set`, `robin-karp-algorithm`, `expression-match` |[![Ubuntu](https://github.com/stevengogogo/DSA_EmailSearcher/actions/workflows/ci.yml/badge.svg)](https://github.com/stevengogogo/DSA_EmailSearcher/actions/workflows/ci.yml)|
 
 
 ## Disclaimer
 
-This is the lecture note for the DSA course at NTU, it is used for non-profit education purpose. For the teaching resources, I tried my best to cite each source to avoid copyright issues. If one found inappropriate contents, please inform me via email (r07945001@ntu.edu.tw). 
+This is the lecture note for the DSA course at NTU, it is used for non-profit education purpose. For the teaching resources, I tried my best to cite each source to avoid copyright issues. If one found inappropriate contents, please inform me via email (d10945007@ntu.edu.tw). 
 
 ## Course Website (rigistered only)
 
