@@ -1,6 +1,6 @@
 # Lecture Notes of Data Structure and Algorithm with C (2021 Spring)
 
-Steven Shao-Ting Chiu  (r07945001@ntu.edu.tw)
+Steven Shao-Ting Chiu  (d10945007@ntu.edu.tw)
 
 
 | Assignments | Projects | Topics |CI|
