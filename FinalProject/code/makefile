@@ -1,12 +1,14 @@
 CFLAGS = -I.
 MAKEFLAGS += --silent
-CC=gcc -g 
+CCg=gcc -g -std=c11
+CC= gcc  -std=c11
+CCgf= gcc -pg -std=c11
 CCm = quom
 
-.PHONY: BUILD TEST RUN  BUILD_RUN  # Main piplines
-.PHONY: RUNTEST  MERGETEST cleantest clean
+.PHONY: build test run_main  build_run  # Main piplines
+.PHONY: runtest  mergetest cleantest clean
 
-
+testenv = test/testEnv
 build_folder = build
 testbuild =  test/build
 src_folder = src
@@ -18,13 +20,19 @@ mag = `tput setaf 5; `
 reset=`tput sgr0`
 
 
+# Build
+build: 
+	mkdir -p  $(build_folder)
+	$(CCg) -o $(build_folder)/main.out $(src_folder)/*.c
+	echo "$(green)Built and deploy at $(mag) $(outfile)$(reset)";
 
-BUILD: 
+buildc:
 	mkdir -p  $(build_folder)
 	$(CC) -o $(build_folder)/main.out $(src_folder)/*.c
-	echo "$(green)Built and deploy at $(mag) $(build_folder)/$(outfile)$(reset)";
+	echo "$(green)Built and deploy at $(mag) $(outfile)$(reset)";
 
-MERGETEST:
+# Test
+mergetest:
 	mkdir -p test_TEMP 
 	mkdir -p $(testbuild) 
 	cp -R src/* test_TEMP 
@@ -32,20 +40,22 @@ MERGETEST:
 	rm test_TEMP/main.c
 
 
-RUNTEST: MERGETEST  
+runtest: mergetest 
 	gcc -g3 -o $(testbuild)/test.out test_TEMP/*.c
 	./$(testbuild)/test.out 
 
-TEST: MERGETEST RUNTEST cleantest
+test: mergetest runtest cleantest
 
 
-RUN:
+# Run
+run_main:
 	echo "$(green)Run $(mag) $(outfile)$(reset)"
 	./$(outfile)
 	
 
-BUILD_RUN: BUILD RUN
+build_run: build run_main
 
+# Clean
 clean: 
 	mkdir -p tmp_ && mv $(outfile) tmp_  
 	rm -r $(build_folder)/*
@@ -54,12 +64,52 @@ clean:
 cleantest:
 	rm -r test_TEMP
 
-MERGE_MAIN:
+# For submission
+merge_main: merge_standalone
+	echo "[Start merging]"
 	mkdir -p  $(build_folder)
-	$(CCm) $(src_folder)/main.c  build/main.c
-	$(CC) -o build/main_test_build.out build/main.c
+	mkdir -p merge_temp
+	cp -R src/* merge_temp
+	python3 merge.py ./merge_temp/ remove_api
+	$(CCm) ./merge_temp/main.c  ./merge_temp/main_merged.c
+	python3 merge.py ./merge_temp/main_merged.c add_api
 
-LEAK: TEST
-	valgrind --leak-check=full --show-leak-kinds=all --verbose ./test/build/test.out
+	gcc -o ./build/merge_main.o ./merge_temp/main_merged.c ./src/api.c
+	echo "Compile Merged Main";
+	echo "$(green)[Pass]$(reset)";
+
+	
+	cp ./merge_temp/main_merged.c ./build/main.c
+	echo "Deployed at $(mag)./build/main.c$(reset)"
+
+	rm -r merge_temp
+	echo "$(green)[Merge success]$(reset)"
+
+# For testing compilation: Standalone (STD)
+merge_standalone:
+	mkdir -p  $(build_folder)
+	$(CCm) $(src_folder)/main.c  build/mainSTD.c
+	$(CC) -o build/main.out build/mainSTD.c
 
 
+# Memory check
+leak: build
+	valgrind  $(outfile) < ./test/data/test.in
+	
+leaktest: test 
+	valgrind --leak-check=full test/build/test.out
+
+# From DSA Template
+score: merge_main 
+	cp ./build/main.c $(testenv)/main.c
+	make -C test/testEnv run 
+
+buildgf: 
+	mkdir -p  $(build_folder)
+	$(CCgf) -o $(build_folder)/main_gprof.out $(src_folder)/*.c
+	echo "$(green)Built and deploy at $(mag) $(build_folder)/main_gprof.out$(reset)";
+gprof: buildgf
+	$(build_folder)/main_gprof.out < test/data/test.in
+	gprof $(build_folder)/main_gprof.out 
+	rm gmon.out
+	

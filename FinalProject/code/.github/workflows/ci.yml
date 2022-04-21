@@ -45,22 +45,28 @@ jobs:
        rm -rf ./build/*
     - name: build
       run: |
-        make BUILD
+        make build
     - name: Run tests
       run: |
-        make TEST
-    - name: Leak test
+        make test
+    - name: Scoring
       run: |
-        make LEAK
+        make score
+
+    - name: Leak test [main]
+      run: |
+        make -i leak
     - name: Code coverage using Codecov 
       run: bash <(curl -s https://codecov.io/bash) 
     - name: merge file to main
       run: |
-          make MERGE_MAIN
+          make merge_main
     - name: Release
       uses: softprops/action-gh-release@v1
       if: startsWith(github.ref, 'refs/tags/')
       with:
-        files: build/main.c
+        files: |
+          build/main.c
+          test/validator/score.txt
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

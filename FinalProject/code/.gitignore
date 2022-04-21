@@ -1,5 +1,12 @@
+build/*
+!build/merge.py
+test/testEnv/main
 .DS_Store
 test/build/
 test_TEMP/
-build/
+merge_temp/
 .vscode/
+test/data/test.ans
+test/validator/validator
+test/validator/score.txt
+
